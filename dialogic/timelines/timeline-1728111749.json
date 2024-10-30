@@ -1,0 +1,479 @@
+{
+	"events": [
+		{
+			"background": "res://Scenes/pictures/chapter2/training.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1726986938.cfg"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level1/stage3/c2stage3p1/c2stage3p1d1.wav",
+			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The atmosphere is tense after Gandalf announced Val’s training alongside Analexius. Val stands quietly, while Analexius glares at him, arms crossed. \nGandalf prepares to teach them about C# magic."
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level1/stage3/c2stage3p1/c2stage3p1d2.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Now, Val, Analexius. Since we encountered those bugs earlier, it’s clear you need a deeper understanding of C# magic. Today, I’ll teach you about the switch statement."
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 0.5,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1728031425.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 1
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1728115011.cfg"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level1/stage3/c2stage3p1/c2stage3p1d3.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728031425.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Master Gandalf, with all due respect, I’m already more than capable of handling any bug. I don’t need lessons on switching between things. I take them head-on."
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": true,
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 1
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level1/stage3/c2stage3p1/c2stage3p1d4.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Analexius, I’ve seen your power. But every mage can refine their magic, no matter how skilled. Even you. The switch statement will enhance your precision."
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1728031425.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level1/stage3/c2stage3p1/c2stage3p1d5.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "tsk you're just lucky"
+		},
+		{
+			"animation": "4-fade_out.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"background": "res://Scenes/pictures/chapter2/gandalfCasting.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level1/stage3/c2stage3p1/c2stage3p1d6.wav",
+			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Gandalf conjures a glowing display of code using C# runes."
+		},
+		{
+			"background": "res://Dialogue/Picture/cvhapter2/training.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level1/stage3/c2stage3p1/c2stage3p1d7.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Here’s how it works. Imagine you’re facing different types of bugs. Instead of writing a series of if-else statements, which can get messy, \nYou can use a switch statement to decide how to handle each one based on its type. Like this:"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level1/stage3/c2stage3p1/c2stage3p1d8.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "So, instead of checking if it’s a bug or an error, switch automatically finds the right one?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level1/stage3/c2stage3p1/c2stage3p1d9.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Exactly. It’s faster and cleaner. Each case is a possible condition, and when one matches the value like \"glitch\" it executes that block of code."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level1/stage3/c2stage3p1/c2stage3p1d10.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728031425.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pfft, no need for all these fancy conditions. Just take the bugs down with brute force, like I did with that last one."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level1/stage3/c2stage3p1/c2stage3p1d11.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "More like hide in a tree..."
+		},
+		{
+			"background": "res://Dialogue/Picture/cvhapter2/training_defaulthighlight.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level1/stage3/c2stage3p1/c2stage3p1d12.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "But there’s more. If none of the cases match, the default block is executed. That’s your safeguard, in case you face something unexpected."
+		},
+		{
+			"background": "res://Scenes/pictures/chapter2/training.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level1/stage3/c2stage3p1/c2stage3p1d13.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728031425.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "So, what happens if the bug I face has a stronger attack than Val’s outfit?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level1/stage3/c2stage3p1/c2stage3p1d14.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Keep talking, and I’ll show you what a real fight looks like."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level1/stage3/c2stage3p1/c2stage3p1d15.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Enough, both of you. You need to focus! Val, I want you to try now. Imagine you face one of these bugs—pick a type and use the switch statement."
+		},
+		{
+			"background": "res://Scenes/pictures/chapter2/valCast.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level1/stage3/c2stage3p1/c2stage3p1d16.wav",
+			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Val steps forward, focusing on the magical console. He mutters the code, his fingers mimicking casting spells as the words light up."
+		},
+		{
+			"background": "res://Dialogue/Picture/cvhapter2/training_val.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level1/stage3/c2stage3p1/c2stage3p1d17.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Bug type… glitch… stabilize with a patch..."
+		},
+		{
+			"background": "res://Scenes/pictures/chapter2/training.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level1/stage3/c2stage3p1/c2stage3p1d18.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That wasn’t too hard."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level1/stage3/c2stage3p1/c2stage3p1d19.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well done, Val. The switch statement will serve you well in more complex situations, especially when you’re dealing with multiple types of bugs at once. \nIt’s the foundation for more advanced spells you’ll learn later."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level1/stage3/c2stage3p1/c2stage3p1d20.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728031425.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well, if Val wants to mess with code, let him. I’ll stick to fighting the real way."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level1/stage3/c2stage3p1/c2stage3p1d21.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Every mage has their own strengths. But even you, Analexius, can benefit from this knowledge. One day, your incredible power will meet an enemy that requires more than raw strength."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level1/stage3/c2stage3p1/c2stage3p1d22.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I’ll master this magic. And when the time comes, I’ll find my way back home."
+		},
+		{
+			"definition": "1728021648-250",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "4"
+		},
+		{
+			"custom_slot": "slot1",
+			"event_id": "dialogic_026",
+			"use_default_slot": false
+		},
+		{
+			"change_scene": "res://levels/Chapter2_maps/forest2Chap2.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1728111749.json",
+		"name": "c2stage3p1"
+	}
+}

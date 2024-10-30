@@ -1,0 +1,159 @@
+{
+	"events": [
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level1/stage3/c2stage3p3/c2stage3p3d1.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Analexius, we need to talk."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1728031425.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level1/stage3/c2stage3p3/c2stage3p3d2.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728031425.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What's it now, Val? Another boring lecture?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level1/stage3/c2stage3p3/c2stage3p3d3.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No. We're going on a journey. To Classoria."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level1/stage3/c2stage3p3/c2stage3p3d4.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728031425.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Classoria? Isn't that the place crawling with bugs? Why would we go there?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level1/stage3/c2stage3p3/c2stage3p3d5.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "There's a book there, the IDE Tome. It can bring me back to my world. Gandalf believes we can find it."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level1/stage3/c2stage3p3/c2stage3p3d6.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728031425.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Huh? But why should that concern me!?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level1/stage3/c2stage3p3/c2stage3p3d7.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Gandalf tasked you to accompany me."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level1/stage3/c2stage3p3/c2stage3p3d8.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728031425.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Fine, fine. I'll go. But don't expect me to enjoy it. I will meet you at the forest on the way to the Classoria."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You gained a Badge!!"
+		},
+		{
+			"definition": "1728021648-250",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "6"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1728128886.json",
+		"name": "c2stage3p3"
+	}
+}

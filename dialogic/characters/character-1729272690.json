@@ -1,0 +1,21 @@
+{
+	"color": "#fff9210b",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1729272690.json",
+	"mirror_portraits": false,
+	"name": "Bug king",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": -20,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Dialogue/Picture/cvhapter2/ratKing_portrait.png"
+		}
+	],
+	"scale": 30,
+	"theme": ""
+}

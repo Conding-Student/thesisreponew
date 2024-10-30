@@ -1,0 +1,132 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1728115011.cfg"
+		},
+		{
+			"background": "res://Scenes/pictures/chapter2/institute2.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level2/stage1/c2l2stage5/c2l2stage5d1.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728522794.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You… you shouldn’t be here…"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level2/stage1/c2l2stage5/c2l2stage5d2.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Who are you? What are you doing here?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level2/stage1/c2l2stage5/c2l2stage5d3.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728522794.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I am the Guardian of the IDE Tome. I am a “Construct”, created by the wizards from the research institute to protect it. But after the disaster caused by the failed experiment, as people evacuated in panic."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level2/stage1/c2l2stage5/c2l2stage5d4.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728522794.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "someone from the institute took the IDE Tome to the small kingdom of Objecthia to secure the important artifact from bugs and destruction. "
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level2/stage1/c2l2stage5/c2l2stage5d5.wav",
+			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Valen's mind raced with questions, his heart sinking further at the realization that the tome was no longer within his grasp. Valen clenched his fists, his resolve hardening despite the setback."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level2/stage1/c2l2stage5/c2l2stage5d6.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Then I must retrieve it. I have to get back to my world."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level2/stage1/c2l2stage5/c2l2stage5d7.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728522794.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Be careful. Objecthia is not what it used to be. The Bug King resides there now, and the road ahead will be perilous."
+		},
+		{
+			"definition": "1728021648-250",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "11"
+		},
+		{
+			"custom_slot": "slot1",
+			"event_id": "dialogic_026",
+			"use_default_slot": false
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1728521974.json",
+		"name": "c2l2stage5"
+	}
+}

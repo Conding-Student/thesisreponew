@@ -1,0 +1,35 @@
+{
+	"events": [
+		{
+			"background": "res://intro/picture/question/default_bg.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/Valen/level2s3/level2s3_d1.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Uhmm.. that was an easy one."
+		},
+		{
+			"emit_signal": "badge8",
+			"event_id": "dialogic_040"
+		},
+		{
+			"change_scene": "res://intro/stages_complete.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1727538235.json",
+		"name": "level2s3"
+	}
+}

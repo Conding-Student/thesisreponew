@@ -1,0 +1,242 @@
+{
+	"events": [
+		{
+			"background": "res://Scenes/pictures/chapter2/gandalf_house_inside.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1728796716",
+			"index": 0,
+			"name": "start"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p4/c3stage1p4d1.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Oh, what are you looking for Valen? Is there something you wanted to know?"
+		},
+		{
+			"choice": "Classes and Methods",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p4/c3stage1p4d2.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Oh?? you want me to teach you again about it?\n(Long Explanation Ahead)"
+		},
+		{
+			"choice": "Yes",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1728781090.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "No",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"anchor_id": "anchor-1728796716",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Quest",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"condition": "",
+			"definition": "1728021648-250",
+			"event_id": "dialogic_012",
+			"value": "15"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1728801931",
+			"index": 0,
+			"name": "instruction"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p4/c3stage1p4d3.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "To train your skills in regards to the Classes and methods of C# magic you must go into the forest located on the right side of the map and defeat some enemy out there."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p4/c3stage1p4d4.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Okay, thank you for your guidance Gandalf"
+		},
+		{
+			"definition": "1728021648-250",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "16"
+		},
+		{
+			"custom_slot": "slot1",
+			"event_id": "dialogic_026",
+			"use_default_slot": false
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1728021648-250",
+			"event_id": "dialogic_012",
+			"value": "16"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p4/c3stage1p4d5.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Did you already fend off and debug those lurking bugs and errors in the forest?"
+		},
+		{
+			"choice": "Yes",
+			"condition": "",
+			"definition": "1728021648-250",
+			"event_id": "dialogic_011",
+			"value": "17"
+		},
+		{
+			"choice": "No",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"anchor_id": "anchor-1728801931",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"choice": "None",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"choice": "I want to eat",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p4/c3stage1p4d6.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You may eat to replenish your heart health in the kitchen."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1728796533.json",
+		"name": "c3stage1p4"
+	}
+}

@@ -1,0 +1,35 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/85f81f51-11ac-4d63-a0c7-d8bbc5ed8981.jpg-b0f948ee59b3c7127d9b4515090fbdfd.stex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://intro/picture/question/chapter2/switch/85f81f51-11ac-4d63-a0c7-d8bbc5ed8981.jpg"
+dest_files=[ "res://.import/85f81f51-11ac-4d63-a0c7-d8bbc5ed8981.jpg-b0f948ee59b3c7127d9b4515090fbdfd.stex" ]
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=false
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+process/normal_map_invert_y=false
+stream=false
+size_limit=0
+detect_3d=false
+svg/scale=1.0

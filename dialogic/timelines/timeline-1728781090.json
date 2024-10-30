@@ -1,0 +1,656 @@
+{
+	"events": [
+		{
+			"background": "res://Scenes/pictures/chapter2/gandalf_house_inside.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1727627785.cfg"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d1.wav",
+			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Val looks perplexed, holding a book of C# magic, struggling to understand the intricacies of Classes and Methods."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d2.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Val, you seem troubled by the concepts in that book. Allow me to help."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d3.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yes, Gandalf. The words are confusing. What are these 'Classes' and 'Objects' the book talks about? I knew I need this knowledge to get the Tome at Objecthia"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d4.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Think of a Class as a blueprint or a design for something you want to create."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d5.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A blueprint? Can you give me an example?"
+		},
+		{
+			"background": "res://Scenes/pictures/chapter2/pot.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d6.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sure. Imagine you want to create a tea pot. A Class is like the detailed plan for this pot"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d7.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "So, a Class tells us what the pot is and what it looks like?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d8.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Exactly. Class consists of member variable, functions, properties etc. In other words you can describe it as big, small, sturdy or not. What's important is you describe what is that class."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d9.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Methods on the other hands, is a block of code inside a class which define actions or functions within a class. They’re what our objects can do."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d10.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "So, methods are like the instructions for actions? You create them inside the class to tell the objects what they can do?"
+		},
+		{
+			"background": "res://Scenes/pictures/chapter2/pot.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d11.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Precisely. In my example earlier methods are the things that this teapot can do"
+		},
+		{
+			"background": "res://Scenes/pictures/chapter2/gandalf_house_inside.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d12.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh I see, but how can I create a class?"
+		},
+		{
+			"background": "res://Scenes/pictures/chapter2/warrior1.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d13.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Good question. To create a class, you begin with the class keyword. "
+		},
+		{
+			"background": "res://Scenes/pictures/chapter2/warrior2.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d14.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "followed by the name of the class. For example, let’s start simple creating a class called Warrior. Here’s how it’s done."
+		},
+		{
+			"background": "res://Scenes/pictures/chapter2/warrior.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d15.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "This is a basic class called Warrior. Notice it has two variables, name and strength, and a method called Attack(). "
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d16.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The variables are like attributes, and the method defines what action the warrior can take."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d17.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alright, I think I understand. But how do I actually use this class?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d18.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "To use a class, we need to create an object an instance of that class. You do this using the new keyword, like so."
+		},
+		{
+			"background": "res://Scenes/pictures/chapter2/object1.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 1
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d19.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Here, we’ve created an object named valen from the Warrior class. "
+		},
+		{
+			"background": "res://Scenes/pictures/chapter2/object1.1.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d20.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "We assigned values to its attributes name and strength and then called the Attack() method"
+		},
+		{
+			"background": "res://Scenes/pictures/chapter2/object.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d21.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It’s as simple as that. Now you can create as many warriors as you need, each with their own unique attributes."
+		},
+		{
+			"background": "res://Scenes/pictures/chapter2/gandalf_house_inside.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d22.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I see… so by creating the class once, I can reuse it to create different objects, all with their own data."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d23.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " What if I need the method to return something instead of just performing an action?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d24.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ah, you’re catching on. Methods can return values. Let me show you."
+		},
+		{
+			"background": "res://Scenes/pictures/chapter2/return.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d25.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "This method, GetStrength(), returns the warrior’s strength as an integer. When you call it, you’ll get the value rather than just executing an action. Like this:"
+		},
+		{
+			"background": "res://Scenes/pictures/chapter2/object2.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d26.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "So methods can return data too, not just perform actions. What about access? Can anyone change these values?"
+		},
+		{
+			"background": "res://Scenes/pictures/chapter2/gandalf_house_inside.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d27.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Not always. We use access modifiers to control who can interact with the class’s attributes and methods. Look here."
+		},
+		{
+			"background": "res://Scenes/pictures/chapter2/private1.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d28.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "By making name private, only the class itself can access it. "
+		},
+		{
+			"background": "res://Scenes/pictures/chapter2/private.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d29.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "But using the SetName() and GetName() methods, we can control how the name is changed or retrieved. This protects the class from unwanted changes. Those values are called FIELDS"
+		},
+		{
+			"background": "res://Scenes/pictures/chapter2/private2.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d30.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "So… by using private and public, I can control how the data is exposed. That could be useful."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d31.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Exactly. C# magic is not just about what you create, but how you protect and use it. It’s structured to ensure both flexibility and security. "
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d32.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Now, imagine combining this knowledge with all you’ve learned your magic will become far more powerful"
+		},
+		{
+			"background": "res://Scenes/pictures/chapter2/gandalf_house_inside.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d33.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alright, that makes sense. But what about this Main() method I’ve seen? Why does every C# spell start with it?"
+		},
+		{
+			"background": "res://Scenes/pictures/chapter2/main1.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d34.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ah, the Main() method is crucial. It’s the entry point for every C# spell—or program, as we call it. "
+		},
+		{
+			"background": "res://Scenes/pictures/chapter2/main2.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d35.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "When the magic begins, the Main() method is where it starts. There can only be one Main() method per program, and it must be declared with the static keyword."
+		},
+		{
+			"background": "res://Scenes/pictures/chapter2/main3.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d36.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "In this example, when the spell is invoked, the Main() method is called. It’s where the magic starts, objects are created, and methods are called. \nWithout it, the spell wouldn’t know where to begin."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d37.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "So the Main() method is like the foundation of the spell, where everything gets triggered"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d38.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I can see that now. Thanks, Gandalf. I’ve got a lot to think about."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d39.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Indeed. The class is your foundation, the methods your actions, and the modifiers your safeguard. Together, they are the essence of what we do."
+		},
+		{
+			"definition": "1728021648-250",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "15"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1728781090.json",
+		"name": "c3stage1p3"
+	}
+}

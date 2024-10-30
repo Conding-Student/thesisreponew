@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/cultist_d19.wav-f7bffbc59fd465d1a8bdf0934e5d1f39.sample"
+
+[deps]
+
+source_file="res://Dialogue/Voice/NEW/mageguild_night/cultist/cultist_d19.wav"
+dest_files=[ "res://.import/cultist_d19.wav-f7bffbc59fd465d1a8bdf0934e5d1f39.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

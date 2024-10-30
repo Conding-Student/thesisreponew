@@ -1,0 +1,21 @@
+{
+	"color": "#fff4520a",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1723544892.json",
+	"mirror_portraits": false,
+	"name": "Manor Master",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 212,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Dialogue/Picture/manor/manor_master.png"
+		}
+	],
+	"scale": 18,
+	"theme": "theme-1727626979.cfg"
+}

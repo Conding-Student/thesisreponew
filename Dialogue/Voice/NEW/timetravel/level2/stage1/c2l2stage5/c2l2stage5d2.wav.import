@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/c2l2stage5d2.wav-3f4188037c796ea1b6be38bf5c0181e1.sample"
+
+[deps]
+
+source_file="res://Dialogue/Voice/NEW/timetravel/level2/stage1/c2l2stage5/c2l2stage5d2.wav"
+dest_files=[ "res://.import/c2l2stage5d2.wav-3f4188037c796ea1b6be38bf5c0181e1.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

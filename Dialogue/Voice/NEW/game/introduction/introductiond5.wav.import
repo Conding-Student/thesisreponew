@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/introductiond5.wav-7c83e9ae82ca0d7a11b96d52d0d888b2.sample"
+
+[deps]
+
+source_file="res://Dialogue/Voice/NEW/game/introduction/introductiond5.wav"
+dest_files=[ "res://.import/introductiond5.wav-7c83e9ae82ca0d7a11b96d52d0d888b2.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,90 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://intro/script/scores.gd" type="Script" id=1]
+[ext_resource path="res://Fonts/Kenney Mini Square.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://intro/picture/close.png" type="Texture" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+size = 10
+font_data = ExtResource( 2 )
+
+[node name="scores" type="Panel"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+
+[node name="pre" type="Label" parent="."]
+modulate = Color( 0.984314, 0.882353, 0.0117647, 1 )
+margin_left = 117.0
+margin_top = 36.0
+margin_right = 211.0
+margin_bottom = 49.0
+custom_fonts/font = SubResource( 1 )
+text = "Pre - Test Score: "
+align = 1
+valign = 1
+
+[node name="pre_value" type="Label" parent="."]
+modulate = Color( 0.0588235, 0.929412, 0.94902, 1 )
+margin_left = 113.0
+margin_top = 54.0
+margin_right = 207.0
+margin_bottom = 67.0
+custom_fonts/font = SubResource( 1 )
+text = "30"
+align = 1
+valign = 1
+
+[node name="post" type="Label" parent="."]
+modulate = Color( 0.984314, 0.882353, 0.0117647, 1 )
+margin_left = 116.0
+margin_top = 78.0
+margin_right = 210.0
+margin_bottom = 91.0
+custom_fonts/font = SubResource( 1 )
+text = "Post - Test Score: "
+align = 1
+valign = 1
+
+[node name="post_value" type="Label" parent="."]
+modulate = Color( 0.0588235, 0.929412, 0.94902, 1 )
+margin_left = 113.0
+margin_top = 98.0
+margin_right = 207.0
+margin_bottom = 111.0
+custom_fonts/font = SubResource( 1 )
+text = "30"
+align = 1
+valign = 1
+
+[node name="NRI" type="Label" parent="."]
+modulate = Color( 0.984314, 0.882353, 0.0117647, 1 )
+margin_left = 113.0
+margin_top = 126.0
+margin_right = 207.0
+margin_bottom = 139.0
+custom_fonts/font = SubResource( 1 )
+text = "NRI:"
+align = 1
+valign = 1
+
+[node name="NRI_value" type="Label" parent="."]
+modulate = Color( 0.0588235, 0.929412, 0.94902, 1 )
+margin_left = 115.0
+margin_top = 150.0
+margin_right = 209.0
+margin_bottom = 163.0
+custom_fonts/font = SubResource( 1 )
+text = "40%"
+align = 1
+valign = 1
+
+[node name="close_button" type="TextureButton" parent="."]
+margin_left = 300.0
+margin_top = 6.0
+margin_right = 315.0
+margin_bottom = 20.0
+texture_normal = ExtResource( 3 )
+
+[connection signal="pressed" from="close_button" to="." method="_on_close_button_pressed"]

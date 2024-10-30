@@ -1,0 +1,143 @@
+{
+	"events": [
+		{
+			"background": "res://Scenes/pictures/chapter2/classoriaRoad.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level1/stage4/c2stage4p1/c2stage4p1d1.wav",
+			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Valen and Analexius set out at dawn, the sky painted in shades of pink and gold. They walked through dense forests and across winding paths, \nMaking their way toward Classoria. Analexius, his usual playful demeanor replaced by irritation, begrudgingly accompanied Valen."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level1/stage4/c2stage4p1/c2stage4p1d2.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728031425.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I need a break. Stay here."
+		},
+		{
+			"background": "res://Scenes/pictures/chapter2/analexius_pee.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level1/stage4/c2stage4p1/c2stage4p1d3.wav",
+			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Inside the forest. Analexius seeks a place where he could unleash the knocking call of nature below his waist, inside his pants."
+		},
+		{
+			"background": "res://Dialogue/Picture/cvhapter2/analexus_pee.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Music and Sounds/sound effects/pee.wav",
+			"volume": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 5
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level1/stage4/c2stage4p1/c2stage4p1d4.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728031425.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ah! What the "
+		},
+		{
+			"background": "res://Scenes/pictures/chapter2/analexus_Dragged.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level1/stage4/c2stage4p1/c2stage4p1d5.wav",
+			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Realizing he accidentally peed on a bug, He is shocked and passes out. The bug checks on him, then drags him by the feet."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level1/stage4/c2stage4p1/c2stage4p1d6.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh Damn! theres a lot of bats and enemies out here. Where the hell is he!\t"
+		},
+		{
+			"definition": "1728021648-250",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "7"
+		},
+		{
+			"custom_slot": "",
+			"event_id": "dialogic_026",
+			"use_default_slot": true
+		},
+		{
+			"change_scene": "res://levels/Chapter2_maps/forest2Chap2.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1728131464.json",
+		"name": "c2stage4p1"
+	}
+}

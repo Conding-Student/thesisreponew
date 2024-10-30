@@ -1,0 +1,31 @@
+{
+	"events": [
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/Valen/stage4door1/stage4door1d1.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I successfully opened the door Mr. merrick"
+		},
+		{
+			"emit_signal": "stage4door1",
+			"event_id": "dialogic_040"
+		},
+		{
+			"change_scene": "res://levels/stage_3_night/manor_2ndfloor_night.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1726834691.json",
+		"name": "stage4door1"
+	}
+}

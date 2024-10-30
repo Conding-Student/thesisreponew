@@ -1,0 +1,277 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1726281699",
+			"index": 0,
+			"name": "start"
+		},
+		{
+			"background": "res://Scenes/pictures/stage1/flowchart.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 0.5,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1721952113.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": true,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/Merrick/stagem2/0stagem2d1.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952113.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Flowchart visually represents program logic, showing the sequence of instructions using symbols and arrows to indicate execution order"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/Merrick/stagem2/0stagem2d2.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952113.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " It helps with program documentation and communication by simplifying complex ideas through drawings. take a look at the given example."
+		},
+		{
+			"background": "res://Scenes/pictures/stage1/flowchart1.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/Merrick/stagem2/0stagem2d3.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952113.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "This one is called"
+		},
+		{
+			"background": "res://Scenes/pictures/stage1/flowchart1.1.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/Merrick/stagem2/0stagem2d4.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952113.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "TERMINAL box, Used to signify the beginning and end of flowchart"
+		},
+		{
+			"background": "res://Scenes/pictures/stage1/flowchart2.1.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/Merrick/stagem2/0stagem2d5.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952113.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Meanwhile, this square shape is called PROCESS. It Performs any calculations that needs to be done. "
+		},
+		{
+			"background": "res://Scenes/pictures/stage1/flowchart5.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/Merrick/stagem2/0stagem2d6.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952113.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "This parallelogram shape are  data to be read into the computer memory from an input device or data to be passed from the memory to an output device."
+		},
+		{
+			"background": "res://Scenes/pictures/stage1/flowchart3.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/Merrick/stagem2/0stagem2d7.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952113.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "This shapes Signifies any decisions that are to be done. it checks if a certain condition is true or false. Based on the result, It follows one of the two paths"
+		},
+		{
+			"background": "res://Scenes/pictures/stage1/flowchart4.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/Merrick/stagem2/0stagem2d8.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952113.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "This was the second to the last shape that I wanted you to know. This shape shows the entry or exit point of the flowchart."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/Merrick/stagem2/0stagem2d9.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952113.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It is used to connect one part of a flowchart to another without drawing flowlines"
+		},
+		{
+			"background": "res://Scenes/pictures/stage1/flowchart6.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/Merrick/stagem2/0stagem2d10.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952113.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "For the final element that you need to know, this one is called FLOW LINES, Signifies the process that is to be executed next."
+		},
+		{
+			"background": "res://Scenes/pictures/stage1/orphanage_basement.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/Merrick/stagem2/0stagem2d11.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952113.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Did you undertand the topic that I discussed? I can repeat my explanation if want just tell me."
+		},
+		{
+			"choice": "Yes, I cleary understood",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Badge Received!!"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"choice": "Nope, can you repeat it?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/Merrick/stagem2/0stagem2d12.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952113.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I like your honesty Valen."
+		},
+		{
+			"anchor_id": "anchor-1726281699",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1721976689.json",
+		"name": "stagem2"
+	}
+}

@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/level3s4p1d1.wav-b6dd20b9e9214a0b1cb790ab58eb4609.sample"
+
+[deps]
+
+source_file="res://Dialogue/Voice/NEW/Merrick/level3s4p1/level3s4p1d1.wav"
+dest_files=[ "res://.import/level3s4p1d1.wav-b6dd20b9e9214a0b1cb790ab58eb4609.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

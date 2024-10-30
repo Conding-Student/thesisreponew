@@ -1,0 +1,317 @@
+{
+	"events": [
+		{
+			"condition": "==",
+			"definition": "1727504722-842",
+			"event_id": "dialogic_012",
+			"value": "0"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1726986938.cfg"
+		},
+		{
+			"background": "res://Scenes/pictures/mageguild/044675f208009a587708f108d9c627ef.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/pirate/pirate_d1.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I see you’ve written some interesting code. What sort of spell are you casting with that map?"
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1727481183.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/pirate/pirate_d2.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1727481183.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "This ain’t your everyday script, mate. It’s a map to a forgotten node in the digital sea—a shipwreck of corrupted data, long lost to time. "
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/pirate/pirate_d3.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1727481183.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "And inside... well, the treasure’s more than just bits and bytes."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/pirate/pirate_d4.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I’ve run into corrupted data before. Tough to decrypt, but always hiding something valuable. What makes this one special?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/pirate/pirate_d5.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1727481183.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "This wreck isn’t just some junk code. It’s the legacy of an old captain, a master of recursion and loops. They say he was lost to an infinite loop "
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/pirate/pirate_d6.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1727481183.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "—trapped forever in a cursed process. The treasure... it’s the key to breaking that loop."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/pirate/pirate_d7.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Breaking an infinite loop, huh? Dangerous, but it sounds like the challenge of a lifetime"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/pirate/pirate_d8.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1727481183.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Dangerous? Aye. The sea of data is unforgiving, and the digital waves carry more than just broken packets. "
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/pirate/pirate_d9.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1727481183.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "But if you’ve got the courage and the right syntax we might just pull it off."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/pirate/pirate_d10.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I’m in. Just one thing—don’t get stuck in an exception. I’ve seen too many who never make it out."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/pirate/pirate_d11.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1727481183.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No worries. In Syntaxia, we live by the code, but we also know how to rewrite it. We set sail after the festival don’t be late."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/pirate/pirate_d12.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1727481183.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "or you’ll be left debugging on the shore."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/pirate/pirate_d13.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I do remember Mr. merrick told I could eat here, maybe I can ask the person right in the counter."
+		},
+		{
+			"definition": "1727251831-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"definition": "1727504722-842",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"definition": "1727860687-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"custom_slot": "slot1",
+			"event_id": "dialogic_026",
+			"use_default_slot": false
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1727504722-842",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"background": "res://Scenes/pictures/mageguild/044675f208009a587708f108d9c627ef.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1726986938.cfg"
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1727481183.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/pirate/pirate_d14.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1727481183.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I already told ya that we were gonna set sail after the festival right? lets enjoy and bring honor to the legendary wizard king!"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1727148799.json",
+		"name": "pirate"
+	}
+}

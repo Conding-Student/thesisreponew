@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/c2level1_tutorial_d13.wav-3940e969cd02b562d52f13c6dab45668.sample"
+
+[deps]
+
+source_file="res://Dialogue/Voice/NEW/timetravel/Gandalf/c2level1_tutorial/c2level1_tutorial_d13.wav"
+dest_files=[ "res://.import/c2level1_tutorial_d13.wav-3940e969cd02b562d52f13c6dab45668.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

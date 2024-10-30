@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/starter3d2.wav-42e6b05896c5b1b790d30cb8859a09dd.sample"
+
+[deps]
+
+source_file="res://Dialogue/Voice/NEW/timetravel/starter/starter3d2.wav"
+dest_files=[ "res://.import/starter3d2.wav-42e6b05896c5b1b790d30cb8859a09dd.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

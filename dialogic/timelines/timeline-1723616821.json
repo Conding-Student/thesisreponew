@@ -1,0 +1,227 @@
+{
+	"events": [
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1721952113.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/Merrick/level3 s1/0level3s1d1.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952113.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Datatypes and Variable are a fundamental C# concepts what you need to know in order to effectively make a syntax"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/Merrick/level3 s1/0level3s1d2.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952113.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Datatype defines what type of data is used for processing"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/Merrick/level3 s1/0level3s1d3.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952113.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Meanwhile, variables refers to the memory address of which we store temporary data or values"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/Merrick/level3 s1/0level3s1d4.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952113.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "This magic is essential for opening doors crafted by master enchanters to safeguard ancient treasures and forbidden knowledge"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/Merrick/level3 s1/0level3s1d5.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952113.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "There are many different data types. But for now, let me tell you about the most commonly used ones."
+		},
+		{
+			"background": "res://Scenes/pictures/stage3/tutorial/String valen.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/Merrick/level3 s1/0level3s1d6.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952113.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The first is STRING"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/Merrick/level3 s1/0level3s1d7.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952113.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "string allows us to store a sequence of characters that's sorrounded by double quotes"
+		},
+		{
+			"background": "res://Scenes/pictures/stage3/tutorial/Int small and large Numbers.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/Merrick/level3 s1/0level3s1d8.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952113.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The second are INT and LONG which allows us to store whole numbers with each having different limits"
+		},
+		{
+			"background": "res://Scenes/pictures/stage3/tutorial/float and double Numbers.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/Merrick/level3 s1/0level3s1d9.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952113.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The third are FLOAT and DOUBLE which allows us to assign decimal values"
+		},
+		{
+			"background": "res://Scenes/pictures/stage3/tutorial/bool true and false.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/Merrick/level3 s1/0level3s1d10.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952113.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The next one is BOOL, which can have the values 'true' or 'false'"
+		},
+		{
+			"background": "res://Scenes/pictures/stage3/tutorial/char letter and symbol.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/Merrick/level3 s1/0level3s1d11.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952113.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The last one is CHAR. which only allows us to store one character when sorrounded by ' '"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/Merrick/level3 s1/0level3s1d12.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952113.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Master the Data Types first and you'll gain a great understanding of everything that comes next..."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1723616821.json",
+		"name": "level3s1"
+	}
+}

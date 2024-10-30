@@ -1,0 +1,231 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1726986938.cfg"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p1/c3stage1p1d1.wav",
+			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Valen returned to Gandalf's house, his steps heavy with sorrow. Gandalf greeted him with a concerned look."
+		},
+		{
+			"background": "res://Scenes/pictures/chapter2/gandalf_house_inside.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p1/c3stage1p1d2.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Val, did you find it?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p1/c3stage1p1d3.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No, Gandalf. The IDE Tome wasn't there. I met a guardian within the now-ruined Classoria Magic Research Institute building, a wounded construct."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p1/c3stage1p1d4.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It told me that after the disaster caused by the failed experiment, someone from the institute took the IDE Tome to the small kingdom of Objecthia to secure it."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p1/c3stage1p1d5.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Objecthia... I should have known."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p1/c3stage1p1d6.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You know that place, Gandalf?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p1/c3stage1p1d7.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yes. That place was once a haven for Object-Oriented Programming, but now it's overrun by bugs and glitches, ruled by the Bug King."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p1/c3stage1p1d8.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "And the IDE Tome? Where do you think would that be located?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p1/c3stage1p1d9.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "At the heart of Objecthia lies the Great Hall of Objectification, where wizards gather for ceremonies and debates on the ethical use of magic and the implications of their craft on the world."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p1/c3stage1p1d10.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It's a dangerous place, Val. But you must retrieve the IDE Tome. It's the only way to set things right."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p1/c3stage1p1d11.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I understand, Gandalf. I'll go to Objecthia and get the IDE Tome. I have to return to them. The children at the orphanage... they need me."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p1/c3stage1p1d12.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I believe in you, Val. Prepare yourself well. The journey ahead will be fraught with danger, but I know you have the strength to overcome it."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p1/c3stage1p1d13.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Thank you,  let me leave you for a moment."
+		},
+		{
+			"definition": "1728021648-250",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "13"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1728714035.json",
+		"name": "c3stage1p1"
+	}
+}

@@ -1,0 +1,734 @@
+{
+	"events": [
+		{
+			"condition": "==",
+			"definition": "1727834552-713",
+			"event_id": "dialogic_012",
+			"value": "0"
+		},
+		{
+			"background": "res://Scenes/pictures/mageguild/044675f208009a587708f108d9c627ef.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/cultist/cultist_d1.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "That’s odd... a cultist working behind the bar? This guild is stranger than I expected."
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1727146946.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1726986938.cfg"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/cultist/cultist_d2.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1727146946.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "What can I get for you today, traveler? We’ve got the finest ale and hearty stew"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/cultist/cultist_d3.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You’re... serving here? In a mage guild?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/cultist/cultist_d4.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1727146946.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Everyone has their role to play. Today, mine is to ensure your thirst is quenched and your hunger sated"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/cultist/cultist_d5.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Right... well, I’ll take an ale then. And the stew."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/cultist/cultist_d6.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1727146946.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Wise choice. The stew has some... special ingredients today. Good for sharpening the mind."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/cultist/cultist_d7.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Special ingredients? You’re not trying to pull something, are you?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/cultist/cultist_d8.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1727146946.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I serve only what’s ordered, nothing more. But power comes in many forms, doesn’t it?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/cultist/cultist_d9.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"This guy... definitely more than just a server. I should be careful around him.\""
+		},
+		{
+			"definition": "1727251831-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"definition": "1727834552-713",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"definition": "1727860687-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "==",
+			"definition": "1727834552-713",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"background": "res://Scenes/pictures/mageguild/044675f208009a587708f108d9c627ef.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1726986938.cfg"
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1727146946.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/cultist/cultist_d10.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1727146946.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "What are you looking for youngone?"
+		},
+		{
+			"choice": "Work",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1727841876-833",
+			"event_id": "dialogic_012",
+			"value": "0"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/cultist/cultist_d11.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1727146946.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I got a small job for you"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/cultist/cultist_d12.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "i'm listening"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/cultist/cultist_d13.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1727146946.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I'm running out of wine here, go grab some for me in the cellar"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/cultist/cultist_d14.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Why do you even need the wine for?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/cultist/cultist_d15.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1727146946.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " For myself of course... You think I could work here all day without a boost?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/cultist/cultist_d16.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1727146946.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You can find the cellar behind the counter of mage guild's tavern. It was unlocked as of this moment since I use C# magic at the door."
+		},
+		{
+			"definition": "1727834552-713",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"definition": "1727841876-833",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/cultist/cultist_d17.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1727146946.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "There is no available work as of this moment Valen."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"choice": "Eat",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"anchor_id": "anchor-1727835081",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "Nevermind",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/cultist/cultist_d18.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Nevermind."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1727835081",
+			"index": 0,
+			"name": "eat"
+		},
+		{
+			"background": "res://Scenes/pictures/mageguild/044675f208009a587708f108d9c627ef.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1726986938.cfg"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/cultist/cultist_d19.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1727146946.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You look like you’ve been through much. Sit, rest, and let our food restore you"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/cultist/cultist_d20.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You seem to know exactly what I need"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/cultist/cultist_d21.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1727146946.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It’s my duty to ensure those who pass through these doors leave stronger than when they arrived"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/cultist/cultist_d22.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "There’s something about this food... it feels like more than just a meal."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/cultist/cultist_d23.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1727146946.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Everything served here carries a bit of the guild’s essence. It will do more than fill your belly—eat, and you’ll feel your strength return."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/cultist/cultist_d24.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I can feel it already... like my energy is coming back. This is no ordinary meal."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/cultist/cultist_d25.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1727146946.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Of course. Our patrons leave with more than they expect."
+		},
+		{
+			"definition": "1727437460-648",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Your money after eating is [val_money] bytes."
+		},
+		{
+			"emit_signal": "heal",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1727834552-713",
+			"event_id": "dialogic_012",
+			"value": "2"
+		},
+		{
+			"background": "res://Scenes/pictures/mageguild/044675f208009a587708f108d9c627ef.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1726986938.cfg"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1727146946.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/cultist/cultist_d26.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1727146946.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Did you get the wine?"
+		},
+		{
+			"choice": "I forgot",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/cultist/cultist_d27.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1727146946.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Magical power becomes useless when the body and mind is weak. I asked you to fetch some wine in the cellar, how come you forget it already."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/cultist/cultist_d28.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1727146946.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You can find the cellar behind the counter of mage guild's tavern. It was located at the upper right of the building. It is already unlocked"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"choice": "Yes",
+			"condition": "",
+			"definition": "1727841876-833",
+			"event_id": "dialogic_011",
+			"value": "2"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/mageguild_night/cultist/cultist_d29.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1727146946.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Good. Your payment as promised"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Music and Sounds/sound effects/coin_recieved.wav",
+			"volume": 0
+		},
+		{
+			"definition": "1727437460-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "15"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Your current money is now [val_money]"
+		},
+		{
+			"definition": "1727834552-713",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"definition": "1727841876-833",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "3"
+		},
+		{
+			"custom_slot": "slot1",
+			"event_id": "dialogic_026",
+			"use_default_slot": false
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1727127050.json",
+		"name": "cultist"
+	}
+}

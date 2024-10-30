@@ -1,0 +1,51 @@
+{
+	"events": [
+		{
+			"background": "res://Scenes/pictures/unit2cahpter1/stage1/orphanage_basement.jpg",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1721952113.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/Merrick/level2s3chest/level2s3chest_d1.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952113.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Good! Now for your practice, I need you to open those 3  chests. Each one of them have different level of diffulties. you must start from that wooden chest."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1727537350.json",
+		"name": "level2s3chest"
+	}
+}

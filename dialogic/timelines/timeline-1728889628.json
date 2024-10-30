@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "This way has been locked, try talk to Gandalf about certain quest and missions. "
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1728889628.json",
+		"name": "pathdialogue"
+	}
+}

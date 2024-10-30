@@ -1,0 +1,185 @@
+[gd_scene load_steps=35 format=2]
+
+[ext_resource path="res://WhiteColor.shader" type="Shader" id=1]
+[ext_resource path="res://Overlap/Hitbox.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Enemies/WanderController.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Overlap/SoftCollision.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Stats.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Enemies/PlayerDetectionZone.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Overlap/Hurtbox.tscn" type="PackedScene" id=7]
+[ext_resource path="res://Enemies/picture/fly/fly03.png" type="Texture" id=8]
+[ext_resource path="res://Music and Sounds/monster/monster_bat.wav" type="AudioStream" id=9]
+[ext_resource path="res://Enemies/picture/fly/fly04.png" type="Texture" id=10]
+[ext_resource path="res://Enemies/picture/fly/fly06.png" type="Texture" id=11]
+[ext_resource path="res://Shadows/SmallShadow.png" type="Texture" id=12]
+[ext_resource path="res://Enemies/picture/fly/fly05.png" type="Texture" id=13]
+[ext_resource path="res://Enemies/picture/fly/fly07.png" type="Texture" id=14]
+[ext_resource path="res://Enemies/picture/fly/fly02.png" type="Texture" id=15]
+[ext_resource path="res://Enemies/picture/fly/fly01.png" type="Texture" id=16]
+[ext_resource path="res://Enemies/picture/Dungeon_Slimes1.png" type="Texture" id=17]
+[ext_resource path="res://Enemies/script/flying_bug.gd" type="Script" id=18]
+[ext_resource path="res://World/Enemy_quiz_sign.tscn" type="PackedScene" id=19]
+
+[sub_resource type="ShaderMaterial" id=21]
+resource_local_to_scene = true
+shader = ExtResource( 1 )
+shader_param/active = false
+
+[sub_resource type="AtlasTexture" id=15]
+atlas = ExtResource( 17 )
+region = Rect2( 144, 16, 24, 16 )
+
+[sub_resource type="AtlasTexture" id=16]
+atlas = ExtResource( 17 )
+region = Rect2( 168, 16, 24, 16 )
+
+[sub_resource type="AtlasTexture" id=17]
+atlas = ExtResource( 17 )
+region = Rect2( 192, 16, 24, 16 )
+
+[sub_resource type="AtlasTexture" id=18]
+atlas = ExtResource( 17 )
+region = Rect2( 144, 48, 24, 16 )
+
+[sub_resource type="AtlasTexture" id=19]
+atlas = ExtResource( 17 )
+region = Rect2( 168, 48, 24, 16 )
+
+[sub_resource type="AtlasTexture" id=20]
+atlas = ExtResource( 17 )
+region = Rect2( 192, 48, 24, 16 )
+
+[sub_resource type="SpriteFrames" id=22]
+animations = [ {
+"frames": [ ExtResource( 16 ), ExtResource( 15 ), ExtResource( 8 ), ExtResource( 10 ), ExtResource( 13 ), ExtResource( 11 ), ExtResource( 14 ) ],
+"loop": true,
+"name": "New Anim",
+"speed": 20.0
+}, {
+"frames": [ SubResource( 15 ), SubResource( 16 ), SubResource( 17 ), SubResource( 18 ), SubResource( 19 ), SubResource( 20 ) ],
+"loop": true,
+"name": "Slime",
+"speed": 10.0
+} ]
+
+[sub_resource type="CircleShape2D" id=23]
+radius = 4.0
+
+[sub_resource type="CapsuleShape2D" id=24]
+radius = 7.0
+height = 4.0
+
+[sub_resource type="CircleShape2D" id=25]
+radius = 73.0069
+
+[sub_resource type="CircleShape2D" id=26]
+radius = 4.0
+
+[sub_resource type="CircleShape2D" id=27]
+radius = 5.0
+
+[sub_resource type="Animation" id=28]
+resource_name = "Start"
+length = 0.2
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("AnimatedSprite:material:shader_param/active")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+
+[sub_resource type="Animation" id=29]
+resource_name = "Stop"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("AnimatedSprite:material:shader_param/active")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[node name="flying_bug" type="KinematicBody2D"]
+script = ExtResource( 18 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+material = SubResource( 21 )
+position = Vector2( 1, -4 )
+scale = Vector2( 0.53125, 0.5 )
+frames = SubResource( 22 )
+animation = "New Anim"
+frame = 3
+speed_scale = 0.7
+playing = true
+offset = Vector2( 0, -12 )
+
+[node name="bat_sounds" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 9 )
+
+[node name="ShadowSprite" type="Sprite" parent="."]
+texture = ExtResource( 12 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+shape = SubResource( 23 )
+
+[node name="Hurtbox" parent="." instance=ExtResource( 7 )]
+visible = false
+collision_layer = 8
+
+[node name="CollisionShape2D" parent="Hurtbox" index="0"]
+position = Vector2( 0, -13 )
+shape = SubResource( 24 )
+disabled = true
+
+[node name="Stats" parent="." instance=ExtResource( 5 )]
+max_health = 1
+
+[node name="PlayerDetectionZone" parent="." instance=ExtResource( 6 )]
+visible = false
+
+[node name="CollisionShape2D" parent="PlayerDetectionZone" index="0"]
+modulate = Color( 1, 1, 1, 0.454902 )
+shape = SubResource( 25 )
+
+[node name="Hitbox" parent="." instance=ExtResource( 2 )]
+visible = false
+collision_mask = 4
+
+[node name="CollisionShape2D" parent="Hitbox" index="0"]
+position = Vector2( 0, -14 )
+shape = SubResource( 26 )
+disabled = true
+
+[node name="SoftCollision" parent="." instance=ExtResource( 4 )]
+visible = false
+
+[node name="CollisionShape2D" parent="SoftCollision" index="0"]
+shape = SubResource( 27 )
+
+[node name="WanderController" parent="." instance=ExtResource( 3 )]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+autoplay = "Stop"
+anims/Start = SubResource( 28 )
+anims/Stop = SubResource( 29 )
+
+[node name="Enemy_quiz_sign" parent="." instance=ExtResource( 19 )]
+position = Vector2( 0, -26 )
+
+[editable path="Hurtbox"]
+[editable path="PlayerDetectionZone"]
+[editable path="Hitbox"]
+[editable path="SoftCollision"]

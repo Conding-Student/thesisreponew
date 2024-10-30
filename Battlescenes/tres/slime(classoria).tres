@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Battlescenes/Script/base_enemies.gd" type="Script" id=1]
+[ext_resource path="res://Enemies/picture/8b26b90f571fa9edfe810df6bca8c66b-removebg-preview.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+name = "Slime"
+texture = ExtResource( 2 )
+health = 5
+damage = 1.0

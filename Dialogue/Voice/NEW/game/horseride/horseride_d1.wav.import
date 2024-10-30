@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/horseride_d1.wav-20f978dccb00fb48c7da5f6ae1ba2042.sample"
+
+[deps]
+
+source_file="res://Dialogue/Voice/NEW/game/horseride/horseride_d1.wav"
+dest_files=[ "res://.import/horseride_d1.wav-20f978dccb00fb48c7da5f6ae1ba2042.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

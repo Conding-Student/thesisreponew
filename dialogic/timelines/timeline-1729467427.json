@@ -1,0 +1,55 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1727627785.cfg"
+		},
+		{
+			"background": "res://Scenes/pictures/chapter2/hall_Inside.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1729272690.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage4_5/c3stage4p3/c3stage5p3d1.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1729272690.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Do you think you can defeat me? haha how pitiful! "
+		},
+		{
+			"change_scene": "res://intro/sequencing.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1729467427.json",
+		"name": "c3stage5p3"
+	}
+}

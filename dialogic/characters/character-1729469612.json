@@ -1,0 +1,21 @@
+{
+	"color": "#fff91403",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1729469612.json",
+	"mirror_portraits": false,
+	"name": "Logical Bug king",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Dialogue/Picture/cvhapter2/bugking.png"
+		}
+	],
+	"scale": 45,
+	"theme": ""
+}

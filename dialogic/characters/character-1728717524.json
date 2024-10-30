@@ -1,0 +1,21 @@
+{
+	"color": "#fff79a08",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1728717524.json",
+	"mirror_portraits": false,
+	"name": "Fatal Error",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": -30,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Dialogue/Picture/cvhapter2/commanderbug.png"
+		}
+	],
+	"scale": 20,
+	"theme": ""
+}

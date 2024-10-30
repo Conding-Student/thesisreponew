@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/c3stage1p3d8.wav-c0517d9718749d781db63fbc464954ed.sample"
+
+[deps]
+
+source_file="res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p3/c3stage1p3d8.wav"
+dest_files=[ "res://.import/c3stage1p3d8.wav-c0517d9718749d781db63fbc464954ed.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

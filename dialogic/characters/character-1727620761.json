@@ -1,0 +1,21 @@
+{
+	"color": "#ffb40cf0",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1727620761.json",
+	"mirror_portraits": false,
+	"name": "Merchant",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": -10,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Dialogue/Picture/towncenter/merchant.png"
+		}
+	],
+	"scale": 30,
+	"theme": "theme-1727627785.cfg"
+}

@@ -1,0 +1,205 @@
+{
+	"events": [
+		{
+			"background": "res://Scenes/pictures/chapter2/analexus_Dragged.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1727627785.cfg"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level2/stage5/analexuis_continuiation/analexuis_continuationd1.wav",
+			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Analexius had accidentally peed on a bug. Shocked to the bone, he passed out. The bug checked on him but, seeing he was unconscious, decided to drag him away by his feet."
+		},
+		{
+			"background": "res://Scenes/pictures/chapter2/analexusHero1.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level2/stage5/analexuis_continuiation/analexuis_continuationd2.wav",
+			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The bug, noticing the absence of its allies in the Classoria, wondered what had happened. It left Analexius alone before heading off to report to the Bug King."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level2/stage5/analexuis_continuiation/analexuis_continuationd3.wav",
+			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Time passed. Analexius was found by a citizen, still passed out. The citizen saw that Classoria was already debugged "
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level2/stage5/analexuis_continuiation/analexuis_continuationd4.wav",
+			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "and thought Analexius was responsible for the death of all the bugs and glitches."
+		},
+		{
+			"background": "res://Scenes/pictures/chapter2/analexusHero2.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level2/stage5/analexuis_continuiation/analexuis_continuationd5.wav",
+			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "As Analexius woke up, he found himself surrounded by a crowd of citizens, praising him for his \"bravery.\""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level2/stage5/analexuis_continuiation/analexuis_continuationd6.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728895265.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "It's him! The hero who debugged Classoria!"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level2/stage5/analexuis_continuiation/analexuis_continuationd7.wav",
+			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Analexius, dazed and confused, decided to go with the flow."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level2/stage5/analexuis_continuiation/analexuis_continuationd8.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728031425.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Uh, yes, that's me. The, uh, great debugger."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level2/stage5/analexuis_continuiation/analexuis_continuationd9.wav",
+			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The citizens, believing him to be their savior, tossed him in delight. Analexius, realizing the situation, accepted the praise."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level2/stage5/analexuis_continuiation/analexuis_continuationd10.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728031425.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Thank you, everyone. But I really just want to go home now."
+		},
+		{
+			"background": "res://Scenes/pictures/chapter2/analexusHero3.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level2/stage5/analexuis_continuiation/analexuis_continuationd11.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728895265.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Please, let us take you home. It's the least we can do for our hero.\""
+		},
+		{
+			"background": "res://Scenes/pictures/chapter2/analexusHero4.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level2/stage5/analexuis_continuiation/analexuis_continuationd12.wav",
+			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The citizens offered Analexius a horse for his \"bravery.\" As he mounted the horse, he glanced back at the dark entrance of Classoria still grasping what the heck really happened."
+		},
+		{
+			"change_timeline": "timeline-1728714035.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1728715366.json",
+		"name": "analexuis_continuation"
+	}
+}

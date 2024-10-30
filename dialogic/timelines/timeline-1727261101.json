@@ -1,0 +1,27 @@
+{
+	"events": [
+		{
+			"background": "res://intro/picture/question/default_bg.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You successfully recieved a badge!"
+		},
+		{
+			"emit_signal": "badge7",
+			"event_id": "dialogic_040"
+		},
+		{
+			"change_scene": "res://intro/stages_complete.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1727261101.json",
+		"name": "stageu2s2"
+	}
+}

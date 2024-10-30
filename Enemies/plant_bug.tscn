@@ -1,0 +1,122 @@
+[gd_scene load_steps=25 format=2]
+
+[ext_resource path="res://WhiteColor.shader" type="Shader" id=1]
+[ext_resource path="res://Enemies/picture/plantenemy/idle02.png" type="Texture" id=8]
+[ext_resource path="res://Music and Sounds/monster/monster_bat.wav" type="AudioStream" id=9]
+[ext_resource path="res://Enemies/picture/plantenemy/idle03.png" type="Texture" id=10]
+[ext_resource path="res://Enemies/picture/plantenemy/idle01.png" type="Texture" id=11]
+[ext_resource path="res://Enemies/picture/plantenemy/idle04.png" type="Texture" id=13]
+[ext_resource path="res://Enemies/picture/plantenemy/idle08.png" type="Texture" id=14]
+[ext_resource path="res://Enemies/picture/plantenemy/idle05.png" type="Texture" id=15]
+[ext_resource path="res://Enemies/picture/plantenemy/idle07.png" type="Texture" id=16]
+[ext_resource path="res://Enemies/picture/Dungeon_Slimes1.png" type="Texture" id=17]
+[ext_resource path="res://Enemies/script/plant_bug.gd" type="Script" id=18]
+[ext_resource path="res://World/Enemy_quiz_sign.tscn" type="PackedScene" id=19]
+[ext_resource path="res://Enemies/picture/plantenemy/idle06.png" type="Texture" id=20]
+
+[sub_resource type="ShaderMaterial" id=21]
+resource_local_to_scene = true
+shader = ExtResource( 1 )
+shader_param/active = false
+
+[sub_resource type="AtlasTexture" id=15]
+atlas = ExtResource( 17 )
+region = Rect2( 144, 16, 24, 16 )
+
+[sub_resource type="AtlasTexture" id=16]
+atlas = ExtResource( 17 )
+region = Rect2( 168, 16, 24, 16 )
+
+[sub_resource type="AtlasTexture" id=17]
+atlas = ExtResource( 17 )
+region = Rect2( 192, 16, 24, 16 )
+
+[sub_resource type="AtlasTexture" id=18]
+atlas = ExtResource( 17 )
+region = Rect2( 144, 48, 24, 16 )
+
+[sub_resource type="AtlasTexture" id=19]
+atlas = ExtResource( 17 )
+region = Rect2( 168, 48, 24, 16 )
+
+[sub_resource type="AtlasTexture" id=20]
+atlas = ExtResource( 17 )
+region = Rect2( 192, 48, 24, 16 )
+
+[sub_resource type="SpriteFrames" id=22]
+animations = [ {
+"frames": [ ExtResource( 11 ), ExtResource( 8 ), ExtResource( 10 ), ExtResource( 13 ), ExtResource( 15 ), ExtResource( 20 ), ExtResource( 16 ), ExtResource( 14 ) ],
+"loop": true,
+"name": "New Anim",
+"speed": 20.0
+}, {
+"frames": [ SubResource( 15 ), SubResource( 16 ), SubResource( 17 ), SubResource( 18 ), SubResource( 19 ), SubResource( 20 ) ],
+"loop": true,
+"name": "Slime",
+"speed": 10.0
+} ]
+
+[sub_resource type="CircleShape2D" id=23]
+radius = 4.0
+
+[sub_resource type="Animation" id=28]
+resource_name = "Start"
+length = 0.2
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("AnimatedSprite:material:shader_param/active")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+
+[sub_resource type="Animation" id=29]
+resource_name = "Stop"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("AnimatedSprite:material:shader_param/active")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[node name="plant_bug" type="KinematicBody2D"]
+script = ExtResource( 18 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+material = SubResource( 21 )
+position = Vector2( 0, -12 )
+scale = Vector2( 0.53125, 0.5 )
+frames = SubResource( 22 )
+animation = "New Anim"
+frame = 2
+speed_scale = 0.7
+playing = true
+offset = Vector2( 0, -12 )
+
+[node name="bat_sounds" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 9 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 0, -5 )
+shape = SubResource( 23 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+autoplay = "Stop"
+anims/Start = SubResource( 28 )
+anims/Stop = SubResource( 29 )
+
+[node name="Enemy_quiz_sign" parent="." instance=ExtResource( 19 )]
+position = Vector2( 0, -33 )

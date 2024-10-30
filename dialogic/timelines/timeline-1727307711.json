@@ -1,0 +1,45 @@
+{
+	"events": [
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/game/horseride/horseride_d1.wav",
+			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Merrick and Valen were sent back at the orphanage. They are both thinking about where they went wrong."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/game/horseride/horseride_d2.wav",
+			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "After that a whole day has passed and Merrick decided to talk again to Valen at the orphanage basement"
+		},
+		{
+			"emit_signal": "video_stop",
+			"event_id": "dialogic_040"
+		},
+		{
+			"change_timeline": "timeline-1723547149.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1727307711.json",
+		"name": "horseride"
+	}
+}

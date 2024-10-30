@@ -1,0 +1,296 @@
+{
+	"events": [
+		{
+			"background": "res://Scenes/pictures/chapter2/Analexus_return1.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1726986938.cfg"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p2/c3stage1p2d1.wav",
+			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "As Analexius arrived at Gandalf's house on horseback, he couldn't contain his excitement. He had arrived just a little later after Valen. "
+		},
+		{
+			"background": "res://Scenes/pictures/chapter2/Analexus_return2.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p2/c3stage1p2d2.wav",
+			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Bursting through the door, he headed straight for the library where Gandalf was studying."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p2/c3stage1p2d3.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728031425.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Gandalf! You won’t believe it! I’m a hero!"
+		},
+		{
+			"background": "res://Scenes/pictures/chapter2/Analexus_return3.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p2/c3stage1p2d4.wav",
+			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Gandalf looked up from his ancient tome, a mixture of curiosity and amusement in his eyes."
+		},
+		{
+			"background": "res://Scenes/pictures/chapter2/chairOnly.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p2/c3stage1p2d5.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A hero, you say? What happened?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p2/c3stage1p2d6.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728031425.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I debugged Classoria! The townspeople were praising me, saying I saved them from the bugs and glitches. It was amazing!"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p2/c3stage1p2d7.wav",
+			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "At that moment, Valen entered the house again, having overheard the commotion. He nonchalantly listens to the story of Analexius."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p2/c3stage1p2d8.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728031425.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I fought off all the bugs and glitches on my own. I was battered and weary, but I stood my ground. They even escorted me here with cheers and praises."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p2/c3stage1p2d9.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Quite the tale, Analexius. But tell me, how did you manage to get back here alone?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p2/c3stage1p2d10.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728031425.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "As thanks for my bravery, the citizens gave me a horse to help in my journey back. They saw how weary and battered I was and wanted to make sure I got here safely."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p2/c3stage1p2d11.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728009045.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hmm..Quite generous of them."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p2/c3stage1p2d12.wav",
+			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Analexius, realizing Valen was in the room, turned to face him with a theatrical gasp"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p2/c3stage1p2d13.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728031425.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ah, Val! You left me alone in Classoria, fighting off the bugs and glitches! But it’s fine, really. I handled it all on my own. I guess I didn’t need your help after all."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p2/c3stage1p2d14.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sure, Analexius. Sounds like you had quite the adventure."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage1/c3stage1p2/c3stage1p2d15.wav",
+			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Analexius grinned sheepishly, knowing full well that his tale was far from the truth. But for now, he basked in the unexpected glory, even if it was a bit exaggerated."
+		},
+		{
+			"definition": "1728021648-250",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "14"
+		},
+		{
+			"custom_slot": "slot1",
+			"event_id": "dialogic_026",
+			"use_default_slot": false
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1728728549.json",
+		"name": "c3stage1p2"
+	}
+}

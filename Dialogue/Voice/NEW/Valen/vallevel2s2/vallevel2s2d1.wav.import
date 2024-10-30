@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/vallevel2s2d1.wav-9af135ca6a8ee6357576609729ddba86.sample"
+
+[deps]
+
+source_file="res://Dialogue/Voice/NEW/Valen/vallevel2s2/vallevel2s2d1.wav"
+dest_files=[ "res://.import/vallevel2s2d1.wav-9af135ca6a8ee6357576609729ddba86.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

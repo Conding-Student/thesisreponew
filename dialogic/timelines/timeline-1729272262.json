@@ -1,0 +1,180 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1727627785.cfg"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage4_5/c3stage4p2/c3stage5p2d0.wav",
+			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "As they navigated the ruins, Valen continued to use his knowledge of Classes and methods magic to fend off bugs and glitches."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage4_5/c3stage4p2/c3stage5p2d1.wav",
+			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Val and Analexius stood before the grand entrance to the Great Hall of Objectification. Val pushed open the heavy doors, and they were immediately struck by the vast and majestic grandeur of the hall."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage4_5/c3stage4p2/c3stage5p2d2.wav",
+			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "At the far end of the hall, between two large statues, sat a massive chair resembling a throne.\nSitting on the throne was the Bug King, a towering figure with an exoskeleton of jagged metal plates and iridescent chitin. \nHis crimson eyes glowed malevolently as he observed the intruders. Val and Analexius felt a cold rush of fear and intimidation wash over them."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage4_5/c3stage4p2/c3stage5p2d3.wav",
+			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Analexius, overwhelmed by the sight of the Bug King, lost consciousness and collapsed to the ground. Val tried desperately to wake him, but to no avail."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage4_5/c3stage4p2/c3stage5p2d4.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Is the IDE Tome truly here in Objecthia?"
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 1,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1729272690.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage4_5/c3stage4p2/c3stage5p2d5.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1729272690.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yes, it resides in the Great Library, but you will not live to see it."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage4_5/c3stage4p2/c3stage5p2d6.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Can we negotiate? If you cooperate and give me the IDE Tome, there doesn't have to be a fight. I seek it for a purpose greater than either of us."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage4_5/c3stage4p2/c3stage5p2d7.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1729272690.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Negotiate? With you? Foolish mortal, I decline your offer. The IDE Tome will never be yours without a fight."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/chapter3/stage4_5/c3stage4p2/c3stage5p2d8.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1729272690.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\tAttack him!"
+		},
+		{
+			"definition": "1728021648-250",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "20"
+		},
+		{
+			"custom_slot": "slot1",
+			"event_id": "dialogic_026",
+			"use_default_slot": false
+		},
+		{
+			"change_scene": "res://levels/Chapter2_maps/objectiaHall_inside.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1729272262.json",
+		"name": "c3stage5p2"
+	}
+}

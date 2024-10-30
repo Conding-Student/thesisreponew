@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/manor_out_d2.wav-3749f6a2325ba71dae87550f1696cb21.sample"
+
+[deps]
+
+source_file="res://Dialogue/Voice/NEW/game/manor_out/manor_out_d2.wav"
+dest_files=[ "res://.import/manor_out_d2.wav-3749f6a2325ba71dae87550f1696cb21.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

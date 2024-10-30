@@ -1,0 +1,304 @@
+{
+	"events": [
+		{
+			"condition": "",
+			"definition": "1727348094-478",
+			"event_id": "dialogic_012",
+			"value": "0"
+		},
+		{
+			"background": "res://Scenes/pictures/townsquare/townsquare.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1723097609.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1723097609.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Oh boy where are you going?"
+		},
+		{
+			"choice": "Just strolling around",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Just strolling around. By the way, Do you know what is this place?"
+		},
+		{
+			"condition": "<",
+			"definition": "1723097011-648",
+			"event_id": "dialogic_012",
+			"value": "3"
+		},
+		{
+			"character": "character-1723097609.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "This was the townsquare, this is the capital of this region. You may find here some market, houses, and the statue of Legendary Wizard King. "
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh thanks for that information. This was the [explore_town] out of 3 places I needed to look at."
+		},
+		{
+			"definition": "1723097011-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"definition": "1727348094-478",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"custom_slot": "slot1",
+			"event_id": "dialogic_026",
+			"use_default_slot": false
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "it was none of your business",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1723097609.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You're such a rude kid"
+		},
+		{
+			"definition": "1727348094-478",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"custom_slot": "slot1",
+			"event_id": "dialogic_026",
+			"use_default_slot": false
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1727348094-478",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"background": "res://Scenes/pictures/townsquare/townsquare.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 0.5,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1723097609.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1723097609.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, Why are you asking me about this place? Didn't I told you that this was the Townsquare?"
+		},
+		{
+			"character": "character-1723097609.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh yeah, sorry I forgot.  (This was the [explore_town] out of 3 places I need to look at)"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1727348094-478",
+			"event_id": "dialogic_012",
+			"value": "2"
+		},
+		{
+			"background": "res://Scenes/pictures/townsquare/townsquare.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "1-fade_in.gd",
+			"animation_length": 0.5,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1723097609.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1723097609.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Why are you asking me about this place? that attitude of yours is shameful here in syntaxia!"
+		},
+		{
+			"choice": "Say sorry",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I realized that what I say to you is not good and veru rude. I genuinly apologize for the course of my actions. "
+		},
+		{
+			"character": "character-1723097609.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Apology accepted. "
+		},
+		{
+			"character": "character-1723097609.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "This was the townsquare, this is the capital of this region. You may find here some market, houses, and the statue of Legendary Wizard King. "
+		},
+		{
+			"definition": "1723097011-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh thanks for that information. This was the [explore_town] out of 3 places I needed to look at."
+		},
+		{
+			"definition": "1727348094-478",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"custom_slot": "slot1",
+			"event_id": "dialogic_026",
+			"use_default_slot": false
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"choice": "Leave",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1727353144.json",
+		"name": "citizen3"
+	}
+}

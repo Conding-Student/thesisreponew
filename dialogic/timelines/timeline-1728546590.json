@@ -1,0 +1,137 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1728115011.cfg"
+		},
+		{
+			"background": "res://Scenes/pictures/chapter2/institute_valRun.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level2/stage5/commanderbug/commanderbugd1.wav",
+			"volume": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Valen rushes through the ruins of Classoria, hoping to escape after learning the fate of the IDE tome. Just as he nears the outskirts, \na Fatal error suddenly appear on his path, towering over him with an intimidating presence."
+		},
+		{
+			"background": "res://Scenes/pictures/chapter2/institute_bug3.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level2/stage5/commanderbug/commanderbugd2.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728717524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Trying to flee, are we, human? There’s nowhere left for you to run. Classoria is ours."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level2/stage5/commanderbug/commanderbugd3.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You think I’m running from you? I don’t have time to waste on your kind."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level2/stage5/commanderbug/commanderbugd4.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728717524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Arrogant, just like the others. But they fell before us… and so will you."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level2/stage5/commanderbug/commanderbugd5.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I’m not like the others. And I’m not here to fight you… unless you force me to"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level2/stage5/commanderbug/commanderbugd6.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728717524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Force you? You humans are nothing without your knowldege from C#. Your precious tome is gone. You’re finished! But I’ll enjoy crushing you all the same."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level2/stage5/commanderbug/commanderbugd7.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You’ve already lost. You just don’t know it yet. And I don’t need the tome to deal with you."
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/timetravel/level2/stage5/commanderbug/commanderbugd8.wav",
+			"volume": 0
+		},
+		{
+			"character": "character-1728717524.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "We’ll see how much fight is left in you, human!"
+		},
+		{
+			"change_scene": "res://intro/sequencing.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1728546590.json",
+		"name": "commanderbug"
+	}
+}
