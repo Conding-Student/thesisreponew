@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/citizen3d6.wav-ab043c0d3aba50da8e4bb46c0a7d6341.sample"
+
+[deps]
+
+source_file="res://Dialogue/Voice/NEW/citizen3/citizen3d6.wav"
+dest_files=[ "res://.import/citizen3d6.wav-ab043c0d3aba50da8e4bb46c0a7d6341.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

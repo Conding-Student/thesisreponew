@@ -105,13 +105,21 @@
 			"z_index": 0
 		},
 		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/childV/Didn t I already tol.wav",
+			"volume": 0
+		},
+		{
 			"character": "character-1721724551.json",
 			"event_id": "dialogic_010",
 			"options": [
 
 			],
 			"portrait": "",
-			"question": "Didn't I told you brother Valen that Mr. Merrick wanted me to tell you to go to his office?"
+			"question": "Didn't I already told you that Mr. Merrick wants to see you in his office?"
 		},
 		{
 			"choice": "I can't find him",
@@ -121,10 +129,18 @@
 			"value": ""
 		},
 		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/childV/Uhmmm I don t know w.wav",
+			"volume": 0
+		},
+		{
 			"character": "character-1721724551.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Ahmmm I don't know where he go but try to check other rooms inside his office."
+			"text": "Uhmmm I don't know where he's gone but try checking other rooms inside his office."
 		},
 		{
 			"definition": "1727346209-402",
@@ -194,6 +210,14 @@
 			"z_index": 0
 		},
 		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/childV/Did you find him bro.wav",
+			"volume": 0
+		},
+		{
 			"character": "character-1721724551.json",
 			"event_id": "dialogic_010",
 			"options": [
@@ -210,10 +234,18 @@
 			"value": ""
 		},
 		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/childV/That s Great .wav",
+			"volume": 0
+		},
+		{
 			"character": "character-1721724551.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Oh good!!"
+			"text": "That's Great!"
 		},
 		{
 			"definition": "1727346209-402",
@@ -235,10 +267,18 @@
 			"value": ""
 		},
 		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/childV/Oh I do have an idea.wav",
+			"volume": 0
+		},
+		{
 			"character": "character-1721724551.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Oh I do have an idea where you can find him. Try to check the door at the right side of his room. Maybe you can find him there."
+			"text": "Oh I do have an idea where you can find him. Try checking the door at the right side of his room. Maybe you can find him there."
 		},
 		{
 			"event_id": "dialogic_022",
@@ -281,10 +321,26 @@
 			"z_index": 0
 		},
 		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/childV/Ugh I m gonna fail o.wav",
+			"volume": 0
+		},
+		{
 			"character": "character-1721724551.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Ugh, I'm gonna fail on this"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/childV/valchild1.wav",
+			"volume": 0
 		},
 		{
 			"character": "character-1721952703.json",
@@ -314,16 +370,40 @@
 			"z_index": 0
 		},
 		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/childV/Merrick gave me this.wav",
+			"volume": 0
+		},
+		{
 			"character": "character-1721724551.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Merrick gave me this flowchart question. He promised that I'll be relieved of my toilet cleaning duty for a week if I answered correctly!"
 		},
 		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/childV/But I couldn t figur.wav",
+			"volume": 0
+		},
+		{
 			"character": "character-1721724551.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "But I couldn't figure out the correct answer!"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/childV/Val can you please a.wav",
+			"volume": 0
 		},
 		{
 			"character": "character-1721724551.json",
@@ -432,6 +512,14 @@
 			"name": "end"
 		},
 		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/childV/valchild2.wav",
+			"volume": 0
+		},
+		{
 			"character": "character-1721952703.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -456,6 +544,14 @@
 			},
 			"type": 0,
 			"z_index": 0
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/childV/Thanks Val You re th.wav",
+			"volume": 0
 		},
 		{
 			"character": "character-1721724551.json",

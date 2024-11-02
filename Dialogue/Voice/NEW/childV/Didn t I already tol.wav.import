@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Didn t I already tol.wav-58eb7acea2df20f28c05eb8f52982987.sample"
+
+[deps]
+
+source_file="res://Dialogue/Voice/NEW/childV/Didn t I already tol.wav"
+dest_files=[ "res://.import/Didn t I already tol.wav-58eb7acea2df20f28c05eb8f52982987.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

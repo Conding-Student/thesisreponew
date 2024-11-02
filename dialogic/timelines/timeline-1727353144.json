@@ -31,6 +31,14 @@
 			"z_index": 0
 		},
 		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/citizen3/citizen3d1.wav",
+			"volume": 0
+		},
+		{
 			"character": "character-1723097609.json",
 			"event_id": "dialogic_010",
 			"options": [
@@ -47,6 +55,14 @@
 			"value": ""
 		},
 		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/citizen3t1/cit3d2.wav",
+			"volume": 0
+		},
+		{
 			"character": "character-1721952703.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -59,10 +75,26 @@
 			"value": "3"
 		},
 		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/citizen3/citizen3d3.wav",
+			"volume": 0
+		},
+		{
 			"character": "character-1723097609.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "This was the townsquare, this is the capital of this region. You may find here some market, houses, and the statue of Legendary Wizard King. "
+			"text": "This is the townsquare, this is the capital of this region. Here, you may find the market, some houses, and the statue of Legendary Wizard King. "
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/citizen3t1/cit3d4.wav",
+			"volume": 0
 		},
 		{
 			"character": "character-1721952703.json",
@@ -99,6 +131,14 @@
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/citizen3/citizen3d5.wav",
+			"volume": 0
 		},
 		{
 			"character": "character-1723097609.json",
@@ -155,10 +195,26 @@
 			"z_index": 0
 		},
 		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/citizen3/citizen3d6.wav",
+			"volume": 0
+		},
+		{
 			"character": "character-1723097609.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Oh, Why are you asking me about this place? Didn't I told you that this was the Townsquare?"
+			"text": "Oh, Why are you asking me about this place? Didn't I told you that this is the Townsquare?"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/citizen3/valcitizenmored1.wav",
+			"volume": 0
 		},
 		{
 			"character": "character-1723097609.json",
@@ -204,6 +260,14 @@
 			"z_index": 0
 		},
 		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/citizen3/citizen3d7.wav",
+			"volume": 0
+		},
+		{
 			"character": "character-1723097609.json",
 			"event_id": "dialogic_010",
 			"options": [
@@ -220,22 +284,32 @@
 			"value": ""
 		},
 		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/citizen3/valcitd1.wav",
+			"volume": 0
+		},
+		{
 			"character": "character-1721952703.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "I realized that what I say to you is not good and veru rude. I genuinly apologize for the course of my actions. "
+			"text": "I realized that what I said is very rude. I genuinely apologize for my actions. "
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/citizen3/citizen3d9.wav",
+			"volume": 0
 		},
 		{
 			"character": "character-1723097609.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Apology accepted. "
-		},
-		{
-			"character": "character-1723097609.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "This was the townsquare, this is the capital of this region. You may find here some market, houses, and the statue of Legendary Wizard King. "
+			"text": "Your apology is accepted, This is the townsquare, this is the capital of this region. Here, you may find the market, some houses, and the statue of Legendary Wizard King. "
 		},
 		{
 			"definition": "1723097011-648",
@@ -244,6 +318,14 @@
 			"random_upper_limit": 100,
 			"set_random": false,
 			"set_value": "1"
+		},
+		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Dialogue/Voice/NEW/citizen3/valcitd2.wav",
+			"volume": 0
 		},
 		{
 			"character": "character-1721952703.json",
