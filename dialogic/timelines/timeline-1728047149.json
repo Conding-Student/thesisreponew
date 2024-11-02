@@ -27,11 +27,6 @@
 			"set_value": "1"
 		},
 		{
-			"custom_slot": "slot1",
-			"event_id": "dialogic_026",
-			"use_default_slot": false
-		},
-		{
 			"emit_signal": "bug2",
 			"event_id": "dialogic_040"
 		},

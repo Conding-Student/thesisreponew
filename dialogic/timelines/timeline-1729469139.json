@@ -118,11 +118,6 @@
 			"set_value": "22"
 		},
 		{
-			"custom_slot": "slot1",
-			"event_id": "dialogic_026",
-			"use_default_slot": false
-		},
-		{
 			"change_scene": "res://levels/Chapter2_maps/objectiaHall_inside.tscn",
 			"event_id": "dialogic_041"
 		},

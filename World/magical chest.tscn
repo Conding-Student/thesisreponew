@@ -211,6 +211,7 @@ radius = 35.6018
 extents = Vector2( 12, 9.5 )
 
 [node name="magical_chest" type="Node2D"]
+z_index = -1
 script = ExtResource( 1 )
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]

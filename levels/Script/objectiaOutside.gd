@@ -25,7 +25,7 @@ func _ready():
 	resume.connect("pressed", self, "resume_the_game")
 	Global.set_map(current_map)
 	Musicmanager.set_music_path("res://Music and Sounds/bg music/guildInside.wav")
-	GlobalCanvasModulate.apply_trigger("noon")
+	#GlobalCanvasModulate.apply_trigger("noon")
 func set_player_position():
 	if Global.get_player_initial_position() == Vector2(0, 0):
 		Global.set_player_current_position(starting_player_position)

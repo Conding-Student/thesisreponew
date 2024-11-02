@@ -711,11 +711,6 @@
 			"set_value": "3"
 		},
 		{
-			"custom_slot": "slot1",
-			"event_id": "dialogic_026",
-			"use_default_slot": false
-		},
-		{
 			"event_id": "dialogic_022",
 			"transition_duration": 1
 		},

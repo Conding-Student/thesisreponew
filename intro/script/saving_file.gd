@@ -70,12 +70,19 @@ func save_data(filename: String) -> void:
 		"pre_assessment": Global2.pre_final_score,
 		"post_assessment": Global2.post_final_score
 	}
-	Dialogic.save("slot1")
+	
+	if filename == "user://file.txt":
+		Dialogic.save("slot2")
+	else:
+		Dialogic.save("slot1")
 	# Collect badge data for saving
 	for badge_name in Global2.badges_complete.keys():
 		save_data[badge_name] = Global2.badges_complete[badge_name]
 	
 	save_to_file(filename, save_data)
+
+
+
 
 # Function to reset all game state values to their default
 func reset_to_default() -> void:
@@ -154,22 +161,26 @@ func load_game() -> void:
 	var loaded_data = load_from_file("user://file.txt")
 
 	if loaded_data:
-		apply_loaded_data(loaded_data)
+		apply_loaded_data(loaded_data,"user://file.txt")
 
 # Load game data from autosave file
 func load_game_auto() ->void:
 	var loaded_data = load_from_file("user://autosave.txt")
 
 	if loaded_data:
-		apply_loaded_data(loaded_data)
+		apply_loaded_data(loaded_data,"user://autosave.txt")
 
 
-func apply_loaded_data(loaded_data: Dictionary) -> void:
+func apply_loaded_data(loaded_data: Dictionary,filename) -> void:
 	# Load general game state
 	Global.save_triggered = loaded_data.get("save_triggered", false)
 	Global.from_level = loaded_data.get("from_level", "")
 	PlayerStats.health = loaded_data.get("players_health", 100)  # Assuming a default value
-	Dialogic.load("slot1")
+	
+	if filename == "user://file.txt":
+		Dialogic.load("slot2")
+	else:
+		Dialogic.load("slot1")
 
 
 	# Load player positions

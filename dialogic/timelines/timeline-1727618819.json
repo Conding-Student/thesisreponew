@@ -199,11 +199,6 @@
 			"set_value": "2"
 		},
 		{
-			"custom_slot": "slot1",
-			"event_id": "dialogic_026",
-			"use_default_slot": false
-		},
-		{
 			"event_id": "dialogic_022",
 			"transition_duration": 1
 		},
@@ -383,11 +378,6 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Your current money is now [val_money] bytes."
-		},
-		{
-			"custom_slot": "slot1",
-			"event_id": "dialogic_026",
-			"use_default_slot": false
 		},
 		{
 			"event_id": "dialogic_022",

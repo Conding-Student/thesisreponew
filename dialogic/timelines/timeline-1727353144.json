@@ -87,11 +87,6 @@
 			"set_value": "1"
 		},
 		{
-			"custom_slot": "slot1",
-			"event_id": "dialogic_026",
-			"use_default_slot": false
-		},
-		{
 			"event_id": "dialogic_022",
 			"transition_duration": 1
 		},
@@ -118,11 +113,6 @@
 			"random_upper_limit": 100,
 			"set_random": false,
 			"set_value": "2"
-		},
-		{
-			"custom_slot": "slot1",
-			"event_id": "dialogic_026",
-			"use_default_slot": false
 		},
 		{
 			"event_id": "dialogic_022",
@@ -268,11 +258,6 @@
 			"random_upper_limit": 100,
 			"set_random": false,
 			"set_value": "1"
-		},
-		{
-			"custom_slot": "slot1",
-			"event_id": "dialogic_026",
-			"use_default_slot": false
 		},
 		{
 			"event_id": "dialogic_022",

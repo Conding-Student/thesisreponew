@@ -66,11 +66,6 @@
 			"set_value": "1"
 		},
 		{
-			"custom_slot": "slot1",
-			"event_id": "dialogic_026",
-			"use_default_slot": false
-		},
-		{
 			"change_scene": "res://intro/stages_complete.tscn",
 			"event_id": "dialogic_041"
 		}

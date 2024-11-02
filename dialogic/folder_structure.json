@@ -59,7 +59,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"towncenter": {
@@ -77,7 +77,7 @@
 			},
 			"metadata": {
 				"color": null,
-				"folded": true
+				"folded": false
 			}
 		},
 		"Definitions": {
@@ -194,7 +194,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"unit2": {
@@ -318,7 +318,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": true
+						"folded": false
 					}
 				},
 				"Valen": {
@@ -540,7 +540,7 @@
 									},
 									"metadata": {
 										"color": null,
-										"folded": false
+										"folded": true
 									}
 								},
 								"stage3": {
@@ -566,13 +566,13 @@
 									},
 									"metadata": {
 										"color": null,
-										"folded": true
+										"folded": false
 									}
 								}
 							},
 							"metadata": {
 								"color": null,
-								"folded": false
+								"folded": true
 							}
 						},
 						"level2": {

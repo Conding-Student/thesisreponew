@@ -458,11 +458,6 @@
 			"set_value": "4"
 		},
 		{
-			"custom_slot": "slot1",
-			"event_id": "dialogic_026",
-			"use_default_slot": false
-		},
-		{
 			"change_scene": "res://levels/Chapter2_maps/forest2Chap2.tscn",
 			"event_id": "dialogic_041"
 		},

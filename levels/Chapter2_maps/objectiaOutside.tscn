@@ -450,11 +450,11 @@ position = Vector2( 145, 30 )
 slime_id = "demon10"
 
 [node name="stone5" parent="YSort/enemy" instance=ExtResource( 20 )]
-position = Vector2( -55, 58 )
+position = Vector2( -75, 39 )
 slime_id = "stone5"
 
 [node name="stone6" parent="YSort/enemy" instance=ExtResource( 20 )]
-position = Vector2( 55, 50 )
+position = Vector2( 58, 39 )
 slime_id = "stone6"
 
 [node name="Camera2D" parent="." instance=ExtResource( 10 )]

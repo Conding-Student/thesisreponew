@@ -22,6 +22,7 @@ onready var merrick_sprite = $YSort/YSort2/Path2D/PathFollow2D/Merrick/Sprite
 onready var pathfollow = $YSort/YSort2/Path2D/PathFollow2D
 onready var animation_merrick = $YSort/YSort2/Path2D/PathFollow2D/Merrick/AnimationPlayer 
 onready var arrow_head = $YSort/YSort2/Path2D/PathFollow2D/Merrick/talk_box
+onready var collision_interactionbtn = $YSort/YSort2/Path2D/PathFollow2D/Merrick/TextureButton
 # Disconneting signal merrick
 onready var enter_signal1 = $YSort/YSort2/Path2D/PathFollow2D/Merrick/Area2D
 
@@ -94,7 +95,7 @@ func unlocking_chest(delta):
 	t += delta
 	merrick_sprite.flip_h = true
 	pathfollow.offset = t * 50.0
-
+	
 	# Calculate the unit offset
 	var unit_offset = pathfollow.offset / path_length
 
@@ -108,6 +109,7 @@ func unlocking_chest(delta):
 			# Trigger the second dialogue after unlocking the chest
 			start_second_dialogue() # Call this method to start the second dialogue
 	else:
+		collision_interactionbtn.hide()
 		animation_merrick.play("walk_left")
 
 func start_second_dialogue():

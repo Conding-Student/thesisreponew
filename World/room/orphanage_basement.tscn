@@ -495,9 +495,11 @@ collision_mask = 2
 position = Vector2( -120.82, -103.97 )
 
 [node name="Area2D" parent="YSort/YSort2/Path2D/PathFollow2D/Merrick" index="2"]
+visible = true
 position = Vector2( -142.556, -90.3698 )
 
 [node name="CollisionShape2D" parent="YSort/YSort2/Path2D/PathFollow2D/Merrick/Area2D" index="0"]
+visible = true
 position = Vector2( 21.69, -15.5991 )
 
 [node name="TextureButton" parent="YSort/YSort2/Path2D/PathFollow2D/Merrick" index="3"]
