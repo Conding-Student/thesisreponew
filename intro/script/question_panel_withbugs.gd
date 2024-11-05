@@ -410,10 +410,10 @@ func value_activating(param):
 			#print("this one activitingslime 2 di bukas")
 			SceneTransition.change_scene("res://intro/evaluation.tscn")
 
-	if param == "slime4":
-		print("slime 4")
-		Global.set_bat_state("slime4", false) 
-		var bat_ids_to_check = ["slime4", "slime3"] #check if they are both existed
+	if param == "slime6":
+		print("slime 6")
+		Global.set_bat_state("slime6", false) 
+		var bat_ids_to_check = ["slime5", "slime6"] #check if they are both existed
 		if Global.are_bat_states_false(bat_ids_to_check):
 			#print("All specified slime states are false.")
 			Global2.complete_badge("badge29")
@@ -423,10 +423,10 @@ func value_activating(param):
 			#print("this one activitingslime 2 di bukas")
 			SceneTransition.change_scene("res://intro/evaluation.tscn")
 		
-	if param == "slime3":
-		print("slime 3")
-		Global.set_bat_state("slime3", false) 
-		var bat_ids_to_check = ["slime4", "slime3"] #check if they are both existed
+	if param == "slime5":
+		print("slime 5")
+		Global.set_bat_state("slime5", false) 
+		var bat_ids_to_check = ["slime5", "slime6"] #check if they are both existed
 		if Global.are_bat_states_false(bat_ids_to_check):
 			#print("All specified slime states are false.")
 			Global2.complete_badge("badge29")

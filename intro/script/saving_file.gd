@@ -252,6 +252,49 @@ func load_game_button() -> void:
 	var loaded_data = load_from_file("user://file.txt")
 	if loaded_data:
 		Global.set_current_level(loaded_data["current_level"])
+		
+func check_finalbadge():
+	# Load the data from the file
+	var loaded_data = load_from_file("user://file.txt")
+	var loaded_data2 = load_from_file("user://autosave.txt")
+	
+	# Debug: Check if data is loaded properly
+	print("Loaded data from file.txt: ", loaded_data)
+	print("Loaded data from autosave.txt: ", loaded_data2)
+	
+	# Check if loading was successful and the data is valid
+	if loaded_data != null:
+		print("file.txt loaded successfully.")
+		if loaded_data.has("badge30"):
+			print("badge30 found in file.txt: ", loaded_data["badge30"])
+			if loaded_data["badge30"] == true:
+				print("badge30 is true in file.txt.")
+				return true
+			else:
+				print("badge30 is false in file.txt.")
+		else:
+			print("badge30 not found in file.txt.")
+	else:
+		print("Failed to load file.txt.")
+
+	# Check the autosave data
+	if loaded_data2 != null:
+		print("autosave.txt loaded successfully.")
+		if loaded_data2.has("badge30"):
+			print("badge30 found in autosave.txt: ", loaded_data2["badge30"])
+			if loaded_data2["badge30"] == true:
+				print("badge30 is true in autosave.txt.")
+				return true
+			else:
+				print("badge30 is false in autosave.txt.")
+		else:
+			print("badge30 not found in autosave.txt.")
+	else:
+		print("Failed to load autosave.txt.")
+	
+	# If neither of the files indicate badge30 as true, return false
+	print("badge30 is not true in either file.")
+	return false
 
 func check_if_loaded_data() -> void:
 	var loaded_data = load_from_file("user://file.txt")

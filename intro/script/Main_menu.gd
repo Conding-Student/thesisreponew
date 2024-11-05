@@ -30,7 +30,8 @@ func _ready():
 		
 		
 func score_show():
-	if Global2.is_badge_complete("badge30"):
+	var stats = loaded_files.check_finalbadge()
+	if Global2.is_badge_complete("badge30") or stats == true:
 		scores.show()
 		start_button.hide()
 		#continue_button.hide()

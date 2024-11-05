@@ -30,7 +30,7 @@ func _ready():
 	resume.connect("pressed", self, "resume_the_game")
 	Global.set_map(current_map)
 	Musicmanager.set_music_path("res://Music and Sounds/bg music/guildInside.wav")
-	GlobalCanvasModulate.apply_trigger("noon")
+	
 func _process(delta):
 	bug_king_checking_heart()
 

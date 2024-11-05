@@ -96,6 +96,7 @@ func end_intructions(timelineend):
 
 
 func slime3(body_rid, body, body_shape_index, local_shape_index):
+	print("slime 3 engage")
 	Global2.set_question(0, "What is a Class in C# programming?")
 	Global2.set_answers(0, "A")
 	Global2.set_answers(1, "B")
@@ -165,6 +166,7 @@ func slime3(body_rid, body, body_shape_index, local_shape_index):
 
 
 func slime4(body_rid, body, body_shape_index, local_shape_index):
+	print("slime 4 engage")
 	Global2.set_question(0, "In the code below, what is the correct way to call the GetStrength() method for the warrior object?")
 	Global2.set_answers(0, "warrior.GetStrength();")
 	Global2.set_answers(1, "GetWarrior();")

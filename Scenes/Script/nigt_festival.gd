@@ -19,8 +19,3 @@ func interaction_endpoint(timelineend):
 
 func _on_VideoPlayer_finished():
 	video_player.play()
-
-
-
-func _on_Skip_button_pressed():
-	SceneTransition.change_scene("res://levels/stage_3_night/mageGuild_out_night_level3.tscn")

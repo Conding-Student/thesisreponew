@@ -412,7 +412,7 @@ position = Vector2( 0, -2 )
 
 [node name="slime3" parent="YSort/enemy" instance=ExtResource( 9 )]
 position = Vector2( -50, -36 )
-slime_id = "slime3"
+slime_id = "slime6"
 
 [node name="Area2D" type="Area2D" parent="YSort/enemy/slime3"]
 collision_layer = 128
@@ -425,7 +425,7 @@ shape = SubResource( 19 )
 
 [node name="Slime4" parent="YSort/enemy" instance=ExtResource( 9 )]
 position = Vector2( 47, -34 )
-slime_id = "slime4"
+slime_id = "slime5"
 
 [node name="Area2D" type="Area2D" parent="YSort/enemy/Slime4"]
 collision_layer = 128

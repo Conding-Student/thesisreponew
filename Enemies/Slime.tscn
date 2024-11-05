@@ -108,6 +108,7 @@ material = SubResource( 14 )
 position = Vector2( 0, 6 )
 frames = SubResource( 6 )
 animation = "Slime"
+frame = 5
 speed_scale = 0.7
 playing = true
 offset = Vector2( 0, -12 )
