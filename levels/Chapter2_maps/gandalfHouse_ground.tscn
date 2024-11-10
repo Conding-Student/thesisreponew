@@ -1167,6 +1167,41 @@ points = PoolVector2Array( 6.34814, 1.87875, 28.8533, 1.47686, 28.8533, 15.1407,
 27/shape_one_way_margin = 0.0
 27/shapes = [  ]
 27/z_index = 0
+28/name = "B16x16.png 28"
+28/texture = ExtResource( 12 )
+28/tex_offset = Vector2( 0, 0 )
+28/modulate = Color( 1, 1, 1, 1 )
+28/region = Rect2( 48, 0, 16, 32 )
+28/tile_mode = 2
+28/autotile/icon_coordinate = Vector2( 0, 0 )
+28/autotile/tile_size = Vector2( 16, 16 )
+28/autotile/spacing = 0
+28/autotile/occluder_map = [  ]
+28/autotile/navpoly_map = [  ]
+28/autotile/priority_map = [  ]
+28/autotile/z_index_map = [  ]
+28/occluder_offset = Vector2( 0, 0 )
+28/navigation_offset = Vector2( 0, 0 )
+28/shape_offset = Vector2( 0, 0 )
+28/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+28/shape_one_way = false
+28/shape_one_way_margin = 0.0
+28/shapes = [  ]
+28/z_index = 0
+29/name = "B16x16.png 29"
+29/texture = ExtResource( 12 )
+29/tex_offset = Vector2( 0, 0 )
+29/modulate = Color( 1, 1, 1, 1 )
+29/region = Rect2( 96, 0, 16, 16 )
+29/tile_mode = 0
+29/occluder_offset = Vector2( 0, 0 )
+29/navigation_offset = Vector2( 0, 0 )
+29/shape_offset = Vector2( 0, 0 )
+29/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+29/shape_one_way = false
+29/shape_one_way_margin = 0.0
+29/shapes = [  ]
+29/z_index = 0
 
 [sub_resource type="TileSet" id=3]
 0/name = "B16x16.png 0"
@@ -1352,7 +1387,7 @@ cell_size = Vector2( 16, 16 )
 cell_custom_transform = Transform2D( 16, 0, 0, 16, 0, 0 )
 show_collision = true
 format = 1
-tile_data = PoolIntArray( 131073, 1610612750, 2, 131074, 1073741838, 1, 131075, 1073741838, 0, 327682, 10, 1, 327683, 10, 0, 393220, 12, 1, 458759, 22, 2, 458760, 22, 3, 458762, 22, 0, 458763, 22, 1, 524295, 22, 65538, 524296, 22, 65539, 524298, 22, 65536, 524299, 22, 65537, 589831, 22, 131074, 589832, 22, 131075, 589833, 23, 2, 589834, 22, 131072, 589835, 22, 131073, 655362, 1, 131073, 655363, 1, 131074 )
+tile_data = PoolIntArray( 13, 29, 0, 65537, 28, 65536, 65541, 28, 0, 65546, 28, 65536, 131073, 1610612750, 2, 131074, 1073741838, 1, 131075, 1073741838, 0, 327682, 10, 1, 327683, 10, 0, 393220, 12, 1, 458759, 22, 2, 458760, 22, 3, 458762, 22, 0, 458763, 22, 1, 524295, 22, 65538, 524296, 22, 65539, 524298, 22, 65536, 524299, 22, 65537, 589831, 22, 131074, 589832, 22, 131075, 589833, 23, 2, 589834, 22, 131072, 589835, 22, 131073, 655362, 1, 131073, 655363, 1, 131074 )
 
 [node name="overlay" type="TileMap" parent="."]
 z_index = 1
@@ -1360,7 +1395,7 @@ tile_set = SubResource( 3 )
 cell_size = Vector2( 16, 16 )
 cell_custom_transform = Transform2D( 16, 0, 0, 16, 0, 0 )
 format = 1
-tile_data = PoolIntArray( 6, 1, 0, 65540, 0, 0, 65549, 0, 0, 327688, 536870915, 0, 327693, 3, 0, 458760, 5, 1, 458761, 5, 1, 458762, 5, 1, 458763, 5, 2, 458764, 4, 2, 458765, 5, 0, 524289, 2, 0, 589825, 2, 65536, 589826, 2, 65537, 589827, 2, 65538, 786433, 5, 1, 786434, 5, 1, 786435, 5, 2, 786438, 5, 0, 786439, 5, 2, 851976, 5, 1, 851977, 5, 1, 851978, 5, 1, 851979, 5, 1, 851980, 5, 1, 851981, 5, 1 )
+tile_data = PoolIntArray( 327688, 536870915, 0, 327693, 3, 0, 458760, 5, 1, 458761, 5, 1, 458762, 5, 1, 458763, 5, 2, 458764, 4, 2, 458765, 5, 0, 524289, 2, 0, 589825, 2, 65536, 589826, 2, 65537, 589827, 2, 65538, 786433, 5, 1, 786434, 5, 1, 786435, 5, 2, 786438, 5, 0, 786439, 5, 2, 851976, 5, 1, 851977, 5, 1, 851978, 5, 1, 851979, 5, 1, 851980, 5, 1, 851981, 5, 1 )
 
 [node name="table" parent="." instance=ExtResource( 6 )]
 position = Vector2( 40, 107 )
