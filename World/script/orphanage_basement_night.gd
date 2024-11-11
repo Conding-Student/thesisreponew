@@ -229,7 +229,12 @@ func interaction_endpoint_goings1(timelinename):
 func tutorial_stage1(param):
 	if param == "tutorial":
 		print("na trigger")
-		tutorial_trigger = true
+		Global.load_game_position = true
+		Global2.complete_badge("badge6")
+		#SceneTransition.change_scene("res://World/room/night/orphanage_basement_night.tscn")
+		#player_controller.show()
+		#player_controller_joystick.enable_joystick()
+		#tutorial_trigger = true inayos na sa dialogic para deretso kagad next dialogue
 		#here I wanted to hide the contrller
 	else:
 		print("fail to load the dialogic")

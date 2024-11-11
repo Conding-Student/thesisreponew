@@ -64,12 +64,6 @@
 			"value": "0"
 		},
 		{
-			"id": "1727860687-648",
-			"name": "introduction",
-			"type": 0,
-			"value": ""
-		},
-		{
 			"id": "1727346209-402",
 			"name": "red_child_dialogue",
 			"type": 0,
@@ -109,7 +103,13 @@
 			"id": "1728021648-250",
 			"name": "gandalf",
 			"type": 0,
-			"value": "7"
+			"value": "0"
+		},
+		{
+			"id": "1727860687-648",
+			"name": "introduction",
+			"type": 0,
+			"value": "0"
 		}
 	]
 }

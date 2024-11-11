@@ -18,7 +18,7 @@ var badges_complete = {
 	"badge2": false,
 	"badge3": false,
 	"badge4": false,
-	"badge5": false,
+	"badge5": true,
 	"badge6": false,
 	"badge7": false,
 	"badge8": false,
