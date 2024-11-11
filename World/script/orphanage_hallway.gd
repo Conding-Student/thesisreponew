@@ -8,7 +8,10 @@ onready var player = $YSort/Player
 onready var interaction_button = $YSort/child_boy4/interaction_button2
 onready var player_control_collision = $YSort/Player/Controller/joystick
 onready var place_name = $TopUi/Label2
-var current_map = "res://World/room/orphanage_hallway.tscn"
+onready var feedback = $Area2D
+onready var feedback_collision = $Area2D/CollisionShape2D
+onready var collision_going_outside = $orphanage_outside/CollisionShape2D
+var current_map = "res://World/room/orphan$orphanage_outsideage_hallway.tscn"
 var staring_player_position = Vector2(301,102)
 
 # Called when the node enters the scene tree for the first time.
@@ -17,9 +20,12 @@ func _ready():
 	place_name.text = "Orphanage Hallway"
 	set_overall_initial_position()
 	set_player_position()
+	feedback.connect("start_dialogue", self, "Hide_controller")
+	feedback.connect("end_dialogue", self, "show_controller")
 	resume.connect("pressed", self, "resume_the_game")
 	interaction_button.connect("pressed",self, "_on_NPC_interaction_stage1")
 	Global.set_map(current_map)
+	condition_to_feedback()
 	
 func set_player_position():
 	if Global.get_player_initial_position() == Vector2(0,0):
@@ -75,6 +81,22 @@ func _on_pause_game_pressed():
 	player_controller.visible = false
 	pause_ui.show()
 
+func Hide_controller():
+	topui.hide()
+	player_controller.hide()
+	player_control_collision.disable_joystick()
+
+func show_controller():
+	topui.show()
+	player_controller.show()
+	player_control_collision.enable_joystick()
+
+func condition_to_feedback():
+	if Global2.is_badge_complete("badge1") == false:
+		collision_going_outside.disabled = true
+	else:
+		feedback_collision.disabled = true
+		collision_going_outside.disabled = false
 
 # NPC dialogue enter
 	

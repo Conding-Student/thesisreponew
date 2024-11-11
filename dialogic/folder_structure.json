@@ -213,7 +213,7 @@
 			},
 			"metadata": {
 				"color": null,
-				"folded": false
+				"folded": true
 			}
 		},
 		"Themes": {
@@ -359,6 +359,19 @@
 					"metadata": {
 						"color": null,
 						"folded": true
+					}
+				},
+				"feedback": {
+					"files": [
+						"timeline-1731269663.json",
+						"timeline-1731279848.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": false
 					}
 				},
 				"game": {
@@ -508,7 +521,7 @@
 							},
 							"metadata": {
 								"color": null,
-								"folded": false
+								"folded": true
 							}
 						},
 						"instructions": {
@@ -630,7 +643,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				}
 			},

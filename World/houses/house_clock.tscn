@@ -11,4 +11,4 @@ region_rect = Rect2( 33, 428, 46, 115 )
 region_filter_clip = true
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
-polygon = PoolVector2Array( -18, 55, 19, 55, 20, 33, 22, 3, 24, -36, 3, -57, -3, -57, -23, -37, -21, 1, -19, 32 )
+polygon = PoolVector2Array( -18, 55, 19, 55, 20, 33, 22, 0, -20, 0, -19, 32 )

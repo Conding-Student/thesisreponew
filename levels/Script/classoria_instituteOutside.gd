@@ -7,6 +7,7 @@ onready var resume = $TopUi/pause_menu/pause_menu/Panel/VBoxContainer/resume as 
 onready var player = $YSort/player
 onready var player_controller_joystick = $YSort/player/Controller/joystick
 onready var place_name = $TopUi/Label2
+onready var feedback = $Area2D
 onready var wounded_knight = $YSort/knightst/research_defender
 onready var deadknight1 = $YSort/knightst/deathknight/Sprite
 onready var deadknight2 = $YSort/knightst/deathknight2/Sprite
@@ -22,6 +23,8 @@ func _ready():
 	set_player_position()
 	wounded_knight.connect("start_dialogue", self, "Hide_controller")
 	wounded_knight.connect("end_dialogue", self, "show_controller")
+	feedback.connect("start_dialogue", self, "Hide_controller")
+	feedback.connect("end_dialogue", self, "show_controller")
 	place_name.text = "Research Center Front"
 	resume.connect("pressed", self, "resume_the_game")
 	Global.set_map(current_map)

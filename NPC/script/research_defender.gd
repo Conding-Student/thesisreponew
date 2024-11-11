@@ -11,6 +11,7 @@ func _ready():
 
 
 func interaction():
+	interaction_button.hide()
 	emit_signal("start_dialogue")
 	var new_dialog = Dialogic.start('c2l2stage5')
 	add_child(new_dialog)

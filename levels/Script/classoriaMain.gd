@@ -33,6 +33,19 @@ var current_map = "res://levels/Chapter2_maps/classoriaMain.tscn"
 var starting_player_position = Vector2  (25, -429)
 var bat_ids_to_check = ["demon1", "demon2","demon3","demon4","demon5","demon6","demon7","demon8","demon9","demon10","stone1","stone2","stone3","stone4"] 
 
+#Enemy infinite
+onready var enemy1 = $YSort/enemies/escape/infinite_stone
+onready var enemy2 = $YSort/enemies/escape/infinite_stone2
+onready var enemy3 = $YSort/enemies/escape/infinite_stone3
+onready var enemy4 = $YSort/enemies/escape/infinite_stone4
+onready var enemy5 = $YSort/enemies/escape/infinite_stone5
+onready var enemy6 = $YSort/enemies/escape/infinite_stone6
+onready var enemy7 = $YSort/enemies/escape/infinite_stone7
+onready var enemy8 = $YSort/enemies/escape/infinite_stone8
+onready var enemy9 = $YSort/enemies/escape/infinite_stone9
+onready var enemy10 = $YSort/enemies/escape/infinite_stone10
+
+
 onready var final_boss_trigger = $final_boss/CollisionShape2D
 onready var gate = $classoria_Gates/CollisionShape2D
 # Called when the node enters the scene tree for the first time.
@@ -137,6 +150,17 @@ func checking_stage3():
 		slime3.queue_free()
 		slime4.queue_free()
 
+func enemy_purge():
+	enemy1.queue_free()
+	enemy2.queue_free()
+	enemy3.queue_free()
+	enemy4.queue_free()
+	enemy5.queue_free()
+	enemy6.queue_free()
+	enemy7.queue_free()
+	enemy8.queue_free()
+	enemy9.queue_free()
+	enemy10.queue_free()
 
 ############## interactions ################
 
@@ -153,7 +177,7 @@ func _on_Area2D_body_shape_enteredbug1(body_rid, body, body_shape_index, local_s
 	Global2.set_feedback(1, "Correct! A do-while loop runs the code block at least once.")
 	Global2.set_feedback(2, "Incorrect. A for loop also checks the condition before executing the code.")
 	Global2.set_feedback(3, "Incorrect. The do-while loop guarantees at least one execution.")
-	Global2.set_picture_path(0, "res://intro/picture/question/chapter2/level2/stage5/Final Output1.png")
+	Global2.set_picture_path(0, "res://intro/picture/question/default_bg.png")
 	
 	Global2.set_question(1, "Which loop is best suited for iterating a specific number of times?")
 	Global2.set_answers(4, "While loop")
@@ -164,7 +188,7 @@ func _on_Area2D_body_shape_enteredbug1(body_rid, body, body_shape_index, local_s
 	Global2.set_feedback(5, "Incorrect. A do-while loop still depends on a condition and may not limit iterations.")
 	Global2.set_feedback(6, "Correct! The for loop is ideal for scenarios with a predefined number of iterations.")
 	Global2.set_feedback(7, "Incorrect. An infinite loop doesn't stop and isn't used for specific counts. Think about loops with clear starting and ending points.")
-	Global2.set_picture_path(1, "res://intro/picture/question/chapter2/level2/stage5/Final Output2.png")
+	Global2.set_picture_path(1, "res://intro/picture/question/default_bg.png")
 	
 	Global2.set_question(2, "In which loop is the condition checked after the execution of the code block?")
 	Global2.set_answers(8, "While loop")
@@ -175,7 +199,7 @@ func _on_Area2D_body_shape_enteredbug1(body_rid, body, body_shape_index, local_s
 	Global2.set_feedback(9, "Incorrect. A for loop checks the condition before each iteration, not after.")
 	Global2.set_feedback(10, "Correct! This loop checks the condition after executing the code block.")
 	Global2.set_feedback(11, "Incorrect. The do-while loop is specifically designed for this purpose.")
-	Global2.set_picture_path(2,"res://intro/picture/question/chapter2/level2/stage5/Final Output3.png" )
+	Global2.set_picture_path(2,"res://intro/picture/question/default_bg.png")
 	
 	Global2.set_question(3, "Which loop can run continuously if the condition is not properly defined?")
 	Global2.set_answers(12, "For loop")
@@ -186,7 +210,7 @@ func _on_Area2D_body_shape_enteredbug1(body_rid, body, body_shape_index, local_s
 	Global2.set_feedback(13, "Incorrect. A do-while loop can also run indefinitely based on its condition.")
 	Global2.set_feedback(14, "Incorrect. A while loop can run indefinitely if the condition is never false.")
 	Global2.set_feedback(15, "Correct! Any of these loops can run indefinitely with a mismanaged condition.")
-	Global2.set_picture_path(3, "res://intro/picture/question/chapter2/level2/stage5/Final Output4.png")
+	Global2.set_picture_path(3,"res://intro/picture/question/default_bg.png")
 	
 	Global2.set_question(4, "What will happen if the condition of a while loop is never false?")
 	Global2.set_answers(16, "run once")
@@ -197,7 +221,7 @@ func _on_Area2D_body_shape_enteredbug1(body_rid, body, body_shape_index, local_s
 	Global2.set_feedback(17, "Correct! If the condition remains true, the loop will never stop.")
 	Global2.set_feedback(18, "Incorrect. It runs if the condition is true.")
 	Global2.set_feedback(19, "Incorrect. The correct answer is that it will run indefinitely.")
-	Global2.set_picture_path(4, "res://intro/picture/question/chapter2/level2/stage5/Final Output5.png")
+	Global2.set_picture_path(4,"res://intro/picture/question/default_bg.png")
 	
 	Global.load_game_position = true
 	Global2.load_enemy_data("res://Battlescenes/tres/bat2.tres")
@@ -421,6 +445,7 @@ func _on_quiz_body_shape_entered_slime4(body_rid, body, body_shape_index, local_
 func _on_final_boss_body_shape_entered(body_rid, body, body_shape_index, local_shape_index):
 	player_controller.hide()
 	player_controller_joystick.disable_joystick()
+	enemy_purge()
 	
 	Global2.set_question(0, "Begin your attack into the enemy. Start on ZERO value")
 	Global2.set_answers(0, "int i = 0")
@@ -440,7 +465,7 @@ func _on_final_boss_body_shape_entered(body_rid, body, body_shape_index, local_s
 	Global2.set_question(3, "Put braces into it indicating its inside process")
 	Global2.set_answers(3, "{}")
 	Global2.set_feedback(3, "The answer should be '{}'")
-	Global2.set_picture_path(4, "res://intro/picture/question/chapter2/level2/stage5/Final Output4.png")
+	Global2.set_picture_path(3, "res://intro/picture/question/chapter2/level2/stage5/Final Output4.png")
 	
 	Global2.set_question(4, "Put the value of i in console.writeline to dispay the output and attack the enemy")
 	Global2.set_answers(4, "i")

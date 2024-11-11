@@ -3,13 +3,16 @@ extends KinematicBody2D
 onready var merrick = $Sprite
 onready var dialogue_button = $TextureButton
 onready var arrow_head = $talk_box
+onready var merrick_collision = $CollisionShape2D
 # $TextureButtonCalled when the node enters the scene tree for the first time.
 func _ready():
 	if Global2.is_badge_complete("badge1"):
 		merrick.visible = true
+		merrick_collision.disabled = false
 		#print(Global.stage1)
 	else:
 		merrick.visible = false
+		merrick_collision.disabled = true
 		arrow_head.hide()
 
 func _on_Area2D_body_shape_entered(_body_rid, body, _body_shape_index, _local_shape_index):
@@ -20,7 +23,10 @@ func _on_Area2D_body_shape_entered(_body_rid, body, _body_shape_index, _local_sh
 		Global.set_player_current_position(body.position)
 	else:
 		dialogue_button.visible = false
-		arrow_head.show()
+		if Global2.is_badge_complete("badge1") == false:
+			arrow_head.hide()
+		else:
+			arrow_head.show()
 
 func _on_Area2D_body_shape_exited(_body_rid, body, _body_shape_index, _local_shape_index):
 	if Global2.is_badge_complete("badge1"):

@@ -81,7 +81,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Action RPG"
-run/main_scene="res://World/room/house_inside.tscn"
+run/main_scene="res://intro/intro.tscn"
 config/icon="res://icon.png"
 
 [autoload]

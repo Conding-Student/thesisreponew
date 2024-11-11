@@ -218,13 +218,17 @@ func reset_trigger_answers():
 		for j in range(trigger_answers[i].size()):
 			trigger_answers[i][j] = false
 
-# Function to get trigger value for a specific choice
 func get_trigger_answer(question_index: int, choice_index: int) -> bool:
+	if question_index < 0 or question_index >= trigger_answers.size():
+		return false
+	if choice_index < 0 or choice_index >= trigger_answers[question_index].size():
+		return false
 	return trigger_answers[question_index][choice_index]
 
-# Function to set a trigger value for a specific choice
 func set_trigger_answer(question_index: int, choice_index: int, value: bool):
-	trigger_answers[question_index][choice_index] = value
+	if question_index >= 0 and question_index < trigger_answers.size() and choice_index >= 0 and choice_index < trigger_answers[question_index].size():
+		trigger_answers[question_index][choice_index] = value
+
 
 # Example usage:
 #var answer = get_trigger_answer(0, 2)  # Retrieves the trigger for the 3rd choice of the 1st question
@@ -237,7 +241,7 @@ func reset_evaluations():
 	# Reset the evaluation dictionary to default values
 	evaluations = {
 		"questions": ["", "", "", "", "", ""],
-		"answers": ["sagot1", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""],
+		"answers": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""],
 		"feedback": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""],
 		"pictures_path": [
 			"res://intro/picture/question/default_bg.png",
