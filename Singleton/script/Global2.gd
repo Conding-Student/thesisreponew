@@ -85,8 +85,9 @@ func are_all_badges_complete() -> bool:
 # Singleton (Global Script)
 var pre_final_score = 0
 var post_final_score = 0
-var MPI = 0
-var NRI = 0
+var MPI = 0.0
+var NRI = 0.0
+
 
 # Function to calculate and display NRI
 func calculate_and_display_nri():

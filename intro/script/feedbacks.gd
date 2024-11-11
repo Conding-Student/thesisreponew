@@ -24,10 +24,17 @@ func condition():
 			print("default case if no match")
 
 func condition_badge_base():
+	var value = int(Dialogic.get_variable("introduction"))
 	if Global2.is_badge_complete("badge1") == false:
 		print("feedback2 activated")
 		emit_signal("start_dialogue")
 		var new_dialog = Dialogic.start('feedback2')
+		add_child(new_dialog)
+		new_dialog.connect("timeline_end", self, "end_intructions")
+	elif value == 0:
+		print("feedback3 activated")
+		emit_signal("start_dialogue")
+		var new_dialog = Dialogic.start('feedback3')
 		add_child(new_dialog)
 		new_dialog.connect("timeline_end", self, "end_intructions")
 	else:

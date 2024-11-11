@@ -14,7 +14,7 @@ var question_answers = {
 		["Decision", "Process", "Input / Output", "Connectors"],
 		["a < b", "a > b", "d > c", "d < c"],
 		["Spanish", "Tagalog", "English", "Japanese"],
-		["Rectangle", "Square", "Diamond", "Oval"],
+		["Oval", "Rectangle", "Square", "Diamond"],
 		["Pseudocode", "IDE", "Magnifier", "Machine"],
 		["Adult", "Teen", "Child", "None of the above"],
 		["Almost", "Winner", "Try Again", "None of the above"],

@@ -187,8 +187,8 @@ func _on_quiz_body_shape_entered_slime2(body_rid, body, body_shape_index, local_
 	Global2.set_answers(19, "None of the above")
 	Global2.set_feedback(16, "Incorrect. speed >= 130 is false.")
 	Global2.set_feedback(17, "Incorrect! else is not reached.")
-	Global2.set_feedback(18, "Correct. speed >= 100 is true.")
-	Global2.set_feedback(19, "Incorrect. there is an answer to that question.")
+	Global2.set_feedback(18, "Inorrect. speed = 100 is false.")
+	Global2.set_feedback(19, "Correct. there is no answer to that question.")
 	Global2.set_picture_path(4, "res://intro/picture/question/chapter2/if else/If Else Question - 4.png")
 	
 	Global.load_game_position = true
@@ -197,7 +197,7 @@ func _on_quiz_body_shape_entered_slime2(body_rid, body, body_shape_index, local_
 	Global2.correct_answer_ch2_2 = true
 	Global2.correct_answer_ch3_2 = true
 	Global2.correct_answer_ch4_2 = true
-	Global2.correct_answer_ch5_3 = true
+	Global2.correct_answer_ch5_4 = true
 	Global2.dialogue_name = "bug3"
 	print("quiz on bug 2 is activated")
 	
@@ -216,14 +216,14 @@ func _on_quiz_body_shape_entered_slime1(body_rid, body, body_shape_index, local_
 	Global2.set_picture_path(0,"res://intro/picture/question/chapter2/switch/Switch.png")
 	
 	Global2.set_question(1, "What will this code print?")
-	Global2.set_answers(4, "Too Fast")
-	Global2.set_answers(5, "Fast")
-	Global2.set_answers(6, "Safe")
+	Global2.set_answers(4, "Pass")
+	Global2.set_answers(5, "Almost pass")
+	Global2.set_answers(6, "Fail")
 	Global2.set_answers(7, "None of the above")
-	Global2.set_feedback(4, "Incorrect. speed >= 130 is false.")
-	Global2.set_feedback(5, "Correct. Correct! speed >= 100 is true.")
+	Global2.set_feedback(4, "Incorrect. grade >= 80 is false.")
+	Global2.set_feedback(5, "Correct. grade >= 60 is true.")
 	Global2.set_feedback(6, "Incorrect! else is not reached.")
-	Global2.set_feedback(7, "Incorrect. there is an answer to that question it was more then or eqaul to 70")
+	Global2.set_feedback(7, "Incorrect. there is an answer to that question it was more then or eqaul to 60")
 	Global2.set_picture_path(1, "res://intro/picture/question/chapter2/if else/If Else Question - 5.png")
 	
 	Global2.set_question(2, "Choose right answer to put damage into the enemy bug. What would be the ouput?")
@@ -257,7 +257,7 @@ func _on_quiz_body_shape_entered_slime1(body_rid, body, body_shape_index, local_
 	Global2.set_feedback(17, "Correct! score is less than 90.")
 	Global2.set_feedback(18, "Inorrect. Correct! speed >= 100 is true.")
 	Global2.set_feedback(19, "Incorrect. there is an answer to that question.")
-	Global2.set_picture_path(4, "res://intro/picture/question/chapter2/if else/If Else Question - 4.png")
+	Global2.set_picture_path(4, "res://intro/picture/question/chapter2/if else/If Else Question - 8.png")
 	
 	Global.load_game_position = true
 	Global2.load_enemy_data("res://Battlescenes/tres/slime.tres")

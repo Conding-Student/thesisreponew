@@ -16,7 +16,7 @@
 
 [sub_resource type="ShaderMaterial" id=44]
 shader = ExtResource( 1 )
-shader_param/active = false
+shader_param/active = true
 
 [sub_resource type="CapsuleShape2D" id=45]
 radius = 4.0
@@ -868,7 +868,7 @@ position = Vector2( 0, -4 )
 shape = SubResource( 82 )
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
-stream = ExtResource( 7 )
+stream = ExtResource( 9 )
 
 [node name="BlinkAnimationPlayer" type="AnimationPlayer" parent="."]
 autoplay = "Stop"

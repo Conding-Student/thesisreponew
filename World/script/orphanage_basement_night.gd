@@ -24,15 +24,20 @@ onready var woodenchest_collision = $YSort/chest/Wooden_chest/wooden_chest_close
 onready var woodensolid_chest_collision = $YSort/chest/Wooden_chest/StaticBody2D/CollisionShape2D
 onready var woodenchest_open = $YSort/chest/Wooden_chest/StaticBody2D/open
 #stage4 chest
-
+onready var feedback = $Area2D
+onready var collision_going_outside = $orphanage_office_night/CollisionShape2D
+onready var feedback_collision = $Area2D/CollisionShape2D
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	
 	set_overall_initial_position()
 	set_player_position()
+	condition_to_feedback()
 	resume.connect("pressed", self, "resume_the_game")
 	interacton_button.connect("pressed",self, "merrick_interaction")
+	feedback.connect("start_dialogue", self, "Hide_controller")
+	feedback.connect("end_dialogue", self, "show_controller")
 	Global.set_map(current_map)
 	place_name.text = "Orphanage Basement"
 	Musicmanager.set_music_path("res://Music and Sounds/bg music/orphanageNight.wav")
@@ -72,6 +77,23 @@ func set_player_position():
 			pass
 			#print("4")
 
+func condition_to_feedback():
+	if int(Dialogic.get_variable("introduction")) == 0:
+		collision_going_outside.disabled = true
+	else:
+		feedback_collision.disabled = true
+		collision_going_outside.disabled = false
+
+func Hide_controller():
+	topui.hide()
+	player_controller.hide()
+	player_controller_joystick.disable_joystick()
+
+func show_controller():
+	topui.show()
+	player_controller.show()
+	player_controller_joystick.enable_joystick()
+	
 func set_overall_initial_position():
 	Global.set_player_initial_position(Global.get_player_current_position())
 
@@ -296,6 +318,8 @@ func level2s2_question(param):
 func interaction_endpoint(timelineend):
 	player_controller.show()
 	player_controller_joystick.enable_joystick()
+	Global.load_game_position = true
+	SceneTransition.change_scene("res://World/room/night/orphanage_basement_night.tscn")
 
 # When player near at merrick this will happen
 func _on_Area2D_body_shape_entered(body_rid, body, body_shape_index, local_shape_index):
