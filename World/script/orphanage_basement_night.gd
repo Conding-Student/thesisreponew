@@ -78,9 +78,13 @@ func set_player_position():
 			#print("4")
 
 func condition_to_feedback():
-	if int(Dialogic.get_variable("introduction")) == 0:
+	if int(Dialogic.get_variable("introduction")) == 0 :
+		collision_going_outside.disabled = true
+	elif Global2.is_badge_complete("badge6") == true:
+		print("badge6 disbaling")
 		collision_going_outside.disabled = true
 	else:
+		print("else statenent")
 		feedback_collision.disabled = true
 		collision_going_outside.disabled = false
 
@@ -231,7 +235,7 @@ func tutorial_stage1(param):
 		print("na trigger")
 		Global.load_game_position = true
 		Global2.complete_badge("badge6")
-		#SceneTransition.change_scene("res://World/room/night/orphanage_basement_night.tscn")
+		SceneTransition.change_scene("res://World/room/night/orphanage_basement_night.tscn")
 		#player_controller.show()
 		#player_controller_joystick.enable_joystick()
 		#tutorial_trigger = true inayos na sa dialogic para deretso kagad next dialogue

@@ -1,4 +1,4 @@
-[gd_scene load_steps=152 format=2]
+[gd_scene load_steps=154 format=2]
 
 [ext_resource path="res://Fonts/Kenney Future Narrow.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://intro/pause_menu.tscn" type="PackedScene" id=2]
@@ -18,6 +18,7 @@
 [ext_resource path="res://World/pictures/interior/wooden_stairs.png" type="Texture" id=16]
 [ext_resource path="res://World/pictures/interior/interior free.png" type="Texture" id=17]
 [ext_resource path="res://intro/path_arrow.tres" type="Texture" id=18]
+[ext_resource path="res://intro/feedbcakstscn.tscn" type="PackedScene" id=19]
 
 [sub_resource type="TileSet" id=1]
 0/name = "interior free.png 0"
@@ -1902,6 +1903,9 @@ points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
 size = 5
 font_data = ExtResource( 1 )
 
+[sub_resource type="RectangleShape2D" id=137]
+extents = Vector2( 17, 10 )
+
 [node name="manor_inside_night" type="Node2D"]
 script = ExtResource( 8 )
 
@@ -2041,6 +2045,13 @@ custom_fonts/font = SubResource( 136 )
 align = 1
 valign = 1
 
+[node name="Area2D" parent="." instance=ExtResource( 19 )]
+
+[node name="CollisionShape2D" parent="Area2D" index="0"]
+position = Vector2( 208, 48 )
+shape = SubResource( 137 )
+
 [connection signal="pressed" from="TopUi/pause_game" to="." method="_on_pause_game_pressed"]
 
 [editable path="Camera2D"]
+[editable path="Area2D"]

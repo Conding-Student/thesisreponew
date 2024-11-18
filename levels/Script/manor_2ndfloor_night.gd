@@ -35,8 +35,8 @@ onready var escape_door = $YSort/objects/door3
 onready var escape_door_solid_collision = $YSort/objects/door3/CollisionPolygon2D
 onready var escape_door_collision = $YSort/objects/door3/Area2D/CollisionShape2D
 onready var escape_door_open = $YSort/objects/open_door3
-
-
+onready var light = $YSort2/Light2D
+onready var feedback = $Area2D
 
 func _ready():
 	state = Global2.state
@@ -44,14 +44,18 @@ func _ready():
 	set_overall_initial_position()
 	set_player_position()
 	place_name.text = "Manor inside 2nd floor"
-
+	feedback.connect("start_dialogue", self, "Hide_controller")
+	feedback.connect("end_dialogue", self, "show_controller")
 	resume.connect("pressed", self, "resume_the_game")
 	Global.set_map(current_map)
 	first_dialogue()
 	checking_all_door_state()
 	doors_state_after_quest()
 	Musicmanager.normal_volume()
-
+	if Global2.is_badge_complete("badge4"):
+		light.show()
+	else:
+		light.hide()
 func set_player_position():
 	if Global.get_player_initial_position() == Vector2(0, 0):
 		Global.set_player_current_position(starting_player_position)
@@ -76,6 +80,15 @@ func set_player_position():
 func set_overall_initial_position():
 	Global.set_player_initial_position(Global.get_player_current_position())
 
+func Hide_controller():
+	topui.hide()
+	player_controller.hide()
+	player_controller_joystick.disable_joystick()
+
+func show_controller():
+	topui.show()
+	player_controller.show()
+	player_controller_joystick.enable_joystick()
 
 func resume_the_game() -> void:
 	get_tree().paused = false

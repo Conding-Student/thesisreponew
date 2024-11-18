@@ -1,4 +1,4 @@
-[gd_scene load_steps=76 format=2]
+[gd_scene load_steps=78 format=2]
 
 [ext_resource path="res://World/pictures/interior/16x16Room_Builder_free.png" type="Texture" id=1]
 [ext_resource path="res://World/pictures/interior/tilesetformattedupdate1.png" type="Texture" id=2]
@@ -17,6 +17,7 @@
 [ext_resource path="res://intro/pause_menu.tscn" type="PackedScene" id=15]
 [ext_resource path="res://World/ligthing/light.png" type="Texture" id=16]
 [ext_resource path="res://World/magical chest.tscn" type="PackedScene" id=17]
+[ext_resource path="res://intro/tres/path_arrow.tres" type="Texture" id=18]
 [ext_resource path="res://World/world objects/table_wood2.tscn" type="PackedScene" id=32]
 [ext_resource path="res://World/world objects/bookshelf_wood1.tscn" type="PackedScene" id=33]
 [ext_resource path="res://Fonts/Kenney Future Narrow.ttf" type="DynamicFontData" id=35]
@@ -692,6 +693,22 @@ font_data = ExtResource( 35 )
 [sub_resource type="RectangleShape2D" id=67]
 extents = Vector2( 7, 7 )
 
+[sub_resource type="TileSet" id=68]
+0/name = "path_arrow.tres 0"
+0/texture = ExtResource( 18 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 0, 0, 7, 6 )
+0/tile_mode = 0
+0/occluder_offset = Vector2( 0, 0 )
+0/navigation_offset = Vector2( 0, 0 )
+0/shape_offset = Vector2( 0, 0 )
+0/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+0/shape_one_way = false
+0/shape_one_way_margin = 0.0
+0/shapes = [  ]
+0/z_index = 0
+
 [node name="mageGuild_1stFloor_night_level3" type="Node2D"]
 script = ExtResource( 9 )
 
@@ -1004,6 +1021,18 @@ collision_mask = 2
 [node name="CollisionShape2D" type="CollisionShape2D" parent="cellar"]
 position = Vector2( 12, -1 )
 shape = SubResource( 67 )
+
+[node name="Light2D" type="Light2D" parent="."]
+position = Vector2( 472, 50 )
+scale = Vector2( 0.234158, 0.177493 )
+texture = ExtResource( 16 )
+texture_scale = 2.5
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = SubResource( 68 )
+cell_size = Vector2( 1, 1 )
+format = 1
+tile_data = PoolIntArray( 2490853, 0, 0 )
 
 [connection signal="pressed" from="TopUi/pause_game" to="." method="_on_pause_game_pressed"]
 [connection signal="body_shape_entered" from="Area2D" to="." method="_on_Area2D_body_shape_entered_quiz"]

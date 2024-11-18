@@ -10,18 +10,23 @@ onready var interaction_button = $YSort/people/merricks2/TextureButton
 onready var place_name = $TopUi/Label2
 var current_map = "res://World/room/orphanage_office.tscn"
 var starting_player_position = Vector2(160, 170)
-
-
+onready var feedback = $Area2D
+onready var feedback_Collision = $Area2D/CollisionShape2D
+onready var door_collision = $orphanage_hallway/CollisionShape2D
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	set_overall_initial_position()
 	set_player_position()
 	place_name.text = "Orphanage Office"
 	resume.connect("pressed", self, "resume_the_game")
+	feedback.connect("start_dialogue", self, "Hide_controller")
+	feedback.connect("end_dialogue", self, "show_controller")
 	interaction_button.connect("pressed", self, "merrick2")
+	
 	Global.set_map(current_map)
 
-
+func _process(delta):
+	checking_collision()
 
 func set_player_position():
 	if Global.get_player_initial_position() == Vector2(0, 0):
@@ -65,6 +70,25 @@ func _on_pause_game_pressed():
 	player_controller.visible = false
 	pause_ui.show()
 
+func checking_collision():
+	if Global2.is_badge_complete("badge1") == true && int(Dialogic.get_variable("feedback")) == 0:
+		feedback_Collision.disabled = false
+		door_collision.disabled = true
+	else:
+		#print("pwede na deactivate")
+		door_collision.disabled = false
+		feedback_Collision.disabled = true
+	
+func Hide_controller():
+	topui.hide()
+	player_controller.hide()
+	player_controller_joystick.disable_joystick()
+
+func show_controller():
+	topui.show()
+	player_controller.show()
+	player_controller_joystick.enable_joystick()
+	
 func after_tutorial_headings(timelinename):
 	topui.show()
 	player_controller.show()

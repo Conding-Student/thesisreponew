@@ -715,6 +715,7 @@ tile_data = PoolIntArray( 2949243, 1, 0, 7078199, 1, 0, 13041812, 0, 0, 13172886
 position = Vector2( 194, 61 )
 
 [node name="puso35" parent="YSort/loot" instance=ExtResource( 1 )]
+visible = false
 position = Vector2( 61, 48 )
 heart_id = "puso29"
 
@@ -723,10 +724,12 @@ position = Vector2( 73, 139 )
 heart_id = "puso30"
 
 [node name="puso37" parent="YSort/loot" instance=ExtResource( 1 )]
+visible = false
 position = Vector2( 173, 146 )
 heart_id = "puso30"
 
 [node name="puso38" parent="YSort/loot" instance=ExtResource( 1 )]
+visible = false
 position = Vector2( 282, 150 )
 heart_id = "puso30"
 

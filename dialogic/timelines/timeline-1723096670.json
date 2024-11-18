@@ -127,7 +127,15 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": " Go to the townsquare, talk to women at its entrance. Check the upper and right side of its map."
+			"text": " Go to the townsquare, talk to women at its entrance. Talk to Guards in Mageguild and At the manor."
+		},
+		{
+			"definition": "1731830794-146",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
 		},
 		{
 			"event_id": "dialogic_022",

@@ -117,9 +117,9 @@ func bug_king_checking_heart():
 		Global2.set_feedback(0, "The answer should be 'class' check for any white spaces if your wrong")
 		#Global2.set_picture_path()
 		
-		Global2.set_question(1, "Put name into your class, this time name it as a 'Person' check for any white spaces if your wrong")
-		Global2.set_answers(1, "Person")
-		Global2.set_feedback(1, "The answer should be 'Person'")
+		Global2.set_question(1, "Put name into your class, this time name it as a 'person' check for any white spaces if your wrong")
+		Global2.set_answers(1, "person")
+		Global2.set_feedback(1, "The answer should be 'person'")
 		#Global2.set_picture_path()
 		
 		Global2.set_question(2, "Put curly braces at your class person")
@@ -189,7 +189,7 @@ func rat_king(body_rid, body, body_shape_index, local_shape_index):
 	Global2.set_picture_path(0,"res://intro/picture/question/chapter2/classess/stag5/first/Oct 21 - 1.png")
 	
 	Global2.set_question(1, "Put name into your class, this time name it as a 'Person' check for any white spaces if your wrong")
-	Global2.set_answers(1, "Person")
+	Global2.set_answers(1, "person")
 	Global2.set_feedback(1, "The answer should be 'Person'")
 	Global2.set_picture_path(1,"res://intro/picture/question/chapter2/classess/stag5/first/Oct 21 - 2.png" )
 	

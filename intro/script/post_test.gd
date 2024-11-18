@@ -14,7 +14,7 @@ var question_answers = {
 		["Decision", "Process", "Input / Output", "Connectors"],
 		["a < b", "a > b", "d > c", "d < c"],
 		["Spanish", "Tagalog", "English", "Japanese"],
-		["Rectangle", "Square", "Diamond", "Oval"],
+		["Oval", "Rectangle", "Square", "Diamond"],
 		["Pseudocode", "IDE", "Magnifier", "Machine"],
 		["Adult", "Teen", "Child", "None of the above"],
 		["Almost", "Winner", "Try Again", "None of the above"],
@@ -46,7 +46,7 @@ var question_answers = {
 		[true, false, false, false],  # Correct answer for Q1
 		[false, true, false, false],  # Correct answer for Q2
 		[false, false, true, false],  # Correct answer for Q3
-		[false, false, false, true],  # Correct answer for Q4
+		[true, false, false, false],  # Correct answer for Q4
 		[true, false, false, false],  # Correct answer for Q5
 		[false, true, false, false],  # Correct answer for Q6
 		[true, false, false, false],  # Correct answer for Q7

@@ -10,7 +10,7 @@ func set_target_scene(scene):
 	target_scene = scene
 
 func _on_Timer_timeout():
-	$ProgressBar.value += 0.95
+	$ProgressBar.value += 3
 	
 	if $ProgressBar.value >= 50 and $Label.visible:
 		$Label.visible = false

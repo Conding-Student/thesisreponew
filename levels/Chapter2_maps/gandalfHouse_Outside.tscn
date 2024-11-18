@@ -141,7 +141,7 @@ position = Vector2( 259, -1 )
 position = Vector2( 33, 161 )
 
 [node name="magical_chest" parent="YSort/obj" instance=ExtResource( 16 )]
-position = Vector2( 288, 176 )
+position = Vector2( 289, 156 )
 
 [node name="Camera2D" parent="YSort" instance=ExtResource( 7 )]
 position = Vector2( 0, 0 )

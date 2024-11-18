@@ -1,0 +1,23 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You must talk to merrick and  open the chest."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1731563983.json",
+		"name": "feedback7"
+	}
+}

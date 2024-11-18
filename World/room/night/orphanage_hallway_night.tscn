@@ -557,14 +557,17 @@ position = Vector2( 44, 66 )
 heart_id = "puso31"
 
 [node name="puso32" parent="YSort/loot" instance=ExtResource( 1 )]
+visible = false
 position = Vector2( 165, 128 )
 heart_id = "puso32"
 
 [node name="puso33" parent="YSort/loot" instance=ExtResource( 1 )]
+visible = false
 position = Vector2( 75, 130 )
 heart_id = "puso33"
 
 [node name="puso34" parent="YSort/loot" instance=ExtResource( 1 )]
+visible = false
 position = Vector2( 297, 127 )
 heart_id = "puso34"
 

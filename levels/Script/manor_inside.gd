@@ -6,7 +6,8 @@ onready var pause_ui = $TopUi/pause_menu/pause_menu/Panel
 onready var resume = $TopUi/pause_menu/pause_menu/Panel/VBoxContainer/resume as Button
 onready var place_name = $TopUi/Label2
 onready var player = $YSort/Player
-onready var player_controls = $YSort/Player/Controller
+onready var player_controller_joystick = $YSort/Player/Controller/joystick
+onready var feedback = $Area2D
 var current_map = "res://levels/stage_3_night/manor_inside_night.tscn"
 
 var starting_player_position = Vector2 (568, 428)
@@ -15,7 +16,8 @@ var starting_player_position = Vector2 (568, 428)
 func _ready():
 	set_overall_initial_position()
 	set_player_position()
-	
+	feedback.connect("start_dialogue", self, "Hide_controller")
+	feedback.connect("end_dialogue", self, "show_controller")
 	place_name = "Manor inside"
 	resume.connect("pressed", self, "resume_the_game")
 	Global.set_map(current_map)
@@ -48,6 +50,15 @@ func set_player_position():
 func set_overall_initial_position():
 	Global.set_player_initial_position(Global.get_player_current_position())
 
+func Hide_controller():
+	topui.hide()
+	player_controller.hide()
+	player_controller_joystick.disable_joystick()
+
+func show_controller():
+	topui.show()
+	player_controller.show()
+	player_controller_joystick.enable_joystick()
 
 func resume_the_game() -> void:
 	get_tree().paused = false

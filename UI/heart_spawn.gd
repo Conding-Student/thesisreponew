@@ -2,7 +2,7 @@ extends Node2D
 
 onready var animation = $AnimationPlayer
 export var heart_id: String = ""  # Unique ID for each bat
-
+onready var heart_sounds = $powerup
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	# Check the state from the Global singleton
@@ -19,4 +19,5 @@ func _on_Area2D_body_shape_entered(body_rid, body, body_shape_index, local_shape
 	else:
 		PlayerStats.health += 1
 		Global.set_bat_state(heart_id, false) 
+		heart_sounds.play()
 		queue_free()

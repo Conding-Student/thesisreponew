@@ -219,6 +219,7 @@ position = Vector2( 243, 42 )
 bug_id = "bug1"
 
 [node name="quiz" type="Area2D" parent="YSort/bugs/bug1"]
+visible = false
 collision_layer = 128
 collision_mask = 2
 
@@ -231,6 +232,7 @@ position = Vector2( 326, 139 )
 bug_id = "bug2"
 
 [node name="quiz" type="Area2D" parent="YSort/bugs/bug2"]
+visible = false
 collision_layer = 128
 collision_mask = 2
 
@@ -243,6 +245,7 @@ position = Vector2( 204, 186 )
 bug_id = "kalaban1"
 
 [node name="quiz" type="Area2D" parent="YSort/bugs/bug5"]
+visible = false
 collision_layer = 128
 collision_mask = 2
 
@@ -255,6 +258,7 @@ position = Vector2( 207, 76 )
 bug_id = "kalaban2"
 
 [node name="quiz" type="Area2D" parent="YSort/bugs/bug6"]
+visible = false
 collision_layer = 128
 collision_mask = 2
 

@@ -151,16 +151,27 @@ func checking_stage3():
 		slime4.queue_free()
 
 func enemy_purge():
-	enemy1.queue_free()
-	enemy2.queue_free()
-	enemy3.queue_free()
-	enemy4.queue_free()
-	enemy5.queue_free()
-	enemy6.queue_free()
-	enemy7.queue_free()
-	enemy8.queue_free()
-	enemy9.queue_free()
-	enemy10.queue_free()
+	if is_instance_valid(enemy1):
+		enemy1.queue_free()
+	if is_instance_valid(enemy2):
+		enemy2.queue_free()
+	if is_instance_valid(enemy3):
+		enemy3.queue_free()
+	if is_instance_valid(enemy4):
+		enemy4.queue_free()
+	if is_instance_valid(enemy5):
+		enemy5.queue_free()
+	if is_instance_valid(enemy6):
+		enemy6.queue_free()
+	if is_instance_valid(enemy7):
+		enemy7.queue_free()
+	if is_instance_valid(enemy8):
+		enemy8.queue_free()
+	if is_instance_valid(enemy9):
+		enemy9.queue_free()
+	if is_instance_valid(enemy10):
+		enemy10.queue_free()
+
 
 ############## interactions ################
 

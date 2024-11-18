@@ -1,6 +1,5 @@
-[gd_scene load_steps=68 format=2]
+[gd_scene load_steps=67 format=2]
 
-[ext_resource path="res://World/magical chest.tscn" type="PackedScene" id=1]
 [ext_resource path="res://intro/picture/pause.png" type="Texture" id=2]
 [ext_resource path="res://World/pictures/Solaria Demo Update 01.png" type="Texture" id=3]
 [ext_resource path="res://World/pictures/town/house/long houses.png" type="Texture" id=4]
@@ -918,10 +917,8 @@ tile_data = PoolIntArray( -1, 0, 0, -65536, 0, 0, -65535, 536870912, 0, -65534, 
 
 [node name="loot" type="YSort" parent="YSort"]
 
-[node name="magical_chest" parent="YSort/loot" instance=ExtResource( 1 )]
-position = Vector2( 321, 192 )
-
 [node name="puso43" parent="YSort/loot" instance=ExtResource( 39 )]
+visible = false
 position = Vector2( 146, 219 )
 heart_id = "puso43"
 
@@ -930,15 +927,14 @@ position = Vector2( 358, 67 )
 heart_id = "puso44"
 
 [node name="puso45" parent="YSort/loot" instance=ExtResource( 39 )]
+visible = false
 position = Vector2( 363, 265 )
 heart_id = "puso45"
 
 [node name="puso46" parent="YSort/loot" instance=ExtResource( 39 )]
+visible = false
 position = Vector2( 477, 222 )
 heart_id = "puso46"
-
-[node name="magical_chest2" parent="YSort/loot" instance=ExtResource( 1 )]
-position = Vector2( 400, 192 )
 
 [node name="orphanage_outside_night_pos" type="Position2D" parent="."]
 position = Vector2( 37, 224 )

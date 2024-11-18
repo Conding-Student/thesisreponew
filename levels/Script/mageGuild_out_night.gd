@@ -15,6 +15,7 @@ var dialogue
 func _ready():
 	set_overall_initial_position()
 	set_player_position()
+	
 	place_name.text = "Mage Guild Outside"
 	resume.connect("pressed", self, "resume_the_game")
 	Musicmanager.set_music_path("res://Music and Sounds/bg music/guildOutside_night.wav")

@@ -161,7 +161,10 @@ func check_answer():
 	var correct_answer = Global2.evaluations["answers"][current_question_index]
 	var user_answer = get_relevant_user_answer(current_question_index).strip_edges()
 	var wrong_feedback = Global2.evaluations["feedback"][current_question_index]
-
+	
+	print("user answer: "+ user_answer)
+	print("correct answer: "+correct_answer)
+	
 	if user_answer == correct_answer:
 		# First handle heart feedback
 		clear_all.hide()
@@ -179,20 +182,21 @@ func check_answer():
 		enemy_dialogue(wrong_feedback)  # Trigger shaking and heart loss on wrong answer
 
 # Get the relevant user input based on the current question
+# Get the relevant user input based on the current question
 func get_relevant_user_answer(index: int) -> String:
 	match index:
 		0:
-			return textfield1.text.strip_edges()
+			return textfield1.text.strip_edges().to_lower() 
 		1:
-			return textfield2.text.strip_edges()
+			return textfield2.text.strip_edges().to_lower()
 		2:
-			return textfield3.text.strip_edges()
+			return textfield3.text.strip_edges().to_lower()
 		3:
-			return textfield4.text.strip_edges()
+			return textfield4.text.strip_edges().to_lower()
 		4:
-			return textfield5.text.strip_edges()
+			return textfield5.text.strip_edges().to_lower()
 		_:
-			return ""
+			return "" 
 
 # Handle screen touch input to hide the textbox and emit the textbox_closed signal
 func _input(event):

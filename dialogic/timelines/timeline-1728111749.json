@@ -458,7 +458,7 @@
 			"set_value": "4"
 		},
 		{
-			"change_scene": "res://levels/Chapter2_maps/forest2Chap2.tscn",
+			"change_scene": "res://levels/Chapter2_maps/gandalfHouse_ground.tscn",
 			"event_id": "dialogic_041"
 		},
 		{

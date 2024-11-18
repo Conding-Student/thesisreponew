@@ -11,7 +11,7 @@ onready var place_name = $TopUi/Label2
 onready var feedback = $Area2D
 onready var feedback_collision = $Area2D/CollisionShape2D
 onready var collision_going_outside = $orphanage_outside/CollisionShape2D
-var current_map = "res://World/room/orphan$orphanage_outsideage_hallway.tscn"
+var current_map = "res://World/room/orphanage_hallway.tscn"
 var staring_player_position = Vector2(301,102)
 
 # Called when the node enters the scene tree for the first time.
