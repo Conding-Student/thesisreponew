@@ -255,7 +255,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"Market_dealer": {
@@ -359,7 +359,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"feedback": {
@@ -372,14 +372,15 @@
 						"timeline-1731562232.json",
 						"timeline-1731563983.json",
 						"timeline-1731662608.json",
-						"timeline-1731830503.json"
+						"timeline-1731830503.json",
+						"timeline-1732128413.json"
 					],
 					"folders": {
 
 					},
 					"metadata": {
 						"color": null,
-						"folded": true
+						"folded": false
 					}
 				},
 				"game": {
@@ -441,7 +442,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"timetravel": {

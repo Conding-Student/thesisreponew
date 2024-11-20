@@ -38,6 +38,12 @@ func condition_badge_base():
 		var new_dialog = Dialogic.start('feedback9')
 		add_child(new_dialog)
 		new_dialog.connect("timeline_end", self, "end_intructions")
+	elif Global2.is_badge_complete("badge2") == true && Global2.is_badge_complete("badge3") == false:
+		print("feedback badge2 goind to 3 activated")
+		emit_signal("start_dialogue")
+		var new_dialog = Dialogic.start('feedback9')
+		add_child(new_dialog)
+		new_dialog.connect("timeline_end", self, "end_intructions")
 	elif Global2.is_badge_complete("badge3") == false && value1 == 1:
 		print("feedback4 activated")
 		emit_signal("start_dialogue")

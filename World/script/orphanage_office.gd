@@ -71,7 +71,7 @@ func _on_pause_game_pressed():
 	pause_ui.show()
 
 func checking_collision():
-	if Global2.is_badge_complete("badge1") == true && int(Dialogic.get_variable("feedback")) == 0:
+	if Global2.is_badge_complete("badge1") == true && int(Dialogic.get_variable("feedback")) == 0 or Global2.is_badge_complete("badge2") == true && Global2.is_badge_complete("badge3") == false:
 		feedback_Collision.disabled = false
 		door_collision.disabled = true
 	else:
