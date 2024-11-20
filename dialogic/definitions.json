@@ -76,12 +76,6 @@
 			"value": ""
 		},
 		{
-			"id": "1723102204-573",
-			"name": "manor_guard_orig",
-			"type": 0,
-			"value": "0"
-		},
-		{
 			"id": "1723102985-768",
 			"name": "paladin",
 			"type": 0,
@@ -90,12 +84,6 @@
 		{
 			"id": "1723187790-648",
 			"name": "child_tips",
-			"type": 0,
-			"value": "0"
-		},
-		{
-			"id": "1723097011-648",
-			"name": "explore_town",
 			"type": 0,
 			"value": "0"
 		},
@@ -114,6 +102,18 @@
 		{
 			"id": "1731830794-146",
 			"name": "feedback",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1723097011-648",
+			"name": "explore_town",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1723102204-573",
+			"name": "manor_guard_orig",
 			"type": 0,
 			"value": "0"
 		}

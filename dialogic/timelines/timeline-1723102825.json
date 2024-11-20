@@ -96,6 +96,85 @@
 			"text": "Now I know [explore_town] out 3 parts of this town"
 		},
 		{
+			"condition": ">=",
+			"definition": "1723097011-648",
+			"event_id": "dialogic_012",
+			"value": "3"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1726986938.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You must go back and report to merick about your progress."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1727348094-478",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1726986938.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Talk to the guards that can be found beyond the right side of the townsquare"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1723102204-573",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1726986938.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Talk to the Citizen that can be found at the left side of the townsquare"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1726986938.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Find the Manor and talk to guards on its entrance (right side of townsqure). Talk to the citizen that can be found on left side of the townsquare"
+		},
+		{
 			"event_id": "dialogic_022",
 			"transition_duration": 1
 		},
@@ -153,6 +232,81 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Oh yeah, sorry I forgot.  (This was the [explore_town] out of 3 places I need to look at)"
+		},
+		{
+			"condition": ">=",
+			"definition": "1723097011-648",
+			"event_id": "dialogic_012",
+			"value": "3"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1726986938.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You must go back and report to merick about your progress."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1727348094-478",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1726986938.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Talk to the guards that can be found beyond the right side of the townsquare"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1723102204-573",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1726986938.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Talk to the Citizen that can be found at the left side of the townsquare"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1726986938.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Talk to the guards that can be found beyond the right side of the townsquare. Talk to the citizen that can be found on left side of the townsquare"
 		},
 		{
 			"event_id": "dialogic_022",

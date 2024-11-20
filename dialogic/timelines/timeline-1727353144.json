@@ -97,18 +97,18 @@
 			"volume": 0
 		},
 		{
-			"character": "character-1721952703.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "Oh thanks for that information. This was the [explore_town] out of 3 places I needed to look at."
-		},
-		{
 			"definition": "1723097011-648",
 			"event_id": "dialogic_014",
 			"operation": "+",
 			"random_upper_limit": 100,
 			"set_random": false,
 			"set_value": "1"
+		},
+		{
+			"character": "character-1721952703.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh thanks for that information. This was the [explore_town] out of 3 places I needed to look at."
 		},
 		{
 			"definition": "1727348094-478",
@@ -223,6 +223,85 @@
 			"text": "Oh yeah, sorry I forgot.  (This was the [explore_town] out of 3 places I need to look at)"
 		},
 		{
+			"condition": ">=",
+			"definition": "1723097011-648",
+			"event_id": "dialogic_012",
+			"value": "3"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1726986938.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You must go back and report to merick about your progress."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1723102985-768",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1726986938.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Talk to the guards that can be found beyond the left side of the townsquare"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1723102204-573",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1726986938.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Talk to the guards that can be found beyond the top side of the townsquare"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1726986938.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "travel beyond the left and upper side of the roads and ask the guards on duty in each place."
+		},
+		{
 			"event_id": "dialogic_022",
 			"transition_duration": 1
 		},
@@ -320,6 +399,14 @@
 			"set_value": "1"
 		},
 		{
+			"definition": "1727348094-478",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
 			"audio": "play",
 			"audio_bus": "Master",
 			"event_id": "dialogic_030",
@@ -334,12 +421,83 @@
 			"text": "Oh thanks for that information. This was the [explore_town] out of 3 places I needed to look at."
 		},
 		{
-			"definition": "1727348094-478",
-			"event_id": "dialogic_014",
-			"operation": "=",
-			"random_upper_limit": 100,
-			"set_random": false,
-			"set_value": "1"
+			"condition": ">=",
+			"definition": "1723097011-648",
+			"event_id": "dialogic_012",
+			"value": "3"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1726986938.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You must go back and report to merick about your progress."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1723102204-573",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1726986938.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Talk to the guards that can be found beyond the top side of the townsquare"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1723102985-768",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1726986938.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Talk to the guards that can be found beyond the right side of the townsquare"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1726986938.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "travel beyond the left and upper side of the roads and ask the guards on duty in each place."
 		},
 		{
 			"event_id": "dialogic_022",
