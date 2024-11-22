@@ -4,7 +4,7 @@ onready var ui = $Panel4
 onready var chapter_1 = $Panel4/Panel
 onready var chapter_2 = $Panel4/Panel2
 onready var chapter_3 = $Panel4/Panel3
-
+onready var saving = $saving_file
 # Array of badge nodes for chapter 1
 onready var badges = [
 	$Panel4/Panel/Badges/HBoxContainer/Units/s1, #1
@@ -202,6 +202,7 @@ var badge_text_map = {
 
 func _ready():
 	chapter_1.show()
+	saving.game_is_done()
 	update_badges()
 
 # Function to update badge visibility and label based on Global2 values

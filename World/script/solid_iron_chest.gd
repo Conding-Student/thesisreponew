@@ -50,7 +50,7 @@ func _on_Area2D_body_shape_entered(body_rid, body, body_shape_index, local_shape
 	Global2.set_question(3,"Now you must display the result you should print the sum. 'print sum'" )
 	Global2.set_answers(3,"print sum")
 	Global2.set_feedback(3,"Remember to type the exact keywords and check for double spaces.")
-	Global2.set_picture_path(3,"res://intro/picture/question/level1/stage5/question2/Question # 2 - 4.png")
+	Global2.set_picture_path(3,"res://intro/picture/question/level1/stage5/question2/Question # 2 - 5.png")
 	
 	Global2.dialogue_name = "vallevel2s5"
 	Global.load_game_position = true

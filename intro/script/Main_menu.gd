@@ -16,6 +16,7 @@ onready var score_panel = $scores
 onready var loaded_files = $save_files/saving_file
 
 func _ready():
+	#loaded_files.game_is_done()
 	quit.hide()
 	settings.hide()
 	score_show()
@@ -27,6 +28,7 @@ func _ready():
 	
 	if Global.save_triggered == false:
 		continue_button.disabled = true
+		
 		
 		
 func score_show():

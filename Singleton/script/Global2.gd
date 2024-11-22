@@ -83,8 +83,8 @@ func are_all_badges_complete() -> bool:
 
 ################## PRE-POST TEST ###################
 # Singleton (Global Script)
-var pre_final_score = 0
-var post_final_score = 0
+var pre_final_score = 0.0
+var post_final_score = 0.0
 var MPI = 0.0
 var NRI = 0.0
 

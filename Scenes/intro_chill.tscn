@@ -99,5 +99,11 @@ stream = ExtResource( 6 )
 autoplay = true
 bus = "Music"
 
+[node name="Panel" type="Panel" parent="."]
+margin_left = 278.0
+margin_top = 166.0
+margin_right = 318.0
+margin_bottom = 178.0
+
 [connection signal="finished" from="VideoPlayer" to="." method="_on_VideoPlayer_finished"]
 [connection signal="pressed" from="Skip_button" to="." method="_on_Skip_button_pressed"]

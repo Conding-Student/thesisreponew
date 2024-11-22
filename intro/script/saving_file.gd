@@ -68,7 +68,9 @@ func save_data(filename: String) -> void:
 		"dialogue_states": Global.dialogue_states,
 		"manor_quest": Global2.state,
 		"pre_assessment": Global2.pre_final_score,
-		"post_assessment": Global2.post_final_score
+		"post_assessment": Global2.post_final_score,
+		"MPI": Global2.MPI,
+		"NRI": Global2.NRI
 	}
 	
 	if filename == "user://file.txt":
@@ -170,6 +172,19 @@ func load_game_auto() ->void:
 	if loaded_data:
 		apply_loaded_data(loaded_data,"user://autosave.txt")
 
+#getting auto save file data
+func game_is_done():
+	var loaded_data = load_from_file("user://autosave.txt")
+	
+	# Load badges
+	for badge_name in Global2.badges_complete.keys():
+		if badge_name in loaded_data:
+			Global2.badges_complete[badge_name] = loaded_data[badge_name]
+	
+	Global2.pre_final_score = loaded_data.get("pre_assessment")
+	Global2.post_final_score = loaded_data.get("post_assessment")
+	Global2.MPI = loaded_data.get("MPI")
+	Global2.NRI = loaded_data.get("NRI")
 
 func apply_loaded_data(loaded_data: Dictionary,filename) -> void:
 	# Load general game state
@@ -218,6 +233,8 @@ func apply_loaded_data(loaded_data: Dictionary,filename) -> void:
 	Global.dialogue_states = loaded_data.get("dialogue_states", {})
 	Global2.pre_final_score = loaded_data.get("pre_assessment")
 	Global2.post_final_score = loaded_data.get("post_assessment")
+	Global2.MPI = loaded_data.get("MPI")
+	Global2.NRI = loaded_data.get("NRI")
 	#quest
 	Global2.state = loaded_data.get("manor_quest")
 

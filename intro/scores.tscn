@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://intro/script/scores.gd" type="Script" id=1]
 [ext_resource path="res://Fonts/Kenney Mini Square.ttf" type="DynamicFontData" id=2]
 [ext_resource path="res://intro/picture/close.png" type="Texture" id=3]
+[ext_resource path="res://intro/saving_file.tscn" type="PackedScene" id=4]
 
 [sub_resource type="DynamicFont" id=1]
 size = 10
@@ -86,5 +87,7 @@ margin_top = 6.0
 margin_right = 315.0
 margin_bottom = 20.0
 texture_normal = ExtResource( 3 )
+
+[node name="saving_file" parent="." instance=ExtResource( 4 )]
 
 [connection signal="pressed" from="close_button" to="." method="_on_close_button_pressed"]
