@@ -1,10 +1,11 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://intro/picture/badge_receive.png" type="Texture" id=1]
 [ext_resource path="res://intro/script/stages_complete.gd" type="Script" id=2]
 [ext_resource path="res://intro/picture/mastery_received.png" type="Texture" id=3]
 [ext_resource path="res://intro/saving_file.tscn" type="PackedScene" id=4]
 [ext_resource path="res://intro/picture/semi_received.png" type="Texture" id=5]
+[ext_resource path="res://Music and Sounds/sound effects/badgeObtained.wav" type="AudioStream" id=6]
 
 [sub_resource type="Animation" id=1]
 length = 0.001
@@ -135,5 +136,9 @@ anims/fade_out = SubResource( 3 )
 anims/idle = SubResource( 4 )
 
 [node name="saving_file" parent="." instance=ExtResource( 4 )]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 6 )
+autoplay = true
 
 [connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
