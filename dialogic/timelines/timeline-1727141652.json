@@ -44,7 +44,7 @@
 		},
 		{
 			"choice": "I already knew some of them",
-			"condition": "==",
+			"condition": "<=",
 			"definition": "1727860687-648",
 			"event_id": "dialogic_011",
 			"value": "2"

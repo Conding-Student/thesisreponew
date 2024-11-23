@@ -251,7 +251,7 @@ func _on_Area2D_body_shape_entered_chess(body_rid, body, body_shape_index, local
 	Global2.set_answers(1,"chest")
 	Global2.set_answers(2,"locked")
 	Global2.set_answers(3,"door")
-	Global2.set_picture_path(0,"res://intro/picture/question/stage4_q1.png")
+	Global2.set_picture_path(0,"res://intro/picture/question/default_bg.png")
 	Global2.set_feedback(0, "correct")
 	Global2.set_feedback(1, "wrong this will only check the chest")
 	Global2.set_feedback(2, "Wrong! this will only check the locked")

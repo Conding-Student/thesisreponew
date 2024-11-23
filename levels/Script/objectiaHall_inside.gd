@@ -22,6 +22,8 @@ var starting_player_position = Vector2  (222, 265)
 #########
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	$YSort/enemy/blue5.queue_free()
+	$YSort/enemy/blue6.queue_free()
 	set_overall_initial_position()
 	set_player_position()
 	bug_king_appearance()
@@ -150,8 +152,8 @@ func enemy_wave1():
 	if int(Dialogic.get_variable("gandalf")) == 20: 
 		$YSort/enemy/stone10.queue_free()
 		$YSort/enemy/stone11.queue_free()
-		$YSort/enemy/blue5.queue_free()
-		$YSort/enemy/blue6.queue_free()
+		#$YSort/enemy/blue5.queue_free()
+		#$YSort/enemy/blue6.queue_free()
 		$YSort/enemy/blue7.queue_free()
 		$YSort/enemy/blue8.queue_free()
 	elif int(Dialogic.get_variable("gandalf")) == 22:
@@ -175,8 +177,8 @@ func enemy_wave1():
 		$YSort/enemy/stone9.queue_free()
 		$YSort/enemy/stone10.queue_free()
 		$YSort/enemy/stone11.queue_free()
-		$YSort/enemy/blue5.queue_free()
-		$YSort/enemy/blue6.queue_free()
+		#$YSort/enemy/blue5.queue_free()
+		#$YSort/enemy/blue6.queue_free()
 		$YSort/enemy/blue7.queue_free()
 		$YSort/enemy/blue8.queue_free()
 
