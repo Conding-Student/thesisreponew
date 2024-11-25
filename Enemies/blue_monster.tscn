@@ -112,7 +112,7 @@ position = Vector2( 0, -13 )
 shape = SubResource( 8 )
 
 [node name="Stats" parent="." instance=ExtResource( 5 )]
-max_health = 5
+max_health = 3
 
 [node name="PlayerDetectionZone" parent="." instance=ExtResource( 3 )]
 
@@ -123,7 +123,6 @@ shape = SubResource( 9 )
 [node name="Hitbox" parent="." instance=ExtResource( 2 )]
 position = Vector2( 0, 12 )
 collision_mask = 4
-damage = 2
 
 [node name="CollisionShape2D" parent="Hitbox" index="0"]
 position = Vector2( 0, -14 )
