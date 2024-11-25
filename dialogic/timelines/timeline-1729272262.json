@@ -1,6 +1,10 @@
 {
 	"events": [
 		{
+			"background": "res://Scenes/pictures/bugkingmeet/meetKing1.png",
+			"event_id": "dialogic_021"
+		},
+		{
 			"event_id": "dialogic_024",
 			"set_theme": "theme-1727627785.cfg"
 		},
@@ -19,6 +23,10 @@
 			"text": "As they navigated the ruins, Valen continued to use his knowledge of Classes and methods magic to fend off bugs and glitches."
 		},
 		{
+			"background": "res://Scenes/pictures/bugkingmeet/meetKing2.png",
+			"event_id": "dialogic_021"
+		},
+		{
 			"audio": "play",
 			"audio_bus": "Master",
 			"event_id": "dialogic_030",
@@ -33,6 +41,10 @@
 			"text": "Val and Analexius stood before the grand entrance to the Great Hall of Objectification. Val pushed open the heavy doors, and they were immediately struck by the vast and majestic grandeur of the hall."
 		},
 		{
+			"background": "res://Scenes/pictures/bugkingmeet/meetKing3.png",
+			"event_id": "dialogic_021"
+		},
+		{
 			"audio": "play",
 			"audio_bus": "Master",
 			"event_id": "dialogic_030",
@@ -45,6 +57,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "At the far end of the hall, between two large statues, sat a massive chair resembling a throne.\nSitting on the throne was the Bug King, a towering figure with an exoskeleton of jagged metal plates and iridescent chitin. \nHis crimson eyes glowed malevolently as he observed the intruders. Val and Analexius felt a cold rush of fear and intimidation wash over them."
+		},
+		{
+			"background": "res://Scenes/pictures/bugkingmeet/meetKing4.png",
+			"event_id": "dialogic_021"
 		},
 		{
 			"audio": "play",
@@ -157,11 +173,6 @@
 			"random_upper_limit": 100,
 			"set_random": false,
 			"set_value": "20"
-		},
-		{
-			"custom_slot": "slot1",
-			"event_id": "dialogic_026",
-			"use_default_slot": false
 		},
 		{
 			"change_scene": "res://levels/Chapter2_maps/objectiaHall_inside.tscn",

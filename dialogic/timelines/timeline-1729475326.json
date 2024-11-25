@@ -1,6 +1,10 @@
 {
 	"events": [
 		{
+			"background": "res://Scenes/pictures/bugkingmeet/kingFight1.png",
+			"event_id": "dialogic_021"
+		},
+		{
 			"event_id": "dialogic_024",
 			"set_theme": "theme-1726986938.cfg"
 		},
@@ -59,6 +63,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "With one final, powerful strike using the swords he imbued with dark attribute Val's sword pierced the Bug King's exoskeleton. \nThe Bug King let out a deafening roar that echoed through the Great Hall before finally collapsing."
+		},
+		{
+			"background": "res://Scenes/pictures/bugkingmeet/kingFight2.png",
+			"event_id": "dialogic_021"
 		},
 		{
 			"audio": "play",

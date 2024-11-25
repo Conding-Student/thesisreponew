@@ -152,6 +152,7 @@ func slime3(body_rid, body, body_shape_index, local_shape_index):
 	Global2.set_feedback(19, "Wrong. There is no create keyword in C# to make a new object. The correct keyword is new.")
 	Global2.set_picture_path(4, "res://intro/picture/question/chapter2/classess/stage2-3/New folder/answer - 6.png")
 	
+	Global.bug_hide = true
 	Global.load_game_position = true
 	Global2.load_enemy_data("res://Battlescenes/tres/bat2.tres")
 	Global2.correct_answer_ch1_2 = true
@@ -223,7 +224,7 @@ func slime4(body_rid, body, body_shape_index, local_shape_index):
 	Global2.set_feedback(18, "D is incorrect because strength is clearly defined as a variable.")
 	Global2.set_picture_path(4,"res://intro/picture/question/chapter2/classess/stage2-3/Tanong - 5.png")
 	
-	
+	Global.bug_hide = true
 	Global.load_game_position = true
 	Global2.load_enemy_data("res://Battlescenes/tres/bat2.tres")
 	Global2.correct_answer_ch1_1 = true

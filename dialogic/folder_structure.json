@@ -442,7 +442,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"timetravel": {
@@ -496,13 +496,13 @@
 									},
 									"metadata": {
 										"color": null,
-										"folded": true
+										"folded": false
 									}
 								}
 							},
 							"metadata": {
 								"color": null,
-								"folded": true
+								"folded": false
 							}
 						},
 						"ender": {
@@ -530,7 +530,7 @@
 							},
 							"metadata": {
 								"color": null,
-								"folded": true
+								"folded": false
 							}
 						},
 						"instructions": {
@@ -652,7 +652,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": true
+						"folded": false
 					}
 				}
 			},
