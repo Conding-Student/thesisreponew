@@ -802,6 +802,7 @@ cooldown_time = 0.6
 
 [node name="ShadowSprite" type="Sprite" parent="."]
 position = Vector2( 0, 1 )
+z_index = -1
 texture = ExtResource( 8 )
 
 [node name="Sprite" type="Sprite" parent="."]
