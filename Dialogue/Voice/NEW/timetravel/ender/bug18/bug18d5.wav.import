@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/bug18d5.wav-47d51870dea5925375ad5cdf30d25e96.sample"
+
+[deps]
+
+source_file="res://Dialogue/Voice/NEW/timetravel/ender/bug18/bug18d5.wav"
+dest_files=[ "res://.import/bug18d5.wav-47d51870dea5925375ad5cdf30d25e96.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=1
