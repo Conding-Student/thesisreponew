@@ -1,0 +1,79 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1726986938.cfg"
+		},
+		{
+			"background": "res://Scenes/pictures/bugkingmeet/final1.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "After Gandalf had left, Analexius woke up alone in the Great Hall with the deceased Bug King."
+		},
+		{
+			"background": "res://Scenes/pictures/bugkingmeet/final2.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The citizens, drawn by the loud noise that the bug king lets out before dying, tracked the dead bugs along the roads of Objecthia, to the Great Hall. \nWhen they arrived, they entered the Great Hall out of curiosity."
+		},
+		{
+			"background": "res://Scenes/pictures/bugkingmeet/final3.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The citizens, seeing the Bug King dead and Analexius seemingly \"fighting\" the corpse, assumed he had slain it."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Overjoyed, they lifted him up as their hero. Confused but grinning sheepishly, Analexius embraced his accidental triumph."
+		},
+		{
+			"background": "res://Scenes/pictures/bugkingmeet/final4.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "After the Great Hall of Objectification emptied, Gandalf returned alone, clutching the IDE Tome. \nStanding over the Bug King’s lifeless body, he murmured ancient incantations, weaving powerful magic."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "With each word, dark energy surged, reviving the creature's malevolent presence."
+		},
+		{
+			"background": "res://Scenes/pictures/bugkingmeet/final5.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "As Gandalf finished the spell, he felt the dark aura of the Bug King awakening. Hastily, he exited the Great Hall, sealing the doors behind him. \nInside, the Bug King stirred, its crimson eyes flickering to life as it slowly rose."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1732627802.json",
+		"name": "bug18"
+	}
+}

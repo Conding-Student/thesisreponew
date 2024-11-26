@@ -175,4 +175,10 @@ func show_final_score():
 	saven_load.auto_save_file()
 
 func _on_Play_button_pressed():
+	var new_dialog = Dialogic.start('bug18')
+	add_child(new_dialog)
+	new_dialog.connect("timeline_end", self, "end_intructions")
+	
+
+func end_intructions(timelineend):
 	SceneTransition.change_scene("res://intro/Main_menu.tscn")

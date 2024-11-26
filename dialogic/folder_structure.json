@@ -543,14 +543,15 @@
 								"timeline-1729265999.json",
 								"timeline-1729266555.json",
 								"timeline-1729469139.json",
-								"timeline-1729475326.json"
+								"timeline-1729475326.json",
+								"timeline-1732627802.json"
 							],
 							"folders": {
 
 							},
 							"metadata": {
 								"color": null,
-								"folded": true
+								"folded": false
 							}
 						},
 						"instructions": {
@@ -672,7 +673,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": true
+						"folded": false
 					}
 				}
 			},
