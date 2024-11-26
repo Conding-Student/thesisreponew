@@ -1,0 +1,27 @@
+{
+	"events": [
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1726986938.cfg"
+		},
+		{
+			"background": "res://intro/picture/spellbook/Enhance Methods/flowchart/input.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Input / Output - Shows input and output. Data are to be read into the computer memory\nfrom an input device or data to be passed from the memory to an output device"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1732518487.json",
+		"name": "InputOutput"
+	}
+}

@@ -117,7 +117,7 @@ anchor_bottom = 1.0
 
 [node name="VBoxContainer" type="VBoxContainer" parent="Control/ScrollContainer"]
 margin_right = 88.0
-margin_bottom = 319.0
+margin_bottom = 300.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 
@@ -244,14 +244,6 @@ text = "TrimExcess"
 margin_top = 285.0
 margin_right = 88.0
 margin_bottom = 300.0
-mouse_filter = 1
-custom_fonts/font = SubResource( 1 )
-text = "TrueForAll"
-
-[node name="testing" type="Button" parent="Control/ScrollContainer/VBoxContainer"]
-margin_top = 304.0
-margin_right = 88.0
-margin_bottom = 319.0
 mouse_filter = 1
 custom_fonts/font = SubResource( 1 )
 text = "TrueForAll"
@@ -4817,7 +4809,6 @@ texture_normal = ExtResource( 5 )
 [connection signal="pressed" from="Control/ScrollContainer/VBoxContainer/Sort" to="." method="_on_Sort_pressed"]
 [connection signal="pressed" from="Control/ScrollContainer/VBoxContainer/TrimExcess" to="." method="_on_TrimExcess_pressed"]
 [connection signal="pressed" from="Control/ScrollContainer/VBoxContainer/TrueForAll" to="." method="_on_TrueForAll_pressed"]
-[connection signal="pressed" from="Control/ScrollContainer/VBoxContainer/testing" to="." method="_on_testing_pressed"]
 [connection signal="pressed" from="Control2/add_code/code1/HBoxContainer/next" to="." method="_on_AddMCode1_next_pressed"]
 [connection signal="pressed" from="Control2/add_code/displaying_process/HBoxContainer/previous" to="." method="_on_AddMDprocess_previous_pressed"]
 [connection signal="pressed" from="Control2/add_code/displaying_process/HBoxContainer/next" to="." method="_on_AddMDprocess_next_pressed"]

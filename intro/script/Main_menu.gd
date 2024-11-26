@@ -65,8 +65,10 @@ func _on_Badges_pressed():
 	
 func _on_book_pressed():
 	ui.visible = true
+	Global2.resume_trigger_dialogic = true
 	spell_book.show()
 
 
 func _on_Scores_pressed():
 	score_panel.show()
+

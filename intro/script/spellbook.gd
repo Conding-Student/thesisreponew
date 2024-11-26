@@ -1,7 +1,7 @@
 extends Node
 
 onready var ui = $Panel
-onready var methods = $methods
+onready var methods = $methods/Panel
 onready var class_info = $class_info
 onready var list_panel = $Panel/in_game/list
 onready var class_panel = $Panel/in_game/Class

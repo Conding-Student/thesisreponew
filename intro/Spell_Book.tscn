@@ -1,4 +1,4 @@
-[gd_scene load_steps=130 format=2]
+[gd_scene load_steps=131 format=2]
 
 [ext_resource path="res://Fonts/Kenney Future Narrow.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://intro/picture/arrow.png" type="Texture" id=2]
@@ -6,12 +6,13 @@
 [ext_resource path="res://intro/picture/arrow-pressed.png" type="Texture" id=4]
 [ext_resource path="res://intro/script/spellbook.gd" type="Script" id=5]
 [ext_resource path="res://intro/picture/close.png" type="Texture" id=6]
-[ext_resource path="res://intro/methods.tscn" type="PackedScene" id=7]
+[ext_resource path="res://intro/methods_v2.tscn" type="PackedScene" id=7]
 [ext_resource path="res://intro/picture/spellbook/in-game/sprite_sheet_list.png" type="Texture" id=8]
 [ext_resource path="res://intro/picture/spellbook/in-game/oop.png" type="Texture" id=9]
 [ext_resource path="res://intro/picture/spellbook/module/Class.png" type="Texture" id=10]
 [ext_resource path="res://intro/picture/spellbook/module/oop.png" type="Texture" id=11]
 [ext_resource path="res://intro/class_spellbook_info.tscn" type="PackedScene" id=12]
+[ext_resource path="res://intro/methods.tscn" type="PackedScene" id=13]
 
 [sub_resource type="DynamicFont" id=1]
 size = 7
@@ -581,7 +582,7 @@ margin_bottom = 90.0
 position = Vector2( 135, 47 )
 frames = SubResource( 94 )
 animation = "New Anim"
-frame = 14
+frame = 20
 playing = true
 
 [node name="description-IG" type="Label" parent="Panel/in_game/list"]
@@ -651,7 +652,7 @@ texture_pressed = ExtResource( 4 )
 position = Vector2( 135, 52 )
 frames = SubResource( 93 )
 animation = "Class"
-frame = 6
+frame = 7
 playing = true
 
 [node name="TextureButton" type="TextureButton" parent="Panel/in_game/Class"]
@@ -719,7 +720,7 @@ size_flags_horizontal = 3
 position = Vector2( 135, 52 )
 frames = SubResource( 93 )
 animation = "New Anim"
-frame = 2
+frame = 38
 playing = true
 
 [node name="description-IG" type="Label" parent="Panel/in_game/OOP"]
@@ -950,14 +951,13 @@ margin_bottom = -11.0
 custom_fonts/font = SubResource( 3 )
 text = "Chapter 3"
 
-[node name="methods" parent="." instance=ExtResource( 7 )]
-visible = false
-margin_right = 49.0
-margin_bottom = 40.0
-
 [node name="class_info" parent="." instance=ExtResource( 12 )]
 visible = false
 margin_bottom = 1.0
+
+[node name="methods" parent="." instance=ExtResource( 7 )]
+
+[node name="methods2" parent="." instance=ExtResource( 13 )]
 
 [connection signal="pressed" from="Panel/VBoxContainer/HBoxContainer/in-game" to="." method="_on_ingame_pressed"]
 [connection signal="pressed" from="Panel/VBoxContainer/HBoxContainer/Module_define" to="." method="_on_Module_define_pressed"]

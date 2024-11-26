@@ -214,7 +214,7 @@
 			},
 			"metadata": {
 				"color": null,
-				"folded": false
+				"folded": true
 			}
 		},
 		"Themes": {
@@ -383,6 +383,26 @@
 						"folded": true
 					}
 				},
+				"flowchart": {
+					"files": [
+						"timeline-1732512944.json",
+						"timeline-1732514037.json",
+						"timeline-1732518367.json",
+						"timeline-1732518487.json",
+						"timeline-1732518611.json",
+						"timeline-1732519577.json",
+						"timeline-1732549901.json",
+						"timeline-1732550019.json",
+						"timeline-1732550080.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": true
+					}
+				},
 				"game": {
 					"files": [
 						"timeline-1726979986.json",
@@ -496,13 +516,13 @@
 									},
 									"metadata": {
 										"color": null,
-										"folded": false
+										"folded": true
 									}
 								}
 							},
 							"metadata": {
 								"color": null,
-								"folded": false
+								"folded": true
 							}
 						},
 						"ender": {
@@ -530,7 +550,7 @@
 							},
 							"metadata": {
 								"color": null,
-								"folded": false
+								"folded": true
 							}
 						},
 						"instructions": {
@@ -652,7 +672,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				}
 			},

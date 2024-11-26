@@ -98,6 +98,7 @@ func _ready():
 
 # Called when the 'close' button is pressed.
 func _on_close_pressed():
+	Global2.resume_trigger_dialogic = false
 	hide()
 
 # Show specific sections based on the button pressed.
@@ -617,3 +618,44 @@ func _on_tfa_dp3_next_pressed():
 func _on_tfa_output_previous_pressed():
 	_update_visibility(["tfadp3"], true)
 	_update_visibility(["tfaoutput"], false)
+
+func end_instructions(timelineend):
+	
+	#pass
+	if Global2.resume_trigger_dialogic == true:
+		# Safely remove the dialog from the scene tree
+		for child in get_tree().root.get_children():
+			if child.name == "DialogicNode":  # Check for the dialog node
+				child.queue_free()
+		print("Dialog finished and cleaned up menu.")
+	else:
+		for child in get_parent().get_children():
+			if child.name == "DialogicNode":  # Check for the dialog node
+				child.queue_free()
+		print("Dialog finished and cleaned up in game.")
+
+	#var canvas_layer2 = get_parent()
+	# Step 2: Start the Dialogic dialog
+	#var new_dialog = Dialogic.start("terminal")
+	# Step 3: Add the dialog to CanvasLayer2
+	#canvas_layer2.add_child(new_dialog)
+	# Step 4: Connect the timeline_end signal
+	#new_dialog.connect("timeline_end", self, "end_instructions")
+
+func _on_testing_pressed():
+	print("has been pressed")
+	if Global2.resume_trigger_dialogic == true:
+		print("true trigger")
+		var new_dialog = Dialogic.start("terminal")
+		get_tree().root.add_child(new_dialog)  # Adds to the root viewport
+		new_dialog.connect("timeline_end", self, "end_instructions")
+	else:
+		print("false trigger")
+		var canvas_layer2 = get_parent()
+		# Step 2: Start the Dialogic dialog
+		var new_dialog = Dialogic.start("terminal")
+		# Step 3: Add the dialog to CanvasLayer2
+		canvas_layer2.add_child(new_dialog)
+		# Step 4: Connect the timeline_end signal
+		new_dialog.connect("timeline_end", self, "end_instructions")
+

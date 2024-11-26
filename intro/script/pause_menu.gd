@@ -9,6 +9,7 @@ onready var confirmation = $back_to_menu/Panel
 onready var restart_state = $save_files/saving_file
 onready var label_onbadge = $badges/Label
 
+
 var initial_spawn_1st = Vector2(0,0) 
 
 # Called when the node enters the scene tree for the first time.
@@ -16,6 +17,7 @@ func _ready():
 	GlobalCanvasModulate.reset_to_default()
 	option_menu.hide()
 	label_onbadge.show()
+	Global2.resume_trigger_dialogic = false
 	
 func _on_restart_pressed():
 	get_tree().paused = false

@@ -7,7 +7,7 @@ onready var saving = $saving_file
 #yungpart ng dorr activation collision. dapat lumabas yonafter makausap si merrick 
 var state = ""
 
-
+var resume_trigger_dialogic = false
 
 ######################## stage complete trigger ################
 # Dictionary mapping badges to their completion status
