@@ -582,7 +582,7 @@ margin_bottom = 90.0
 position = Vector2( 135, 47 )
 frames = SubResource( 94 )
 animation = "New Anim"
-frame = 20
+frame = 16
 playing = true
 
 [node name="description-IG" type="Label" parent="Panel/in_game/list"]
@@ -652,7 +652,7 @@ texture_pressed = ExtResource( 4 )
 position = Vector2( 135, 52 )
 frames = SubResource( 93 )
 animation = "Class"
-frame = 7
+frame = 13
 playing = true
 
 [node name="TextureButton" type="TextureButton" parent="Panel/in_game/Class"]
@@ -720,7 +720,7 @@ size_flags_horizontal = 3
 position = Vector2( 135, 52 )
 frames = SubResource( 93 )
 animation = "New Anim"
-frame = 38
+frame = 4
 playing = true
 
 [node name="description-IG" type="Label" parent="Panel/in_game/OOP"]

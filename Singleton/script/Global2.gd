@@ -88,7 +88,15 @@ var post_final_score = 0.0
 var MPI = 0.0
 var NRI = 0.0
 
+var prm1 = 0.0
+var prm2 = 0.0
+var prm3 = 0.0
+var prm4 = 0.0
 
+var ptm1 = 0.0
+var ptm2 = 0.0
+var ptm3 = 0.0
+var ptm4 = 0.0
 # Function to calculate and display NRI
 func calculate_and_display_nri():
 	# Recalculate MPI based on the current pre_final_score
@@ -104,6 +112,7 @@ func calculate_and_display_nri():
 		# Recalculate NRI with explicit float conversion
 		NRI = float(post_final_score - pre_final_score) / float(MPI) * 100
 		
+		Global2.NRI = NRI
 		return NRI
 		# Display the NRI value
 		print("NRI: ", NRI)

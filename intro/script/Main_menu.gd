@@ -24,16 +24,15 @@ func _ready():
 	exit_button.connect("pressed", self, "_on_exit_pressed")
 	continue_button.connect("pressed", self, "_on_continue_pressed")
 	loaded_files.check_if_loaded_data()
-	
+	loaded_files.game_is_done()
 	
 	if Global.save_triggered == false:
 		continue_button.disabled = true
-		
-		
+		#score_show()
 		
 func score_show():
 	var stats = loaded_files.check_finalbadge()
-	if Global2.is_badge_complete("badge30") or stats == true:
+	if Global2.is_badge_complete("badge1") or stats == true:
 		scores.show()
 		start_button.hide()
 		#continue_button.hide()

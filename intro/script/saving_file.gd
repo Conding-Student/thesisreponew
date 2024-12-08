@@ -70,8 +70,26 @@ func save_data(filename: String) -> void:
 		"pre_assessment": Global2.pre_final_score,
 		"post_assessment": Global2.post_final_score,
 		"MPI": Global2.MPI,
-		"NRI": Global2.NRI
+		"NRI": Global2.NRI,
+		"prm1": Global2.prm1,
+		"prm2": Global2.prm2,
+		"prm3": Global2.prm3,
+		"prm4": Global2.prm4,
+		"ptm1": Global2.ptm1,
+		"ptm2": Global2.ptm2,
+		"ptm3": Global2.ptm3,
+		"ptm4": Global2.ptm4
+		
 	}
+	print(Global2.pre_final_score)
+	print(Global2.prm1)
+	print(Global2.prm2)
+	print(Global2.prm3)
+	print(Global2.prm4)
+	print(Global2.ptm1)
+	print(Global2.ptm2)
+	print(Global2.ptm3)
+	print(Global2.ptm4)
 	
 	if filename == "user://file.txt":
 		Dialogic.save("slot2")
@@ -116,6 +134,21 @@ func reset_to_default() -> void:
 	Global.bat_states = {}
 	Global.door_states = {}
 	Global.dialogue_states = {}
+	
+	#
+	Global2.pre_final_score = 0.0
+	Global2.post_final_score = 0.0
+	Global2.MPI = 0.0
+	Global2.NRI = 0.0
+	Global2.prm1 = 0.0
+	Global2.prm2 = 0.0
+	Global2.prm3 = 0.0
+	Global2.prm4 = 0.0
+	Global2.ptm1 = 0.0
+	Global2.ptm2 = 0.0
+	Global2.ptm3 = 0.0
+	Global2.ptm4 = 0.0
+	
 	
 	# Reset quest and badges
 	Global2.state = ""
@@ -175,7 +208,7 @@ func load_game_auto() ->void:
 #getting auto save file data
 func game_is_done():
 	var loaded_data = load_from_file("user://autosave.txt")
-	
+	var loaded_data2 = load_from_file("user://autosave.txt")
 	# Load badges
 	for badge_name in Global2.badges_complete.keys():
 		if badge_name in loaded_data:
@@ -185,6 +218,15 @@ func game_is_done():
 	Global2.post_final_score = loaded_data.get("post_assessment")
 	Global2.MPI = loaded_data.get("MPI")
 	Global2.NRI = loaded_data.get("NRI")
+	Global2.prm1 = loaded_data.get("prm1")
+	Global2.prm2 = loaded_data.get("prm2")
+	Global2.prm3 = loaded_data.get("prm3")
+	Global2.prm4 = loaded_data.get("prm4")
+	Global2.ptm1 = loaded_data.get("ptm1")
+	Global2.ptm2 = loaded_data.get("ptm2")
+	Global2.ptm3 = loaded_data.get("ptm3")
+	Global2.ptm4 = loaded_data.get("ptm4")
+	
 
 func apply_loaded_data(loaded_data: Dictionary,filename) -> void:
 	# Load general game state
@@ -235,6 +277,14 @@ func apply_loaded_data(loaded_data: Dictionary,filename) -> void:
 	Global2.post_final_score = loaded_data.get("post_assessment")
 	Global2.MPI = loaded_data.get("MPI")
 	Global2.NRI = loaded_data.get("NRI")
+	Global2.prm1 = loaded_data.get("prm1")
+	Global2.prm2 = loaded_data.get("prm2")
+	Global2.prm3 = loaded_data.get("prm3")
+	Global2.prm4 = loaded_data.get("prm4")
+	Global2.ptm1 = loaded_data.get("ptm1")
+	Global2.ptm2 = loaded_data.get("ptm2")
+	Global2.ptm3 = loaded_data.get("ptm3")
+	Global2.ptm4 = loaded_data.get("ptm4")
 	#quest
 	Global2.state = loaded_data.get("manor_quest")
 

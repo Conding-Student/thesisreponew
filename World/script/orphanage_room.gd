@@ -12,6 +12,15 @@ var staring_player_position = Vector2(40,40)
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	print(Global2.pre_final_score)
+	print(Global2.prm1)
+	print(Global2.prm2)
+	print(Global2.prm3)
+	print(Global2.prm4)
+	print(Global2.ptm1)
+	print(Global2.ptm2)
+	print(Global2.ptm3)
+	print(Global2.ptm4)
 	resume.connect("pressed", self, "resume_the_game")
 	set_player_position()
 	

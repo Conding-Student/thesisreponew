@@ -1996,7 +1996,7 @@ texture_scale = 0.5
 tile_set = SubResource( 135 )
 cell_size = Vector2( 1, 1 )
 format = 1
-tile_data = PoolIntArray( 3080397, 0, 0, 18088260, 0, 0 )
+tile_data = PoolIntArray( 18088260, 0, 0 )
 
 [node name="manor_out_night_pos" type="Position2D" parent="."]
 position = Vector2( 209, 75 )
@@ -2004,6 +2004,9 @@ position = Vector2( 209, 75 )
 [node name="manor_out_night" parent="." instance=ExtResource( 4 )]
 position = Vector2( 208, 53 )
 rotation = 1.57079
+
+[node name="CollisionShape2D" parent="manor_out_night" index="0"]
+disabled = true
 
 [node name="manor_2ndfloor_night_pos" type="Position2D" parent="."]
 position = Vector2( 304, 280 )
@@ -2054,4 +2057,5 @@ shape = SubResource( 137 )
 [connection signal="pressed" from="TopUi/pause_game" to="." method="_on_pause_game_pressed"]
 
 [editable path="Camera2D"]
+[editable path="manor_out_night"]
 [editable path="Area2D"]

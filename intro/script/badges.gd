@@ -202,7 +202,7 @@ var badge_text_map = {
 
 func _ready():
 	chapter_1.show()
-	saving.game_is_done()
+	#saving.game_is_done()
 	update_badges()
 
 # Function to update badge visibility and label based on Global2 values

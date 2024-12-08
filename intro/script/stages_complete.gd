@@ -66,6 +66,7 @@ func show_badge(badge_type, index):
 	PlayerStats.health = 5
 	Global.set_current_level(Global.current_level)
 	Global.save_triggered = true
+	
 	save_n_load.auto_save_file()
 
 	# Emit the achievement_completed signal

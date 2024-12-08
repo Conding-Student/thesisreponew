@@ -94,12 +94,6 @@
 			"value": "0"
 		},
 		{
-			"id": "1727860687-648",
-			"name": "introduction",
-			"type": 0,
-			"value": ".0"
-		},
-		{
 			"id": "1731830794-146",
 			"name": "feedback",
 			"type": 0,
@@ -114,6 +108,12 @@
 		{
 			"id": "1723102204-573",
 			"name": "manor_guard_orig",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1727860687-648",
+			"name": "introduction",
 			"type": 0,
 			"value": "0"
 		}

@@ -596,4 +596,5 @@ shape = SubResource( 33 )
 [connection signal="pressed" from="TopUi/pause_game" to="." method="_on_pause_game_pressed"]
 
 [editable path="YSort/chest/Wooden_chest"]
+[editable path="orphanage_office_night"]
 [editable path="Area2D"]

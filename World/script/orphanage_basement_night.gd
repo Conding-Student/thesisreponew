@@ -78,7 +78,7 @@ func set_player_position():
 			#print("4")
 
 func condition_to_feedback():
-	if int(Dialogic.get_variable("introduction")) == 0 :
+	if int(Dialogic.get_variable("introduction")) == 0 or int(Dialogic.get_variable("introduction")) >= 2:
 		collision_going_outside.disabled = true
 	elif Global2.is_badge_complete("badge6") == true:
 		print("badge6 disbaling")

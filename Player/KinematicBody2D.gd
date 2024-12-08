@@ -44,21 +44,22 @@ func _ready():
 	button_timer.connect("timeout", self, "_on_button_timer_timeout")  # Connect the timer signal
 	
 func _on_button_pressed(button):
-	if button == buttonroll and state != ROLL:
-		# Disable the button and start cooldown
-		button.visible = false
-		state = ROLL
-		button_cooldowns["roll"] = buttonroll  # Track which button to re-enable
-		button_timer.start(cooldown_time)
-	elif button == buttonattack and state != ATTACK:
-		# Disable the button and start cooldown
-		button.visible = false
-		state = ATTACK
-		button_cooldowns["attack"] = buttonattack  # Track which button to re-enable
-		button_timer.start(cooldown_time)
+	if state == MOVE:
+		if button == buttonroll and state != ROLL:
+			# Start roll action and cooldown
+			state = ROLL
+			button.visible = false
+			button_cooldowns["roll"] = buttonroll  # Track roll button for cooldown
+			button_timer.start(cooldown_time)
+		elif button == buttonattack and state != ATTACK:
+			# Start attack action and cooldown
+			state = ATTACK
+			button.visible = false
+			button_cooldowns["attack"] = buttonattack  # Track attack button for cooldown
+			button_timer.start(cooldown_time)
 
 func _on_button_timer_timeout():
-	# Check which button needs to be re-enabled and reset state
+	# Re-enable button based on cooldown
 	if "roll" in button_cooldowns:
 		button_cooldowns["roll"].visible = true
 		button_cooldowns.erase("roll")
@@ -97,33 +98,29 @@ func move_state(delta):
 		velocity = velocity.move_toward(Vector2.ZERO, FRICTION * delta)
 	
 	move()
-	
-	if Input.is_action_just_pressed("roll"):
-		if state != ROLL:
-			state = ROLL
-	
-	if Input.is_action_just_pressed("attack"):
-		state = ATTACK
 
 func roll_state():
+	# Start invincibility and perform roll
 	hurtbox.start_invincibility(0.2)
 	velocity = roll_vector * ROLL_SPEED
 	animationState.travel("Roll")
 	move()
 
 func attack_state():
+	# Stop movement and perform attack
 	velocity = Vector2.ZERO
 	animationState.travel("Attack")
 
 func move():
+	# Move the player based on velocity
 	velocity = move_and_slide(velocity)
 
 func roll_animation_finished():
-	velocity = velocity * 0.8
-	state = MOVE
+	velocity = velocity * 0.8  # Slow down after roll
+	state = MOVE  # Return to MOVE state after roll finishes
 
 func attack_animation_finished():
-	state = MOVE
+	state = MOVE  # Return to MOVE state after attack finishes
 
 func _on_Hurtbox_area_entered(area):
 	stats.health -= area.damage
