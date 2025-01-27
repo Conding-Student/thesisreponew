@@ -1,0 +1,37 @@
+{
+	"events": [
+		{
+			"background": "res://intro/picture/spellbook/module/while loop.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1726986938.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Above is the format of while statement loop in C#.\nCondition is any expression that returns a Boolean result – true or false. It determines how long the loop body will be repeated and is called the loop condition."
+		},
+		{
+			"background": "res://intro/picture/spellbook/module/while loop2.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "In the above example, three things are important. \n1. Initialization\nInitialization represents the starting position from there your loop will be started. In the above example int i=0 refers to initialization of while loop.\n2. Increment/Decrement\ni++ refers to increment/decrement\nwhile(i<10) refers to the termination of while loop. Each time the while loop executed, it checks for condition whether the value of i is less than 10 or not.\nf the value of i is less than 10, the loop will be executed and increment i by one and then print the value of i\n3. Termination.\n When the value of i reaches 10, the while(i<10) condition becomes false and terminates the loop."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1735989009.json",
+		"name": "whileloop"
+	}
+}

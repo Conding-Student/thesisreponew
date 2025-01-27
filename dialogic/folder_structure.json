@@ -319,7 +319,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"Valen": {
@@ -439,6 +439,20 @@
 						"folded": true
 					}
 				},
+				"looping": {
+					"files": [
+						"timeline-1735989009.json",
+						"timeline-1735990384.json",
+						"timeline-1735991015.json"
+					],
+					"folders": {
+
+					},
+					"metadata": {
+						"color": null,
+						"folded": true
+					}
+				},
 				"mageguild_night": {
 					"files": [
 						"timeline-1727127050.json",
@@ -500,7 +514,7 @@
 									},
 									"metadata": {
 										"color": null,
-										"folded": true
+										"folded": false
 									}
 								},
 								"stage4_5": {
@@ -516,7 +530,7 @@
 									},
 									"metadata": {
 										"color": null,
-										"folded": false
+										"folded": true
 									}
 								}
 							},
@@ -551,7 +565,7 @@
 							},
 							"metadata": {
 								"color": null,
-								"folded": false
+								"folded": true
 							}
 						},
 						"instructions": {
@@ -673,7 +687,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": true
+						"folded": false
 					}
 				}
 			},

@@ -223,6 +223,7 @@ func update_badges():
 	if latest_badge_text != "":
 		progress_label.text = latest_badge_text
 		Global.set_current_level(latest_badge_text)  # Update global level text, if needed
+		saving.auto_save_file()
 
 
 # Chapter navigation functions

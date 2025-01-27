@@ -27,8 +27,6 @@ func _ready():
 	ptm3.text = str(Global2.ptm3)
 	ptm4.text = str(Global2.ptm4)
 
-	
-
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
 #	pass

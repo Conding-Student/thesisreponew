@@ -1,0 +1,57 @@
+{
+	"events": [
+		{
+			"background": "res://intro/picture/spellbook/module/do while.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1726986938.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "do while loop treats same as while loop but only differences between them is that, do while executes at least one time. \ndo while loop treats same as while loop but only differences between them is that, do while executes at least one time. "
+		},
+		{
+			"background": "res://intro/picture/spellbook/module/dowhile.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "This type of loops is called post-test loop (loops with condition at the end). A do-while loop looks like this."
+		},
+		{
+			"background": "res://intro/picture/question/default_bg.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "By design do-while loops are executed according to the following scheme"
+		},
+		{
+			"background": "res://intro/picture/spellbook/module/dowhile3.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Initially the loop body is executed. \nThen its condition is checked. If it is true, the loop’s body is repeated, otherwise the loop ends. This logic is repeated until the condition of the loop is broken. "
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.5.1",
+		"file": "timeline-1735990384.json",
+		"name": "dowhile"
+	}
+}

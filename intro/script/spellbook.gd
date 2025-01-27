@@ -2,6 +2,7 @@ extends Node
 
 onready var ui = $Panel
 onready var methods = $methods/Panel
+onready var methodlooping = $methods_looping/Panel
 onready var class_info = $class_info
 onready var list_panel = $Panel/in_game/list
 onready var class_panel = $Panel/in_game/Class
@@ -71,8 +72,12 @@ func _on_mdef_oop_previous_button_pressed():
 
 # buttons for module game definitions Classes
 func _on_module_classes_info_pressed():
-	class_info.visible = true
+	methodlooping.visible = true
 
 
 func _on_module_definition_class_pressed():
+	class_info.visible = true
+
+
+func _on_module_classes_pressed():
 	class_info.visible = true

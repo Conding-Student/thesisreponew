@@ -6,7 +6,7 @@ onready var player_controller_joystick =  $YSort/Player/Controller/joystick
 onready var pause_ui = $TopUi/pause_menu/pause_menu/Panel
 onready var resume = $TopUi/pause_menu/pause_menu/Panel/VBoxContainer/resume as Button
 onready var player = $YSort/Player
-
+onready var saving = $saving_file
 var current_map = "res://World/room/orphanage_room.tscn"
 var staring_player_position = Vector2(40,40)
 
@@ -35,6 +35,8 @@ func after_dialog(timelinename):
 	player_controller.show()
 	player_controller_joystick.enable_joystick()
 	Global.start_level_trigger = true
+	Global.save_triggered = true
+	saving.auto_save_file()
 	Musicmanager.normal_volume()
 
 func set_player_position():

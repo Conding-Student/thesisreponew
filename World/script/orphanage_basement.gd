@@ -25,7 +25,7 @@ onready var arrow_head = $YSort/YSort2/Path2D/PathFollow2D/Merrick/talk_box
 onready var collision_interactionbtn = $YSort/YSort2/Path2D/PathFollow2D/Merrick/TextureButton
 # Disconneting signal merrick
 onready var enter_signal1 = $YSort/YSort2/Path2D/PathFollow2D/Merrick/Area2D
-
+onready var saving = $saving_file
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	set_overall_initial_position()
@@ -119,11 +119,14 @@ func start_second_dialogue():
 		new_dialog1.connect("timeline_end", self, "after_stagem2")
 
 func after_stagem2(timelinename):
+	Global.save_triggered = true
 	merrick_sprite.flip_h = true
 	merrick_sprite.flip_h = false
 	player_controller.visible = true
 	player_control_collision.enable_joystick()
 	Global2.complete_badge("badge1")
 	merrick_sprite.visible = true
+	saving.auto_save_file()
+	
 	SceneTransition.change_scene("res://World/room/orphanage_basement.tscn")
 	

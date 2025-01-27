@@ -184,7 +184,7 @@ func _on_choice_selected(choice_index):
 # Update the module score based on the current question
 func update_module_score(question_index):
 	match question_index:
-		0, 1, 2, 3, 4, 11, 17, 19:  # Questions belonging to module 1
+		0, 1, 2, 3, 4, 11, 17, 19,20:  # Questions belonging to module 1
 			Global2.prm1 += 1
 		5, 6, 7, 8, 9, 21, 22:  # Questions belonging to module 2
 			Global2.prm2 += 1
@@ -216,4 +216,5 @@ func show_final_score():
 	#print(Global2.ptm4)
 
 func _on_Play_button_pressed():
+	#SceneTransition.change_scene("res://intro/post_test.tscn")
 	SceneTransition.change_scene("res://Scenes/Intro-scene.tscn")

@@ -1,5 +1,6 @@
-[gd_scene load_steps=33 format=2]
+[gd_scene load_steps=34 format=2]
 
+[ext_resource path="res://intro/saving_file.tscn" type="PackedScene" id=1]
 [ext_resource path="res://UI/HealthUI.tscn" type="PackedScene" id=2]
 [ext_resource path="res://intro/pause_menu.tscn" type="PackedScene" id=3]
 [ext_resource path="res://World/room/entrance.tscn" type="PackedScene" id=4]
@@ -553,6 +554,8 @@ valign = 1
 tile_set = SubResource( 32 )
 cell_size = Vector2( 1, 1 )
 format = 1
+
+[node name="saving_file" parent="." instance=ExtResource( 1 )]
 
 [connection signal="pressed" from="TopUi/pause_game" to="." method="_on_pause_game_pressed"]
 

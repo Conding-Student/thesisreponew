@@ -1,4 +1,4 @@
-[gd_scene load_steps=131 format=2]
+[gd_scene load_steps=132 format=2]
 
 [ext_resource path="res://Fonts/Kenney Future Narrow.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://intro/picture/arrow.png" type="Texture" id=2]
@@ -13,6 +13,7 @@
 [ext_resource path="res://intro/picture/spellbook/module/oop.png" type="Texture" id=11]
 [ext_resource path="res://intro/class_spellbook_info.tscn" type="PackedScene" id=12]
 [ext_resource path="res://intro/methods.tscn" type="PackedScene" id=13]
+[ext_resource path="res://intro/methods_looping.tscn" type="PackedScene" id=14]
 
 [sub_resource type="DynamicFont" id=1]
 size = 7
@@ -513,28 +514,29 @@ size_flags_horizontal = 0
 
 [node name="HBoxContainer" type="HBoxContainer" parent="Panel/VBoxContainer"]
 margin_right = 272.0
-margin_bottom = 15.0
 size_flags_vertical = 0
 custom_constants/separation = 50
 alignment = 1
 
 [node name="in-game" type="Button" parent="Panel/VBoxContainer/HBoxContainer"]
+visible = false
 margin_right = 45.0
 margin_bottom = 15.0
 custom_fonts/font = SubResource( 1 )
+disabled = true
 text = "In-game"
 
 [node name="Control" type="Control" parent="Panel/VBoxContainer/HBoxContainer"]
-margin_left = 95.0
-margin_right = 179.0
-margin_bottom = 15.0
+margin_right = 272.0
 size_flags_horizontal = 3
 
 [node name="Module_define" type="Button" parent="Panel/VBoxContainer/HBoxContainer"]
+visible = false
 margin_left = 229.0
 margin_right = 272.0
 margin_bottom = 15.0
 custom_fonts/font = SubResource( 2 )
+disabled = true
 text = "Module"
 
 [node name="close" type="TextureButton" parent="Panel"]
@@ -652,7 +654,7 @@ texture_pressed = ExtResource( 4 )
 position = Vector2( 135, 52 )
 frames = SubResource( 93 )
 animation = "Class"
-frame = 13
+frame = 18
 playing = true
 
 [node name="TextureButton" type="TextureButton" parent="Panel/in_game/Class"]
@@ -667,7 +669,8 @@ margin_top = 103.0
 margin_right = 288.0
 margin_bottom = 150.0
 custom_fonts/font = SubResource( 4 )
-text = "Classcraft: C# magic for creating intangible blueprints (classes) with attributes. Objectification transforms these blueprints into tangible objects."
+text = "A loop is a basic programming construct that allows repeated execution of a fragment of source code. The loop constructs are used to execute a block of code until 
+the condition becomes expired"
 align = 1
 valign = 1
 autowrap = true
@@ -679,7 +682,7 @@ margin_top = 96.0
 margin_right = 171.0
 margin_bottom = 105.0
 custom_fonts/font = SubResource( 21 )
-text = "Classcraft"
+text = "Looping"
 
 [node name="Label" type="Label" parent="Panel/in_game/Class"]
 margin_left = 106.0
@@ -712,7 +715,7 @@ flip_h = true
 
 [node name="Control" type="Control" parent="Panel/in_game/OOP/HBoxContainer"]
 margin_left = 24.0
-margin_right = 295.0
+margin_right = 319.0
 margin_bottom = 40.0
 size_flags_horizontal = 3
 
@@ -720,7 +723,7 @@ size_flags_horizontal = 3
 position = Vector2( 135, 52 )
 frames = SubResource( 93 )
 animation = "New Anim"
-frame = 4
+frame = 19
 playing = true
 
 [node name="description-IG" type="Label" parent="Panel/in_game/OOP"]
@@ -729,19 +732,19 @@ margin_top = 103.0
 margin_right = 288.0
 margin_bottom = 150.0
 custom_fonts/font = SubResource( 4 )
-text = "Object-Oriented Prestidigitation (OOP): OOP magic allows wizards to create reusable blueprints (ClassCraft) that can be used to create individual instances (objectification). This modularity makes spells more maintainable and efficient."
+text = "A class in C# is a blueprint or template that is used for declaring an object. However, there is no need to declare an object of the static class. A class consists of member variables, functions, properties etc. "
 align = 1
 valign = 1
 autowrap = true
 clip_text = true
 
 [node name="name" type="Label" parent="Panel/in_game/OOP"]
-margin_left = 47.0
+margin_left = 112.0
 margin_top = 96.0
-margin_right = 214.0
+margin_right = 156.0
 margin_bottom = 105.0
 custom_fonts/font = SubResource( 21 )
-text = "Object-Oriented Prestidigitation"
+text = "Classes"
 
 [node name="Label" type="Label" parent="Panel/in_game/OOP"]
 margin_left = 106.0
@@ -750,6 +753,12 @@ margin_right = 161.0
 margin_bottom = -11.0
 custom_fonts/font = SubResource( 3 )
 text = "Chapter 3"
+
+[node name="TextureButton" type="TextureButton" parent="Panel/in_game/OOP"]
+margin_left = 32.0
+margin_top = 13.0
+margin_right = 231.0
+margin_bottom = 91.0
 
 [node name="module" type="Panel" parent="Panel"]
 visible = false
@@ -959,6 +968,8 @@ margin_bottom = 1.0
 
 [node name="methods2" parent="." instance=ExtResource( 13 )]
 
+[node name="methods_looping" parent="." instance=ExtResource( 14 )]
+
 [connection signal="pressed" from="Panel/VBoxContainer/HBoxContainer/in-game" to="." method="_on_ingame_pressed"]
 [connection signal="pressed" from="Panel/VBoxContainer/HBoxContainer/Module_define" to="." method="_on_Module_define_pressed"]
 [connection signal="pressed" from="Panel/close" to="." method="_on_close_pressed"]
@@ -968,6 +979,7 @@ margin_bottom = 1.0
 [connection signal="pressed" from="Panel/in_game/Class/HBoxContainer/next_button" to="." method="_on_class_next_button_pressed"]
 [connection signal="pressed" from="Panel/in_game/Class/TextureButton" to="." method="_on_module_classes_info_pressed"]
 [connection signal="pressed" from="Panel/in_game/OOP/HBoxContainer/previous_button" to="." method="_on_oop_previous_button_pressed"]
+[connection signal="pressed" from="Panel/in_game/OOP/TextureButton" to="." method="_on_module_classes_pressed"]
 [connection signal="pressed" from="Panel/module/list/HBoxContainer2/next_button" to="." method="_on_mdef_list_next_button_pressed"]
 [connection signal="pressed" from="Panel/module/list/picture-IG" to="." method="_on_pictureIG_pressed"]
 [connection signal="pressed" from="Panel/module/Class/HBoxContainer/previous_button" to="." method="_on_mdef_class_previous_button_pressed"]

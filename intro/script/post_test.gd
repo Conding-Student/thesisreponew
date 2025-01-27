@@ -183,7 +183,7 @@ func _on_choice_selected(choice_index):
 # Update the module score based on the current question
 func update_module_score(question_index):
 	match question_index:
-		0, 1, 2, 3, 4, 11, 17, 19:  # Questions belonging to module 1
+		0, 1, 2, 3, 4, 11, 17, 19,20:  # Questions belonging to module 1
 			Global2.ptm1 += 1
 		5, 6, 7, 8, 9, 21, 22:  # Questions belonging to module 2
 			Global2.ptm2 += 1
@@ -222,4 +222,5 @@ func _on_Play_button_pressed():
 	
 
 func end_intructions(timelineend):
-	SceneTransition.change_scene("res://intro/Main_menu.tscn")
+	SceneTransition.change_scene("res://intro/scores.tscn")
+	#SceneTransition.change_scene("res://intro/Main_menu.tscn")
